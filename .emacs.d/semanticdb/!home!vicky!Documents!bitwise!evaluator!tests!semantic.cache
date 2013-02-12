@@ -1,0 +1,54 @@
+;; Object tests/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "tests/"
+  :tables (list 
+   (semanticdb-table "execute.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [136 154])
+            ("sys/time.h" include (:system-flag t) nil [155 176])
+            ("sys/wait.h" include (:system-flag t) nil [177 198])
+            ("sys/resource.h" include (:system-flag t) nil [199 224])
+            ("unistd.h" include (:system-flag t) nil [225 244])
+            ("fcntl.h" include (:system-flag t) nil [245 263])
+            ("sys/time.h" include (:system-flag t) nil [264 285])
+            ("NO_EXEC_COMMAND" variable (:constant-flag t) nil [294 309])
+            ("child_pid" variable (:type "int") nil [365 379])
+            ("testcaseno" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [381 403])
+            ("set_resource_limit" function
+               (:arguments 
+                  ( ("time" variable (:type "int") (reparse-symbol arg-sub-list) [619 628])
+                    ("fsize" variable (:type "int") (reparse-symbol arg-sub-list) [628 638])
+                    ("stsize" variable (:type "int") (reparse-symbol arg-sub-list) [638 649])
+                    ("max_procs" variable (:type "int") (reparse-symbol arg-sub-list) [651 665])
+                    ("fd_max" variable (:type "int") (reparse-symbol arg-sub-list) [665 676])
+                    ("dsize" variable (:type "int") (reparse-symbol arg-sub-list) [676 686]))                  
+                :type "int")
+                nil [596 1557])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1571 1580])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1581 1594]))                  
+                :type "int")
+                nil [1560 3577]))          
+    :file "execute.c"
+    :pointmax 3578
+    :fsize 3577
+    :lastmodtime '(20744 4303)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("NO_EXEC_COMMAND" . ((string "\"LD_PRELOAD=/usr/local/share/noexec/lib/libnoexec.so\"" 310 . 363)))
+          )
+
+    )
+   )
+  :file "!home!vicky!Documents!bitwise!evaluator!tests!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

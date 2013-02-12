@@ -1,0 +1,42 @@
+alignment top_left
+background no
+border_width 1
+default_color white
+default_outline_color white
+default_shade_color white
+draw_borders no
+draw_outline no
+draw_shades no
+use_xft yes
+xftfont DejaVu Sans Mono:size=12
+gap_x 1610
+gap_y 34
+minimum_size 800 800
+maximum_width 800
+double_buffer yes
+no_buffers yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+own_window yes
+own_window_transparent yes
+own_window_class Conky
+own_window_type desktop
+own_window_hints undecorated,skip_taskbar,skip_pager
+stippled_borders 0
+update_interval 1.0
+uppercase no
+use_spacer none
+text_buffer_size 4096
+
+TEXT
+${font DejaVu Sans:size=12}${color #eeeeee}
+Long-term stuff:
+---------------------
+${font DejaVu Sans:size=11}${color #cccccc}${execi 5 ~/.todo.txt/todo.sh -p list | fold -s -w80 }
+
+
+${font DejaVu Sans:size=12}${color #eeeeee}
+Short-term stuff:
+----------------------
+${font DejaVu Sans:size=11}${color #cccccc}${execi 5 ~/.todo.txt/todo.sh -d ~/.todo.txt/todo-short-term.cfg -p list | fold -s -w80 }

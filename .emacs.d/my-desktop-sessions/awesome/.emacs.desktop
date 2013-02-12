@@ -1,0 +1,51 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jan 19 18:56:29 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("helm" "middle"))
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/.config/awesome/theme.lua" "/home/vicky/.config/awesome/keys.lua" "/home/vicky/.emacs.bmk" "/home/vicky/.config/awesome/rc.lua" "/home/vicky/.gitconfig"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/.config/awesome/rc.lua"
+  "rc.lua"
+  'lua-mode
+  '(abbrev-mode auto-complete-mode highlight-parentheses-mode)
+  8615
+  '(3817 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.config/awesome/theme.lua"
+  "theme.lua"
+  'lua-mode
+  '(abbrev-mode highlight-parentheses-mode)
+  4068
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.config/awesome/keys.lua"
+  "keys.lua"
+  'lua-mode
+  '(abbrev-mode highlight-parentheses-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

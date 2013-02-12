@@ -1,0 +1,36 @@
+db_file				"~/.mpd/mpd.db"
+sticker_file			"~/.mpd/mpd.sticker"
+log_file			"~/.mpd/mpd.log"
+pid_file			"~/.mpd/mpd.pid"
+state_file			"~/.mpd/mpd.state"
+
+music_directory			"~/Music"
+playlist_directory		"~/.mpd/playlists"
+user				"vicky"
+bind_to_address			"127.0.0.1"
+port				"6600"
+auto_update			"yes"
+
+audio_output {
+	     type		"alsa"
+	     name		"My ALSA Device"
+#	     device		"hw:0,0"
+#	     format		"44100:16:2"
+	     mixer_device	"default"
+	     mixer_type		"software"
+#	     mixer_control	"PCM"
+}
+
+audio_output {
+	     type		"httpd"
+	     name		"Vicky's MPD"
+	     encoder		"lame"
+	     port		"8000"
+	     bitrate		"128"
+	     format		"44100:16:2"
+}
+
+input {
+             plugin		"curl"
+	     proxy		"144.16.192.245:8080"
+}

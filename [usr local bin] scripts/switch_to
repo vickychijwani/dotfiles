@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# source dmenu config file if it exists
+if [ -f $HOME/.dmenurc ]; then
+    . $HOME/.dmenurc
+else
+    DMENU='dmenu -i'
+fi
+
+wmctrl_output=$(wmctrl -lx | \
+    sed -e 's/sun-awt-.*-mathworks-util-PostVMInit/matlab.Matlab/')
+
+win_count=`echo "$wmctrl_output" | wc -l`
+win_list=$(echo "$wmctrl_output" | \
+    sed -r -e 's/^\w+\s+[0-9]\s+[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+\s+[a-zA-Z0-9_-]+\s+//')
+    # sed -r -e 's/^(\w+\s+[0-9]\s+)\w+\./\1/i' | \
+    # awk '{ \
+    #   $2=$4=""; \
+    #   printf "%-40s", $3; \
+    #   for(i=5;i<=NF;i++) { \
+    #     printf "%s ", $i; \
+    #   }; \
+    #   printf "\n"; \
+    # }')
+echo "$win_list"
+
+target=$(echo "$win_list" | \
+    $DMENU -l $win_count -p "Switch to: ")
+# target_id=$(echo "$target" | \
+#     rev | \
+#     cut -d' ' -f1 | \
+#     rev | \
+#     sed -r -e 's/\[(.*)\]/\1/')
+echo "$target"
+target_title=$(echo "$target" | \
+    sed -r -e 's/^[^ ]+\s+//')
+echo "$target_title"
+cmd="wmctrl -F -a \"$target\""
+echo "$cmd"
+eval "$cmd"

@@ -1,0 +1,73 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Mar 28 05:39:25 2012
+;; Desktop file format version 206
+;; Emacs version 23.4.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("\\[query\\]" "id" "dp" "mcs"))
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/Documents/humanoid/code/.git/COMMIT_EDITMSG" "~/Documents/sicp/chapter-2/~2.03.scm" "~/Documents/sicp/chapter-2/2.02.scm" "~/Documents/sicp/chapter-2/2.01.scm" "/home/vicky/Documents/humanoid/code/humanoid.h" "/home/vicky/Documents/humanoid/code/sql_test.c" "/home/vicky/Documents/humanoid/code/utils.h" "/home/vicky/Documents/humanoid/code/model.h" "/home/vicky/Documents/humanoid/code/utils.h" "/home/vicky/Documents/humanoid/code/humanoid.h" "/humanoid:"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/Documents/humanoid/code/humanoid.h"
+  "humanoid.h"
+  'c-mode
+  '(abbrev-mode eldoc-mode auto-complete-mode autopair-mode yas/minor-mode highlight-parentheses-mode highlight-changes-mode paredit-mode hs-minor-mode)
+  145
+  '(371 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/humanoid/code/model.h"
+  "model.h"
+  'c-mode
+  '(abbrev-mode eldoc-mode auto-complete-mode autopair-mode yas/minor-mode highlight-parentheses-mode highlight-changes-mode paredit-mode hs-minor-mode flymake-mode)
+  82
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/humanoid/code/model.c"
+  "model.c"
+  'c-mode
+  '(abbrev-mode eldoc-mode auto-complete-mode autopair-mode yas/minor-mode highlight-parentheses-mode highlight-changes-mode paredit-mode hs-minor-mode)
+  418
+  '(102 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/humanoid/code/sql_test.c"
+  "sql_test.c"
+  'c-mode
+  '(abbrev-mode eldoc-mode auto-complete-mode autopair-mode yas/minor-mode highlight-parentheses-mode highlight-changes-mode paredit-mode hs-minor-mode)
+  700
+  '(750 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  nil
+  "code"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode)
+  390
+  '(nil nil)
+  t
+  '("/home/vicky/Documents/humanoid/code/")
+  nil)
+

@@ -1,0 +1,4 @@
+#name : allocate space under a label
+# --
+${1:label}:
+	.space ${2:0}

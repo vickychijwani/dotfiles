@@ -1,0 +1,60 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+((".zshrc"
+ (filename . "~/.zshrc")
+ (front-context-string . "setopt completea")
+ (rear-context-string)
+ (position . 1))
+("my-desktop.el"
+ (filename . "~/.emacs.d/my-desktop.el")
+ (front-context-string . "(require 'deskto")
+ (rear-context-string)
+ (position . 1))
+("sicp"
+ (filename . "~/Documents/sicp/")
+ (front-context-string . "chapter-1\n  drwx")
+ (rear-context-string . "011-12-08 19:15 ")
+ (position . 234))
+("experimental.el"
+ (filename . "~/.emacs.d/init/experimental.el")
+ (front-context-string . ";; This file has")
+ (rear-context-string)
+ (position . 1))
+("jekyll.el"
+ (filename . "~/.emacs.d/jekyll.el")
+ (front-context-string . ";; jekyll.el\n;;\n")
+ (rear-context-string)
+ (position . 1))
+("plugins.el"
+ (filename . "~/.emacs.d/init/plugins.el")
+ (front-context-string . ";; This file con")
+ (rear-context-string)
+ (position . 1))
+("utils.el"
+ (filename . "~/.emacs.d/init/utils.el")
+ (front-context-string . ";; This file has")
+ (rear-context-string)
+ (position . 1))
+("interface-and-environment.el"
+ (filename . "~/.emacs.d/init/interface-and-environment.el")
+ (front-context-string . ";; This file has")
+ (rear-context-string)
+ (position . 1))
+("emacs"
+ (filename . "~/.emacs")
+ (front-context-string . ";; load path\n(ad")
+ (rear-context-string)
+ (position . 1))
+("major-modes.el"
+ (filename . "~/.emacs.d/init/major-modes.el")
+ (front-context-string . ";; This file has")
+ (rear-context-string)
+ (position . 1))
+("keybindings.el"
+ (filename . "~/.emacs.d/init/keybindings.el")
+ (front-context-string . ";; This file has")
+ (rear-context-string)
+ (position . 1))
+)

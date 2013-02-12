@@ -1,0 +1,50 @@
+;; Object 0/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "0/"
+  :tables (list 
+   (semanticdb-table "cube.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("GL/glut.h" include (:system-flag t) nil [21 41])
+            ("init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [54 59]))                  
+                :type "void")
+                nil [43 1063])
+            ("display" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1079 1084]))                  
+                :type "void")
+                nil [1065 1295])
+            ("display2" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1312 1317]))                  
+                :type "void")
+                nil [1297 1429])
+            ("reshape" function
+               (:arguments 
+                  ( ("w" variable (:type "int") (reparse-symbol arg-sub-list) [1445 1451])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [1452 1458]))                  
+                :type "void")
+                nil [1431 2022])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2034 2043])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2044 2056]))                  
+                :type "int")
+                nil [2024 2362]))          
+    :file "cube.cpp"
+    :pointmax 2363
+    :fsize 2362
+    :lastmodtime '(20725 4204)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!Academics!Computer Graphics!Assignments!0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

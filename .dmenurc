@@ -1,0 +1,2 @@
+DMENU_FONT='-*-*-medium-r-*-*-18-*-*-*-*-*-*-*'
+DMENU="dmenu -i -fn $DMENU_FONT"

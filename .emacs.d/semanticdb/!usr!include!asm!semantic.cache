@@ -1,0 +1,29 @@
+;; Object asm/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "asm/"
+  :tables (list 
+   (semanticdb-table "socket.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("asm-generic/socket.h" include (:system-flag t) nil [1 32]))          
+    :file "socket.h"
+    :pointmax 33
+    :fsize 32
+    :lastmodtime '(20698 18293)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "sockios.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("asm-generic/sockios.h" include (:system-flag t) nil [1 33]))          
+    :file "sockios.h"
+    :pointmax 34
+    :fsize 33
+    :lastmodtime '(20698 18293)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!usr!include!asm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

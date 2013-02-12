@@ -1,0 +1,983 @@
+;; Object evaluator/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "evaluator/"
+  :tables (list 
+   (semanticdb-table "evaluate.cc"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("define.h" include nil nil [1 20])
+            ("prob_limits.h" include nil nil [21 45])
+            ("submission.h" include nil nil [46 69])
+            ("IN_FILE" variable (:constant-flag t) nil [79 86])
+            ("OUT_FILE" variable (:constant-flag t) nil [100 108])
+            ("ERR_FILE" variable (:constant-flag t) nil [123 131])
+            ("INFINITY" variable (:constant-flag t) nil [146 154])
+            ("ProgramLang" type
+               (:members 
+                  ( ("LANG_C" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [182 189])
+                    ("LANG_CPP" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [194 203])
+                    ("LANG_JAVA" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [208 219]))                  
+                :type "enum")
+                nil [159 220])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [221 241])
+            ("submission" variable (:type ("submission_t" type (:type "class") nil nil)) nil [243 267])
+            ("environ" variable
+               (:pointer 2
+                :typemodifiers ("extern")
+                :type "char")
+                nil [268 290])
+            ("verify" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [309 313])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [314 318])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [319 325])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [326 332]))                  
+                :type "int")
+                nil [291 333])
+            ("EXEC_SEG_FAULT" variable (:constant-flag t) nil [343 357])
+            ("EXEC_FILE_SIZE" variable (:constant-flag t) nil [368 382])
+            ("EXEC_ABORT" variable (:constant-flag t) nil [393 403])
+            ("EXEC_UNEXPECTED" variable (:constant-flag t) nil [414 429])
+            ("EXEC_TLE" variable (:constant-flag t) nil [440 448])
+            ("EXEC_WRONG_ANSWER" variable (:constant-flag t) nil [459 476])
+            ("EXEC_OK" variable (:constant-flag t) nil [487 494])
+            ("COMPILE_ERROR_CODE" variable (:constant-flag t) nil [506 524])
+            ("OK_CODE" variable (:constant-flag t) nil [535 542])
+            ("lang_used" variable (:type ("ProgramLang" type (:type "class") nil nil)) nil [546 578])
+            ("Class_Names" variable
+               (:dereference 2
+                :type "char")
+                nil [580 684])
+            ("exec_status" variable
+               (:pointer 1
+                :dereference 1
+                :type "char")
+                nil [686 868])
+            ("sigpipe" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [886 895]))                  
+                :type "void")
+                nil [871 897])
+            ("sigkill" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [912 921]))                  
+                :type "void")
+                nil [898 922])
+            ("check_file_ascii" function
+               (:arguments 
+                  ( ("dir" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [999 1010])
+                    ("filepath" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1010 1026])
+                    ("filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1026 1041]))                  
+                :type "int")
+                nil [978 2800])
+            ("compile_file" function
+               (:arguments 
+                  ( ("dir" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2819 2829])
+                    ("filepath" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2830 2845])
+                    ("filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2845 2860])
+                    ("tid" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2861 2871]))                  
+                :type "int")
+                nil [2802 5064])
+            ("set_resource_limit_java" function
+               (:arguments 
+                  ( ("tlimit" variable (:type "int") (reparse-symbol arg-sub-list) [5096 5107])
+                    ("fsize_limit" variable (:type "int") (reparse-symbol arg-sub-list) [5107 5123]))                  
+                :type "void")
+                nil [5066 6116])
+            ("set_resource_limit" function
+               (:arguments 
+                  ( ("tlimit" variable (:type "int") (reparse-symbol arg-sub-list) [6147 6158])
+                    ("fsize_limit" variable (:type "int") (reparse-symbol arg-sub-list) [6158 6174]))                  
+                :type "void")
+                nil [6122 7137])
+            ("execute" function
+               (:arguments 
+                  ( ("prob_no" variable (:type "int") (reparse-symbol arg-sub-list) [7152 7164])
+                    ("test_no" variable (:type "int") (reparse-symbol arg-sub-list) [7165 7177])
+                    ("dir" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7178 7188])
+                    ("out_file" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7201 7216])
+                    ("err_file" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7217 7232])
+                    ("log_file" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7233 7248]))                  
+                :type "int")
+                nil [7139 13053])
+            ("identifier" variable (:type ("machine_identifier" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [13055 13092])
+            ("command" variable
+               (:dereference 1
+                :type "char")
+                nil [13093 13111])
+            ("buff" variable
+               (:dereference 1
+                :type "char")
+                nil [13112 13127])
+            ("dir" variable
+               (:dereference 1
+                :type "char")
+                nil [13128 13141])
+            ("filepath" variable
+               (:dereference 1
+                :type "char")
+                nil [13142 13160])
+            ("out_file" variable
+               (:dereference 1
+                :type "char")
+                nil [13161 13179])
+            ("err_file" variable
+               (:dereference 1
+                :type "char")
+                nil [13180 13198])
+            ("log_file" variable
+               (:dereference 1
+                :type "char")
+                nil [13199 13217])
+            ("tid" variable
+               (:dereference 1
+                :type "char")
+                nil [13218 13231])
+            ("status" variable
+               (:pointer 1
+                :type "char")
+                nil [13232 13245])
+            ("exec_return" variable (:type "int") nil [13246 13281])
+            ("result" variable (:type "int") nil [13246 13281])
+            ("ret_code" variable (:type "int") nil [13282 13309])
+            ("score" variable (:type "int") nil [13310 13339])
+            ("tcases" variable (:type "int") nil [13310 13339])
+            ("cnt" variable (:type "int") nil [13310 13339])
+            ("sub_no" variable (:type "int") nil [13340 13359])
+            ("prob_no" variable (:type "int") nil [13340 13359])
+            ("flag" variable (:type "int") nil [13360 13373])
+            ("set_language_used" function
+               (:arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13398 13413]))                  
+                :type "void")
+                nil [13375 14280])
+            ("gracious_close" function (:type "void") nil [14282 14520])
+            ("set_machine_details" function
+               (:arguments 
+                  ( ("ip_addr" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [14547 14561])
+                    ("file" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [14562 14573]))                  
+                :type "void")
+                nil [14522 14872])
+            ("set_problem_details" function
+               (:arguments 
+                  ( ("filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [14899 14914]))                  
+                :type "void")
+                nil [14874 15267])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [15278 15287])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [15287 15300]))                  
+                :type "int")
+                nil [15269 18034])
+            ("sigkill" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [18425 18434]))                  
+                :type "void")
+                nil [18411 18858])
+            ("sigpipe" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [18874 18883]))                  
+                :type "void")
+                nil [18859 19256]))          
+    :file "evaluate.cc"
+    :pointmax 19257
+    :fsize 19906
+    :lastmodtime '(20759 26998)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("EXEC_FILE_SIZE" . ((number "1" 383 . 384)))
+          ("EXEC_OK" . ((number "6" 495 . 496)))
+          ("ERR_FILE" . ((string "\"err\"" 132 . 137)))
+          ("EXEC_ABORT" . ((number "2" 404 . 405)))
+          ("COMPILE_ERROR_CODE" . ((number "1" 525 . 526)))
+          ("IN_FILE" . ((string "\"in\"" 87 . 91)))
+          ("EXEC_WRONG_ANSWER" . ((number "5" 477 . 478)))
+          ("INFINITY" . ((number "100" 155 . 158)))
+          ("OUT_FILE" . ((string "\"out\"" 109 . 114)))
+          ("EXEC_UNEXPECTED" . ((number "3" 430 . 431)))
+          ("EXEC_SEG_FAULT" . ((number "0" 358 . 359)))
+          ("EXEC_TLE" . ((number "4" 449 . 450)))
+          ("OK_CODE" . ((number "0" 543 . 544)))
+          )
+
+    )
+   (semanticdb-table "submission.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_SUBMISSION_H_" variable (:constant-flag t) nil [145 159])
+            ("jansson.h" include (:system-flag t) nil [161 181])
+            ("define.h" include nil nil [182 201])
+            ("STATUS_TEXT_LEN" variable (:constant-flag t) nil [211 226])
+            ("NUM_TEST_CASES" variable (:constant-flag t) nil [240 254])
+            ("status_t" type
+               (:members 
+                  ( ("QUEUED" variable
+                       (:constant-flag t
+                        :default-value (427 428)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [403 428])
+                    ("CORRECT" variable
+                       (:constant-flag t
+                        :default-value (458 459)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [434 459])
+                    ("WRONG_ANSWER" variable
+                       (:constant-flag t
+                        :default-value (489 490)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [465 490])
+                    ("COMPILE_ERROR" variable
+                       (:constant-flag t
+                        :default-value (520 521)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [496 521])
+                    ("RUNTIME_ERROR" variable
+                       (:constant-flag t
+                        :default-value (551 552)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [527 552])
+                    ("TIME_LIMIT_EXCEEDED" variable
+                       (:constant-flag t
+                        :default-value (582 583)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [558 583])
+                    ("MEMORY_LIMIT_EXCEEDED" variable
+                       (:constant-flag t
+                        :default-value (613 614)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [589 614])
+                    ("OUTPUT_LIMIT_EXCEEDED" variable
+                       (:constant-flag t
+                        :default-value (644 645)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [620 645])
+                    ("MALICIOUS" variable
+                       (:constant-flag t
+                        :default-value (675 676)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [651 676])
+                    ("UNKNOWN_ERROR" variable
+                       (:constant-flag t
+                        :default-value (706 707)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [682 707]))                  
+                :type "enum")
+                nil [383 710])
+            ("submission_t" type
+               (:members 
+                  ( ("team_id" variable (:type "int") (reparse-symbol classsubparts) [918 930])
+                    ("problem_id" variable (:type "int") (reparse-symbol classsubparts) [935 950])
+                    ("attempt_no" variable (:type "int") (reparse-symbol classsubparts) [955 970])
+                    ("status" variable (:type ("status_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [976 992])
+                    ("status_text" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [997 1031])
+                    ("test_cases" variable
+                       (:dereference 1
+                        :type "bool")
+                        (reparse-symbol classsubparts) [1036 1068]))                  
+                :type "struct")
+                nil [824 1071])
+            ("submission_init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("submission" variable
+                       (:pointer 1
+                        :type ("submission_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1094 1119])
+                    ("run_id" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1120 1133])
+                    ("team_id" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1134 1148])
+                    ("problem_id" variable (:type "int") (reparse-symbol arg-sub-list) [1170 1185])
+                    ("attempt_no" variable (:type "int") (reparse-symbol arg-sub-list) [1186 1201]))                  
+                :type "void")
+                nil [1073 1202])
+            ("submission_to_json" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("submission" variable
+                       (:pointer 1
+                        :type ("submission_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1230 1255]))                  
+                :type ("json_t" type (:type "class") nil nil))
+                nil [1203 1256])
+            ("submission_write_to_log" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("submission" variable
+                       (:pointer 1
+                        :type ("submission_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1286 1311]))                  
+                :type "void")
+                nil [1257 1312]))          
+    :file "submission.h"
+    :pointmax 1338
+    :fsize 1337
+    :lastmodtime '(20757 56467)
+    :unmatched-syntax '((number 675 . 676) (punctuation 673 . 674))
+    :lexical-table 
+        '(("STATUS_TEXT_LEN" . ((number "1024" 227 . 231)))
+          ("_SUBMISSION_H_")
+          ("NUM_TEST_CASES" . ((number "5" 255 . 256)))
+          )
+
+    )
+   (semanticdb-table "submission.cc"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("submission.h" include nil nil [1 24])
+            ("log_filepath" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type "char")
+                nil [26 57])
+            ("submission_init" function
+               (:arguments 
+                  ( ("submission" variable
+                       (:pointer 1
+                        :type ("submission_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [80 105])
+                    ("run_id" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [106 119])
+                    ("team_id" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [120 134])
+                    ("problem_id" variable (:type "int") (reparse-symbol arg-sub-list) [156 171])
+                    ("attempt_no" variable (:type "int") (reparse-symbol arg-sub-list) [172 187]))                  
+                :type "void")
+                nil [59 553])
+            ("submission_to_json" function
+               (:pointer 1
+                :arguments 
+                  ( ("submission" variable
+                       (:pointer 1
+                        :type ("submission_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [582 607]))                  
+                :type ("json_t" type (:type "class") nil nil))
+                nil [555 1660])
+            ("submission_write_to_log" function
+               (:arguments 
+                  ( ("submission" variable
+                       (:pointer 1
+                        :type ("submission_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1691 1716]))                  
+                :type "void")
+                nil [1662 2003]))          
+    :file "submission.cc"
+    :pointmax 2004
+    :fsize 2003
+    :lastmodtime '(20752 54455)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "define.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("__DEFINE__" variable (:constant-flag t) nil [28 38])
+            ("cstdio" include (:system-flag t) nil [40 57])
+            ("cstdlib" include (:system-flag t) nil [58 76])
+            ("cerrno" include (:system-flag t) nil [77 94])
+            ("cstring" include (:system-flag t) nil [95 113])
+            ("ctime" include (:system-flag t) nil [114 130])
+            ("string" include (:system-flag t) nil [131 148])
+            ("fcntl.h" include (:system-flag t) nil [149 167])
+            ("netdb.h" include (:system-flag t) nil [168 186])
+            ("signal.h" include (:system-flag t) nil [187 206])
+            ("unistd.h" include (:system-flag t) nil [207 226])
+            ("sys/types.h" include (:system-flag t) nil [227 249])
+            ("sys/stat.h" include (:system-flag t) nil [250 271])
+            ("sys/resource.h" include (:system-flag t) nil [272 297])
+            ("debug.h" include nil nil [494 512])
+            ("arpa/inet.h" include (:system-flag t) nil [513 535])
+            ("netinet/in.h" include (:system-flag t) nil [536 559])
+            ("sys/socket.h" include (:system-flag t) nil [560 583])
+            ("sys/time.h" include (:system-flag t) nil [584 605])
+            ("sys/wait.h" include (:system-flag t) nil [606 627])
+            ("mysql.h" include (:system-flag t) nil [628 646])
+            ("USER_ID" variable (:constant-flag t) nil [657 664])
+            ("GROUP_ID" variable (:constant-flag t) nil [683 691])
+            ("FILE_COUNT" variable (:constant-flag t) nil [743 753])
+            ("UPLOAD_ENTRY_LEN" variable (:constant-flag t) nil [777 793])
+            ("UPLOAD_DIR" variable (:constant-flag t) nil [809 819])
+            ("UPLOAD_LOG_TABLE" variable (:constant-flag t) nil [863 879])
+            ("UPLOAD_LOG_TABLE" variable (:constant-flag t) nil [863 879])
+            ("UPLOAD_LOG_TABLE" variable (:constant-flag t) nil [863 879])
+            ("UPLOAD_LOG_TABLE" variable (:constant-flag t) nil [863 879])
+            ("UPLOAD_DB_USER" variable (:constant-flag t) nil [906 920])
+            ("UPLOAD_DB_PWD" variable (:constant-flag t) nil [940 953])
+            ("UPLOAD_DB_HOST" variable (:constant-flag t) nil [973 987])
+            ("UPLOAD_DB_DB" variable (:constant-flag t) nil [1012 1024])
+            ("VERIFY_DIR" variable (:constant-flag t) nil [1048 1058])
+            ("VERIFY_OUT_DIR" variable (:constant-flag t) nil [1093 1107])
+            ("VERIFY_ERR_DIR" variable (:constant-flag t) nil [1144 1158])
+            ("VERIFY_MALICIOUS_LOG_DIR" variable (:constant-flag t) nil [1194 1218])
+            ("VERIFY_COMPILE_LOG_DIR" variable (:constant-flag t) nil [1261 1283])
+            ("VERIFY_RUNTIME_LOG_DIR" variable (:constant-flag t) nil [1326 1348])
+            ("CORRECT_OUTPUT_DIR" variable (:constant-flag t) nil [1391 1409])
+            ("EVAL_DIR" variable (:constant-flag t) nil [1440 1448])
+            ("PHANDLER_TMP_DIR" variable (:constant-flag t) nil [1488 1504])
+            ("PHANDLER_TMP_DIR" variable (:constant-flag t) nil [1488 1504])
+            ("PHANDLER_TMP_DIR" variable (:constant-flag t) nil [1488 1504])
+            ("PHANDLER_TMP_DIR" variable (:constant-flag t) nil [1488 1504])
+            ("PHANDLER_TMP_DIR" variable (:constant-flag t) nil [1488 1504])
+            ("PHANDLER_TMP_DIR" variable (:constant-flag t) nil [1488 1504])
+            ("DIFF_TMP_FILE" variable (:constant-flag t) nil [1524 1537])
+            ("NO_EXEC_COMMAND" variable (:constant-flag t) nil [1564 1579])
+            ("ID_LEN" variable (:constant-flag t) nil [1632 1638])
+            ("ID_LEN" variable (:constant-flag t) nil [1632 1638])
+            ("ID_LEN" variable (:constant-flag t) nil [1632 1638])
+            ("ID_LEN" variable (:constant-flag t) nil [1632 1638])
+            ("ID_LEN" variable (:constant-flag t) nil [1632 1638])
+            ("ID_LEN" variable (:constant-flag t) nil [1632 1638])
+            ("ID_LEN" variable (:constant-flag t) nil [1632 1638])
+            ("HOSTNAME" variable (:constant-flag t) nil [1656 1664])
+            ("PORT" variable (:constant-flag t) nil [1717 1721])
+            ("SLEEP_INTERVAL" variable (:constant-flag t) nil [1784 1798])
+            ("MAX_REQUESTS" variable (:constant-flag t) nil [1813 1825])
+            ("EXIT_UNDEFINED_ERR" variable (:constant-flag t) nil [1842 1860])
+            ("EXIT_NORMAL" variable (:constant-flag t) nil [1874 1885])
+            ("EXIT_MALICIOUS" variable (:constant-flag t) nil [1900 1914])
+            ("EXIT_COMPILE_ERR" variable (:constant-flag t) nil [1929 1945])
+            ("EXIT_RUNTIME_ERR" variable (:constant-flag t) nil [1959 1975])
+            ("REQ" variable (:constant-flag t) nil [1991 1994])
+            ("ACK" variable (:constant-flag t) nil [2013 2016])
+            ("NACK" variable (:constant-flag t) nil [2035 2039])
+            ("EXIT" variable (:constant-flag t) nil [2059 2063])
+            ("CONT" variable (:constant-flag t) nil [2080 2084])
+            ("DB_USER" variable (:constant-flag t) nil [2102 2109])
+            ("DB_PWD" variable (:constant-flag t) nil [2130 2136])
+            ("DB_HOST" variable (:constant-flag t) nil [2158 2165])
+            ("DB_DB" variable (:constant-flag t) nil [2191 2196])
+            ("STAT_TABLE" variable (:constant-flag t) nil [2223 2233])
+            ("CONTROLLER" variable (:constant-flag t) nil [2256 2266])
+            ("PHANDLER" variable (:constant-flag t) nil [2282 2290])
+            ("EVALUATOR" variable (:constant-flag t) nil [2309 2318])
+            ("DEFAULT_MACHINE_STATUS" variable (:constant-flag t) nil [2337 2359])
+            ("CONTROLLER_CONT_ERROR" variable (:constant-flag t) nil [2372 2393])
+            ("CONTROLLER_EXIT_ERROR" variable (:constant-flag t) nil [2406 2427])
+            ("CONTROLLER_SIGNAL_RECEIVED" variable (:constant-flag t) nil [2440 2466])
+            ("PHANDLER_CONT_ERROR" variable (:constant-flag t) nil [2479 2498])
+            ("PHANDLER_EXIT_ERROR" variable (:constant-flag t) nil [2511 2530])
+            ("PHANDLER_SIGNAL_RECEVIED" variable (:constant-flag t) nil [2543 2567])
+            ("EVALUATOR_EXIT_NORMAL" variable (:constant-flag t) nil [2580 2601])
+            ("EVALUATOR_EXIT_ERROR" variable (:constant-flag t) nil [2614 2634])
+            ("EVALUATOR_CONT_ERROR" variable (:constant-flag t) nil [2648 2668])
+            ("EVALUATOR_SIGNAL_ENCOUNTERED" variable (:constant-flag t) nil [2682 2710])
+            ("MONITOR_PORT" variable (:constant-flag t) nil [2732 2744])
+            ("MONITOR_SERVER" variable (:constant-flag t) nil [2759 2773])
+            ("BACKLOG" variable (:constant-flag t) nil [2811 2818])
+            ("RESET" variable (:constant-flag t) nil [2835 2840])
+            ("BRIGHT" variable (:constant-flag t) nil [2861 2867])
+            ("DIM" variable (:constant-flag t) nil [2887 2890])
+            ("UNDERLINE" variable (:constant-flag t) nil [2913 2922])
+            ("BLINK" variable (:constant-flag t) nil [2939 2944])
+            ("REVERSE" variable (:constant-flag t) nil [2965 2972])
+            ("HIDDEN" variable (:constant-flag t) nil [2991 2997])
+            ("BLACK" variable (:constant-flag t) nil [3018 3023])
+            ("RED" variable (:constant-flag t) nil [3044 3047])
+            ("GREEN" variable (:constant-flag t) nil [3070 3075])
+            ("YELLOW" variable (:constant-flag t) nil [3096 3102])
+            ("BLUE" variable (:constant-flag t) nil [3122 3126])
+            ("MAGENTA" variable (:constant-flag t) nil [3148 3155])
+            ("CYAN" variable (:constant-flag t) nil [3174 3178])
+            ("WHITE" variable (:constant-flag t) nil [3200 3205])
+            ("machine_identifier" type
+               (:members 
+                  ( ("ip" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3249 3261])
+                    ("machine_type" variable (:type "int") (reparse-symbol classsubparts) [3263 3280])
+                    ("machine_status" variable (:type "int") (reparse-symbol classsubparts) [3282 3301])
+                    ("file_being_executed" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3303 3332])
+                    ("name_of_log_file" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3334 3360]))                  
+                :type "struct")
+                nil [3220 3364])
+            ("VerToCont" type
+               (:members 
+                  ( ("type" variable (:type "char") (reparse-symbol classsubparts) [3387 3397])
+                    ("num_requests" variable (:type "int") (reparse-symbol classsubparts) [3421 3438]))                  
+                :type "struct")
+                nil [3366 3461])
+            ("ContToVer" type
+               (:members 
+                  ( ("num_files" variable (:type "int") (reparse-symbol classsubparts) [3484 3498])
+                    ("fnames" variable
+                       (:dereference 2
+                        :type "char")
+                        (reparse-symbol classsubparts) [3523 3543]))                  
+                :type "struct")
+                nil [3463 3546])
+            ("handle_error" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("msg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3573 3589])
+                    ("action" variable (:type "int") (reparse-symbol arg-sub-list) [3589 3600]))                  
+                :type "void")
+                nil [3548 3601])
+            ("textcolor" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("attr" variable (:type "int") (reparse-symbol arg-sub-list) [3671 3680])
+                    ("fg" variable (:type "int") (reparse-symbol arg-sub-list) [3681 3688])
+                    ("bg" variable (:type "int") (reparse-symbol arg-sub-list) [3689 3696]))                  
+                :type "void")
+                nil [3649 3697]))          
+    :file "define.h"
+    :pointmax 3705
+    :fsize 3704
+    :lastmodtime '(20758 17648)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("UPLOAD_DB_HOST" . ((string "\"localhost\"" 979 . 990)))
+          ("PHANDLER_TMP_DIR" . ((string "\"/tmp/\"" 1508 . 1515)))
+          ("SLEEP_INTERVAL" . ((number "5" 1752 . 1753)))
+          ("EXIT_NORMAL" . ((number "2" 1839 . 1840)))
+          ("PHANDLER" . ((number "1" 2247 . 2248)))
+          ("EVALUATOR" . ((number "2" 2274 . 2275)))
+          ("PHANDLER_CONT_ERROR" . ((number "3" 2450 . 2451)))
+          ("PHANDLER_EXIT_ERROR" . ((number "4" 2482 . 2483)))
+          ("MAGENTA" . ((number "5" 3113 . 3114)))
+          ("__DEFINE__")
+          ("USER_ID" . ((number "1000" 670 . 674)))
+          ("VERIFY_ERR_DIR" . ((string "\"./nfs_verify/errors/\"" 1150 . 1172)))
+          ("ID_LEN" . ((number "5" 1632 . 1633)))
+          ("DB_USER" . ((string "\"root\"" 2064 . 2070)))
+          ("CONTROLLER_CONT_ERROR" . ((number "0" 2345 . 2346)))
+          ("CONTROLLER_EXIT_ERROR" . ((number "1" 2379 . 2380)))
+          ("RESET" . ((number "0" 2800 . 2801)))
+          ("UNDERLINE" . ((number "4" 2878 . 2879)))
+          ("FILE_COUNT" . ((string "\".fcount\"" 759 . 768)))
+          ("VERIFY_DIR" . ((string "\"./nfs_verify/\"" 1056 . 1071)))
+          ("EVAL_DIR" . ((string "\"./evaluators/eval\"" 1447 . 1466)))
+          ("HOSTNAME" . ((string "\"localhost\"" 1619 . 1630)))
+          ("PHANDLER_SIGNAL_RECEVIED" . ((number "5" 2518 . 2519)))
+          ("MONITOR_SERVER" . ((string "\"localhost\"" 2724 . 2735)))
+          ("PORT" . ((number "4445" 1677 . 1681)))
+          ("ACK" . ((string "'a'" 1972 . 1975)))
+          ("NACK" . ((string "'n'" 1995 . 1998)))
+          ("VERIFY_MALICIOUS_LOG_DIR" . ((string "\"./nfs_verify/malicious/\"" 1214 . 1239)))
+          ("CONT" . ((number "1" 2040 . 2041)))
+          ("DB_PWD" . ((string "\"root\"" 2092 . 2098)))
+          ("DB_DB" . ((string "\"bitwise2\"" 2152 . 2162)))
+          ("STAT_TABLE" . ((string "\"score\"" 2188 . 2195)))
+          ("BLACK" . ((number "0" 2983 . 2984)))
+          ("UPLOAD_ENTRY_LEN" . ((number "36" 797 . 799)))
+          ("UPLOAD_DB_USER" . ((string "\"root\"" 912 . 918)))
+          ("UPLOAD_DB_DB" . ((string "\"bitwise2\"" 1016 . 1026)))
+          ("VERIFY_OUT_DIR" . ((string "\"./nfs_verify/outputs/\"" 1099 . 1122)))
+          ("VERIFY_COMPILE_LOG_DIR" . ((string "\"./nfs_verify/compile/\"" 1281 . 1304)))
+          ("EXIT_MALICIOUS" . ((number "4" 1868 . 1869)))
+          ("BLINK" . ((number "5" 2904 . 2905)))
+          ("GREEN" . ((number "2" 3035 . 3036)))
+          ("UPLOAD_DB_PWD" . ((string "\"root\"" 945 . 951)))
+          ("VERIFY_RUNTIME_LOG_DIR" . ((string "\"./nfs_verify/runtime/\"" 1346 . 1369)))
+          ("BRIGHT" . ((number "1" 2826 . 2827)))
+          ("REVERSE" . ((number "7" 2930 . 2931)))
+          ("GROUP_ID" . ((number "100" 731 . 734)))
+          ("UPLOAD_DIR" . ((string "\"./nfs_uploads/\"" 825 . 841)))
+          ("CORRECT_OUTPUT_DIR" . ((string "\"./nfs_testcases/\"" 1400 . 1418)))
+          ("DIFF_TMP_FILE" . ((string "\".diffverify\"" 1529 . 1542)))
+          ("EXIT" . ((number "0" 2019 . 2020)))
+          ("MONITOR_PORT" . ((number "5656" 2695 . 2699)))
+          ("CONTROLLER" . ((number "0" 2221 . 2222)))
+          ("BACKLOG" . ((number "20" 2771 . 2773)))
+          ("BLUE" . ((number "4" 3087 . 3088)))
+          ("UPLOAD_LOG_TABLE" . ((string "\"upload_table\"" 883 . 897)))
+          ("EXIT_RUNTIME_ERR" . ((number "16" 1928 . 1930)))
+          ("DB_HOST" . ((string "\"localhost\"" 2120 . 2131)))
+          ("DEFAULT_MACHINE_STATUS" . ((punctuation "-" 2310 . 2311) (number "1" 2311 . 2312)))
+          ("CONTROLLER_SIGNAL_RECEIVED" . ((number "2" 2417 . 2418)))
+          ("CYAN" . ((number "6" 3139 . 3140)))
+          ("EXIT_UNDEFINED_ERR" . ((number "1" 1813 . 1814)))
+          ("EXIT_COMPILE_ERR" . ((number "8" 1898 . 1899)))
+          ("EVALUATOR_SIGNAL_ENCOUNTERED" . ((number "9" 2661 . 2662)))
+          ("DIM" . ((number "2" 2852 . 2853)))
+          ("WHITE" . ((number "7" 3165 . 3166)))
+          ("NO_EXEC_COMMAND" . ((string "\"\"" 1570 . 1572)))
+          ("MAX_REQUESTS" . ((number "40" 1779 . 1781)))
+          ("REQ" . ((string "'r'" 1950 . 1953)))
+          ("EVALUATOR_EXIT_NORMAL" . ((number "6" 2553 . 2554)))
+          ("EVALUATOR_EXIT_ERROR" . ((number "7" 2587 . 2588)))
+          ("EVALUATOR_CONT_ERROR" . ((number "8" 2621 . 2622)))
+          ("HIDDEN" . ((number "8" 2956 . 2957)))
+          ("RED" . ((number "1" 3009 . 3010)))
+          ("YELLOW" . ((number "3" 3061 . 3062)))
+          )
+
+    )
+   (semanticdb-table "prob_limits.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("__PROB_LIMITS__" variable (:constant-flag t) nil [34 49])
+            ("tlimits" variable
+               (:dereference 2
+                :type "int")
+                nil [151 396])
+            ("cpulimits" variable
+               (:dereference 2
+                :type "long")
+                nil [514 1035])
+            ("pcases" variable
+               (:dereference 2
+                :type "int")
+                nil [1037 1281])
+            ("fsize_max" variable
+               (:dereference 2
+                :type "int")
+                nil [1718 1993])
+            ("proc_limit" variable
+               (:constant-flag t
+                :type "int")
+                nil [2167 2192])
+            ("fd_limit" variable
+               (:constant-flag t
+                :type "int")
+                nil [2232 2257]))          
+    :file "prob_limits.h"
+    :pointmax 2306
+    :fsize 2305
+    :lastmodtime '(20759 21920)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__PROB_LIMITS__")
+          )
+
+    )
+   (semanticdb-table "debug.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_DEBUG_H_" variable (:constant-flag t) nil [27 36])
+            ("iostream" include (:system-flag t) nil [39 58])
+            ("debug" variable (:constant-flag t) nil [68 73])
+            ("debugv" variable (:constant-flag t) nil [94 100]))          
+    :file "debug.h"
+    :pointmax 132
+    :fsize 131
+    :lastmodtime '(20752 57576)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_DEBUG_H_")
+          ("debug" (spp-arg-list ("args...") 73 . 82) . ((semantic-list "{}" 83 . 85)))
+          ("debugv" (spp-arg-list ("x") 100 . 103) . ((semantic-list "{}" 104 . 106)))
+          )
+
+    )
+   (semanticdb-table "phandler.cc"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("define.h" include nil nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [22 42])
+            ("mysql_upload" variable (:type ("MYSQL" type (:type "class") nil nil)) nil [43 62])
+            ("identifier" variable (:type ("machine_identifier" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [64 101])
+            ("tmp_file" variable
+               (:dereference 1
+                :type "char")
+                nil [102 121])
+            ("buffered_tmp_file" variable
+               (:dereference 1
+                :type "char")
+                nil [122 150])
+            ("sockfd" variable (:type "int") nil [151 162])
+            ("lock_file" variable
+               (:dereference 1
+                :type "char")
+                nil [212 232])
+            ("buffered_files" variable (:type ("ContToVer" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [233 272])
+            ("files" variable (:type ("ContToVer" type
+                 (:prototype t
+                  :type "struct")
+                  nil nil)) nil [233 272])
+            ("are_fnames_backedup" variable (:type "int") nil [273 299])
+            ("are_bufffnames_backedup" variable (:type "int") nil [300 332])
+            ("closesocket" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [359 366]))                  
+                :type "void")
+                nil [334 407])
+            ("num_checked" variable (:type "int") nil [409 429])
+            ("initial_num_checked" variable (:type "int") nil [430 456])
+            ("total_files" variable (:type "int") nil [510 528])
+            ("init_db" function
+               (:prototype-flag t
+                :type "void")
+                nil [579 594])
+            ("close_db" function
+               (:prototype-flag t
+                :type "void")
+                nil [595 611])
+            ("query_db_upload" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("query" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [633 645]))                  
+                :type "void")
+                nil [612 646])
+            ("siginterr" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [664 672]))                  
+                :type "void")
+                nil [648 2040])
+            ("sigpipe" function
+               (:arguments 
+                  ( ("sig" variable (:type "int") (reparse-symbol arg-sub-list) [2056 2064]))                  
+                :type "void")
+                nil [2042 3325])
+            ("get_files" function
+               (:arguments 
+                  ( ("files" variable
+                       (:pointer 1
+                        :type ("ContToVer" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3342 3366]))                  
+                :type "void")
+                nil [3327 6013])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [7166 7175])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7176 7189]))                  
+                :type "int")
+                nil [7156 17158])
+            ("init_db" function (:type "void") nil [17160 17531])
+            ("close_db" function (:type "void") nil [17534 17586])
+            ("query_db_upload" function
+               (:arguments 
+                  ( ("query" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17609 17621]))                  
+                :type "void")
+                nil [17588 17799]))          
+    :file "phandler.cc"
+    :pointmax 17800
+    :fsize 18332
+    :lastmodtime '(20744 4303)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "verify.cc"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("define.h" include nil nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [105 125])
+            ("manual_verify_9" function
+               (:arguments 
+                  ( ("contestant_out" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [149 170])
+                    ("our_output_filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [171 197]))                  
+                :type "int")
+                nil [128 854])
+            ("manual_verify_2" function
+               (:arguments 
+                  ( ("contestant_out" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [878 899])
+                    ("our_input_filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [900 925]))                  
+                :type "int")
+                nil [857 1583])
+            ("manual_verify_8" function
+               (:arguments 
+                  ( ("contestant_out" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1606 1627])
+                    ("our_input_filename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1628 1653]))                  
+                :type "int")
+                nil [1585 2310])
+            ("diffcompare" function
+               (:arguments 
+                  ( ("contestant_out" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2328 2350])
+                    ("absolutefilename" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2350 2374])
+                    ("dir" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2374 2384]))                  
+                :type "int")
+                nil [2312 2647])
+            ("verify" function
+               (:arguments 
+                  ( ("prob_no" variable (:type "int") (reparse-symbol arg-sub-list) [2660 2672])
+                    ("test_case" variable (:type "int") (reparse-symbol arg-sub-list) [2672 2686])
+                    ("contestant_out" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2687 2708])
+                    ("dir" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2708 2718]))                  
+                :type "int")
+                nil [2649 3532]))          
+    :file "verify.cc"
+    :pointmax 3587
+    :fsize 3586
+    :lastmodtime '(20752 57243)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("INCLUDE" variable (:default-value ("-I/usr/include/mysql")) nil [1 32])
+            ("LIB" variable (:default-value ("-L/usr/lib64/mysql")) nil [32 57])
+            ("LINK" variable (:default-value ("-lz" "-ljansson")) nil [57 78])
+            ("CC" variable (:default-value ("g++" "-g" "-Wall" "-Wextra")) nil [78 104])
+            ("OPT" variable (:default-value ("$(INCLUDE)" "$(LIB)" "$(LINK)")) nil [104 136])
+            ("all" function (:arguments ("evaluate")) nil [137 151])
+            ("evaluate" function (:arguments ("evaluate.cc" "verify.cc" "herror.cc" "submission.cc" "define.h" "prob_limits.h" "debug.h")) nil [152 312])
+            ("phandler" function (:arguments ("phandler.cc" "herror.cc" "define.h" "message_monitor.cc" "debug.h")) nil [314 450])
+            ("clean" function nil nil [451 480]))          
+    :file "Makefile"
+    :pointmax 480
+    :fsize 479
+    :lastmodtime '(20756 31921)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "createevals.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("os" include nil nil [19 28])
+            ("for" code nil nil [30 113]))          
+    :file "createevals.py"
+    :pointmax 113
+    :fsize 112
+    :lastmodtime '(20758 7740)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!Documents!bitwise!evaluator!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

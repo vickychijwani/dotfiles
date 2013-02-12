@@ -1,0 +1,16 @@
+;; Object underscore.c/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "underscore.c/"
+  :tables (list 
+   (semanticdb-table "underscore.c"
+    :major-mode 'c-mode
+    :tags nil
+    :file "underscore.c"
+    :pointmax 1
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!testing!underscore.c!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

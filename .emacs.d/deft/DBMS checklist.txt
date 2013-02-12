@@ -1,0 +1,25 @@
+DBMS Checklist:
+===============
+
+ * Indexing & Hashing (some parts)
+ - Query Processing
+ - Transactions
+ - Concurrency Control
+ - Recovery (log-based and shadow paging)
+ * Database Security
+ * Normal Forms
+ * Pre-midsem
+
+Revise:
+-------
+
+ - Pre-midsem
+ - Normal forms
+ - Database security
+
+Doubts:
+-------
+
+ - Question Paper End Spring 2011, Q4B
+   - **all** locks acquired first, or just before operation?
+   - locks release before commit, or after?

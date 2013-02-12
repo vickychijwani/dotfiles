@@ -1,0 +1,27 @@
+;; Object _posts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "_posts/"
+  :tables (list 
+   (semanticdb-table "2012-03-22-function-pointers-in-c-are-underrated.md"
+    :major-mode 'c-mode
+    :tags nil
+    :file "2012-03-22-function-pointers-in-c-are-underrated.md"
+    :pointmax 5783
+    :fsize 5782
+    :lastmodtime '(20761 46674)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "2013-02-13-nuggets-from-my-emacs-part-i.md"
+    :major-mode 'scheme-mode
+    :tags nil
+    :file "2013-02-13-nuggets-from-my-emacs-part-i.md"
+    :pointmax 2710
+    :fsize 5125
+    :lastmodtime '(20762 43305)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!Documents!blog!_posts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,66 @@
+;; Object 4.7.2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "4.7.2/"
+  :tables (list 
+   (semanticdb-table "iostream"
+    :file "iostream"
+    :fsize 2735
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "fstream"
+    :file "fstream"
+    :fsize 29497
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "ostream"
+    :file "ostream"
+    :fsize 19596
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "vector"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_GLIBCXX_VECTOR" variable (:constant-flag t) nil [2294 2309])
+            ("bits/stl_algobase.h" include (:system-flag t) nil [2340 2370])
+            ("bits/allocator.h" include (:system-flag t) nil [2371 2398])
+            ("bits/stl_construct.h" include (:system-flag t) nil [2399 2430])
+            ("bits/stl_uninitialized.h" include (:system-flag t) nil [2431 2466])
+            ("bits/stl_vector.h" include (:system-flag t) nil [2467 2495])
+            ("bits/stl_bvector.h" include (:system-flag t) nil [2496 2525])
+            ("bits/range_access.h" include (:system-flag t) nil [2527 2557])
+            ("bits/vector.tcc" include (:system-flag t) nil [2592 2619]))          
+    :file "vector"
+    :pointmax 2772
+    :fsize 2771
+    :lastmodtime '(20698 49742)
+    :unmatched-syntax '((symbol 2325 . 2338) (symbol 2321 . 2324) (symbol 2314 . 2320) (punctuation 2313 . 2314))
+    :lexical-table 
+        '(("_GLIBCXX_VECTOR" . ((number "1" 2310 . 2311)))
+          )
+
+    )
+   (semanticdb-table "string"
+    :file "string"
+    :fsize 2022
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "cstring"
+    :file "cstring"
+    :fsize 3202
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "cstdlib"
+    :file "cstdlib"
+    :fsize 5904
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "cstdio"
+    :file "cstdio"
+    :fsize 4347
+    :lastmodtime '(20698 49742)
+    )
+   )
+  :file "!usr!include!c++!4.7.2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

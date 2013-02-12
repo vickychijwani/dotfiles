@@ -1,0 +1,95 @@
+;; Object algorithms/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "algorithms/"
+  :tables (list 
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("CCFLAGS" variable (:default-value ("-Wall" "-Wextra" "-Wno-unused-parameter" "-Wno-unused-variable")) nil [1 68])
+            ("DEBUGFLAGS" variable (:default-value ("-g3" "-gdwarf-2")) nil [68 95])
+            ("PROGRAM" variable (:default-value ("\\~heap-sort")) nil [95 115])
+            (".PHONY" function (:arguments ("check-syntax")) nil [116 137])
+            ("all" function (:arguments ("$(PROGRAM).c")) nil [138 216])
+            ("check-syntax" function nil nil [217 273])
+            ("clean" function nil nil [274 335]))          
+    :file "Makefile"
+    :pointmax 335
+    :fsize 334
+    :lastmodtime '(20513 27269)
+    :unmatched-syntax '((shell-command 282 . 334) (bol 281 . 281))
+    )
+   (semanticdb-table "~heap-sort.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("PARENT" variable (:constant-flag t) nil [96 102])
+            ("FIRST_CHILD" variable (:constant-flag t) nil [128 139])
+            ("SECOND_CHILD" variable (:constant-flag t) nil [159 171])
+            ("SWAP" variable (:constant-flag t) nil [196 200])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [285 290]))                  
+                :type "int")
+                nil [276 310])
+            ("heapify" function
+               (:arguments 
+                  ( ("heap" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [325 336])
+                    ("heap_size" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [337 352])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [353 359]))                  
+                :type "void")
+                nil [312 835])
+            ("heap_build" function
+               (:arguments 
+                  ( ("heap" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [852 863])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [864 870]))                  
+                :type "int")
+                nil [837 1111])
+            ("heap_extract_max" function
+               (:arguments 
+                  ( ("heap" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1134 1145])
+                    ("heap_size" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1146 1161]))                  
+                :type "int")
+                nil [1113 1300])
+            ("heap_sort" function
+               (:arguments 
+                  ( ("array" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1317 1329])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1330 1336]))                  
+                :type "void")
+                nil [1302 1496]))          
+    :file "~heap-sort.c"
+    :pointmax 1480
+    :fsize 1496
+    :lastmodtime '(20761 41275)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("FIRST_CHILD" (spp-arg-list ("i") 139 . 142) . ((semantic-list "(2 * i)" 143 . 150)))
+          ("SWAP" (spp-arg-list ("a" "b") 200 . 206) . 
+              ((DO "do" 207 . 209) (semantic-list "{ a ^= b; b ^= a; a ^= b; }" 210 . 237) (WHILE "while" 238 . 243) (semantic-list "(0)" 243 . 246)))
+          ("PARENT" (spp-arg-list ("i") 102 . 105) . ((semantic-list "((int) i / 2)" 106 . 119)))
+          ("SECOND_CHILD" (spp-arg-list ("i") 171 . 174) . ((semantic-list "(2 * i + 1)" 175 . 186)))
+          )
+
+    )
+   )
+  :file "!home!vicky!Documents!algorithms!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

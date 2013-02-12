@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# disable screen blanking and DPMS and whatnot to prevent screen from turning
+# off when watching fullscreen videos
+
+xset s noblank   # disable screen blanking
+xset s 0 0       # set screensaver timeouts to 0
+xset s off       # screensaver off
+
+xset dpms 0 0 0  # set DPMS timeouts to 0
+xset -dpms       # DPMS off

@@ -1,0 +1,49 @@
+-*- mode: org -*-
+
+TODO
+
+* PRIORITY
+** Passport
+* ACADEMICS
+** OS memory mgmt assignment
+** networks class test
+** OS tests
+** DBMS last assignment
+* PROJECTS
+** Humanoid Robot
+** HackU
+** SICP
+* BLOG
+** The Roots of Lisp
+* IDEAS
+** Archwise (tweet archiver)
+** Sherlock (TV show renamer)
+** fest2app / festhop (Android app maker for college fests)
+** 42 (Ubiquity for desktop / Google Chrome)
+** FUSE (blogger)
+* SOMEDAY
+** Open source
+*** Shotwell Photo Viewer
+*** Tabbed PDF reader for Linux
+** Learning
+*** Clojure
+** Reading
+*** Code Complete 2
+*** The Pragmatic Programmer: From Journeyman to Master
+*** The Art of Unix Programming
+* MONEY
+** Pandey - 300
+** Prashant - 1200 ?
+* LEISURE
+** Reading
+*** Atlas Shrugged -- Ayn Rand
+*** A Song of Ice and Fire -- G. R. R. Martin
+*** The Selfish Gene -- Richard Dawkins
+*** Steve Jobs: The Exclusive Biography -- Walter Isaacson
+** TV
+*** Lost
+*** Friends
+*** Blackadder, Jeeves and Wooster, A Bit of Fry and Laurie
+*** Only Fools and Horses
+** Movies
+*** Catch Me If You Can

@@ -1,0 +1,986 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Feb  7 09:40:58 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("accor" "sub" "class" "search" "helm" "message" "message_monitor" "debug" "status" "filename" "status2" "problem" "mysql" "query" "MALICIOU" "MALI"))
+(setq register-alist '((49 . "url_for(:forum)")))
+(setq file-name-history '("/home/vicky/Documents/bitwise/public/css/bootstrap/bootstrap.less" "/home/vicky/Documents/bitwise/views/partials/submission.haml" "~/Documents/bitwise/views/contest/submissions/index.haml" "/home/vicky/Documents/bitwise/.rvmrc" "/home/vicky/Documents/bitwise/pry_mysql.sh" "/home/vicky/Documents/bitwise/.rvmrc" "/home/vicky/Documents/bitwise/messages.rb" "/home/vicky/Documents/bitwise/models/team.rb" "~/Documents/bitwise/" "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/correct.java" "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/runtime_error.java" "/home/vicky/Documents/bitwise/evaluator/nfs_testcases/1/out3.dat" "/home/vicky/Documents/bitwise/evaluator/nfs_testcases/1/out2.dat" "/home/vicky/Documents/bitwise/evaluator/nfs_testcases/1/in2.dat" "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/correct.java" "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/correct_partial.java" "/home/vicky/Documents/bitwise/evaluator/nfs_testcases/1/in4.dat" "/home/vicky/Documents/bitwise/evaluator/nfs_testcases/1/in3.dat" "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/correct.java" "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/compile_error.java" "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/TdWZKlPXOMTV_01_01.java" "/home/vicky/Documents/bitwise/evaluator/nfs_setup" "/home/vicky/Documents/bitwise/evaluator/message_monitor.cc" "/home/vicky/Documents/bitwise/evaluator/herror.cc" "/home/vicky/Documents/bitwise/evaluator/debug.h" "/home/vicky/Documents/bitwise/evaluator/herror.cc" "/home/vicky/Documents/bitwise/evaluator/Makefile" "/home/vicky/Documents/bitwise/evaluator/herror.cc" "/home/vicky/Documents/bitwise/evaluator/verify.cc" "/home/vicky/Documents/bitwise/evaluator/debug.h"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/contest/submissions/index.haml"
+  "index.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode paredit-mode zencoding-mode)
+  312
+  '(253 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/controllers/contest.rb"
+  "contest.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  1085
+  '(1439 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/submission.rb"
+  "submission.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  859
+  '(168 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/messages.rb"
+  "messages.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  4422
+  '(2050 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/submission.haml"
+  "submission.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode paredit-mode zencoding-mode)
+  367
+  '(414 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluator/submission.h"
+  "submission.h"
+  'c-mode
+  '(abbrev-mode drag-stuff-mode eldoc-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  930
+  '(809 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/user.rb"
+  "user.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  197
+  '(148 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/problem.rb"
+  "problem.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  31
+  '(47 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/helpers/helpers.rb"
+  "helpers.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  5799
+  '(211 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/public/css/site.css"
+  "site.css"
+  'css-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode)
+  4582
+  '(4524 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/contest/problems/show.haml"
+  "show.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode paredit-mode zencoding-mode)
+  216
+  '(218 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/public/js/site.js"
+  "site.js"
+  'js-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  996
+  '(696 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/todo.md"
+  "todo.md"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  6249
+  '(5281 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluate.rb"
+  "evaluate.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  852
+  '(582 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/.rvmrc"
+  ".rvmrc"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode)
+  26
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/pry_mysql.sh"
+  "pry_mysql.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode)
+  5
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/team.rb"
+  "team.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  4273
+  '(3948 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/trash/user.rb"
+  "user.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode ruby-tools-mode)
+  7269
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/#user.rb#"
+  "#user.rb#"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  7526
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . emacs-mule-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/watch_less.sh"
+  "watch_less.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/use_mysql_db_template.sh"
+  "use_mysql_db_template.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/use_mysql_db_server.sh"
+  "use_mysql_db_server.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/use_mysql_db_bitwise2.sh"
+  "use_mysql_db_bitwise2.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  85
+  '(107 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/use_mysql_db_bitwise.sh"
+  "use_mysql_db_bitwise.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  106
+  '(14 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/use_mysql_db.sh"
+  "use_mysql_db.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  319
+  '(603 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/pry_mysql_server.sh"
+  "pry_mysql_server.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/pry_mysql2.sh"
+  "pry_mysql2.sh"
+  'sh-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/config.yml"
+  "config.yml"
+  'yaml-mode
+  '(drag-stuff-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  201
+  '(639 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/config.ru"
+  "config.ru"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/backburner.pid"
+  "backburner.pid"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/backburner.log"
+  "backburner.log"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/app2.db"
+  "app2.db"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . no-conversion)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/app.rb"
+  "app.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  2055
+  '(2056 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/app.db"
+  "app.db"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/Rakefile"
+  "Rakefile"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  775
+  '(825 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/README.md"
+  "README.md"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  786
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/Guardfile"
+  "Guardfile"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/Gemfile.lock"
+  "Gemfile.lock"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/Gemfile"
+  "Gemfile"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1187
+  '(381 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/.pryrc"
+  ".pryrc"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/.gitignore"
+  ".gitignore"
+  'markdown-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/intro.haml"
+  "intro.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  846
+  '(40 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/controllers/auth.rb"
+  "auth.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  5793
+  '(446 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/post.rb"
+  "post.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  1534
+  '(243 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/trash/queue_submissions.rb"
+  "queue_submissions.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  351
+  '(131 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluator/nfs_uploads/correct.java"
+  "correct.java"
+  'java-mode
+  '(abbrev-mode drag-stuff-mode eldoc-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode capitalized-words-mode)
+  375
+  '(375 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluator/evaluate.cc"
+  "evaluate.cc"
+  'c++-mode
+  '(abbrev-mode drag-stuff-mode eldoc-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  1994
+  '(18123 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluator/define.h"
+  "define.h"
+  'c-mode
+  '(abbrev-mode drag-stuff-mode eldoc-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  3551
+  '(842 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/users/show.haml"
+  "show.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  374
+  '(108 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/controllers/main.rb"
+  "main.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  593
+  '(647 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/prizes.haml"
+  "prizes.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  48
+  '(188 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/navbar_public.haml"
+  "navbar_public.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  140
+  '(272 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/navbar_logged_in.haml"
+  "navbar_logged_in.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  190
+  '(280 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/controllers/user.rb"
+  "user.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  665
+  '(511 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/users/index.haml"
+  "index.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  997
+  '(1252 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/topics/index.haml"
+  "index.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  1805
+  '(2150 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/controllers/team.rb"
+  "team.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  451
+  '(2849 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/public/js/team-selector.js"
+  "team-selector.js"
+  'js-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode flymake-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode capitalized-words-mode)
+  2940
+  '(3502 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/team_selector.haml"
+  "team_selector.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  1073
+  '(1391 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/helpers/init.rb"
+  "init.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  52
+  '(28 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/layout.haml"
+  "layout.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  591
+  '(591 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/forum.rb"
+  "forum.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  576
+  '(641 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/posts/index.haml"
+  "index.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  709
+  '(609 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/controllers/forum.rb"
+  "forum.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  4830
+  '(4755 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/forums/index.haml"
+  "index.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  372
+  '(358 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/post.haml"
+  "post.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  416
+  '(416 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/topics/edit.haml"
+  "edit.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  416
+  '(315 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/posts/edit.haml"
+  "edit.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  441
+  '(370 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/spec/spec_helper.rb"
+  "spec_helper.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  195
+  '(195 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/posts/new.haml"
+  "new.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  52
+  '(52 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/auth/register_team.haml"
+  "register_team.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  288
+  '(267 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/flash_messages.haml"
+  "flash_messages.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  72
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/public/css/bootstrap/bootstrap-chosen.less"
+  "bootstrap-chosen.less"
+  'less-css-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode)
+  4633
+  '(2623 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/public/js/topics.js"
+  "topics.js"
+  'js-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode flymake-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode capitalized-words-mode)
+  156
+  '(157 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/public/js/posts.js"
+  "posts.js"
+  'js-mode
+  '(drag-stuff-mode auto-complete-mode highlight-parentheses-mode flymake-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode capitalized-words-mode)
+  861
+  '(861 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/models/topic.rb"
+  "topic.rb"
+  'ruby-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode ruby-tools-mode)
+  831
+  '(784 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/topics/new.haml"
+  "new.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  54
+  '(591 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/flash_message.haml"
+  "flash_message.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  122
+  '(70 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/contest/leaderboard.haml"
+  "leaderboard.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  58
+  '(25 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/contest/problems/index.haml"
+  "index.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  111
+  '(664 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/home.haml"
+  "home.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  17
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/users/change_team.haml"
+  "change_team.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  251
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/contest/updates.haml"
+  "updates.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/views/partials/sidebar.haml"
+  "sidebar.haml"
+  'haml-mode
+  '(drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode paredit-mode zencoding-mode)
+  33
+  '(38 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluator/submission.cc"
+  "submission.cc"
+  'c++-mode
+  '(abbrev-mode drag-stuff-mode eldoc-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  962
+  '(939 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluator/verify.cc"
+  "verify.cc"
+  'c++-mode
+  '(abbrev-mode drag-stuff-mode eldoc-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode ruby-block-mode paredit-mode capitalized-words-mode)
+  2753
+  '(2649 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/evaluator/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(drag-stuff-mode highlight-parentheses-mode undo-tree-mode ruby-block-mode)
+  494
+  '(494 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/bitwise/public/css/bootstrap/bootstrap.less"
+  "bootstrap.less"
+  'less-css-mode
+  '(drag-stuff-mode yas/minor-mode highlight-parentheses-mode undo-tree-mode hs-minor-mode)
+  1456
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

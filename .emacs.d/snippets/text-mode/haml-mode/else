@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: else
+# author: Vicky Chijwani (vickychijwani@gmail.com)
+# --
+- else
+  $0

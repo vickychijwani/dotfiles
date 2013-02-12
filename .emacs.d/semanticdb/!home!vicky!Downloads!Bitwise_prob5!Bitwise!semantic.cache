@@ -1,0 +1,150 @@
+;; Object Bitwise/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Bitwise/"
+  :tables (list 
+   (semanticdb-table "gen_test.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [51 69])
+            ("stdlib.h" include (:system-flag t) nil [70 89])
+            ("math.h" include (:system-flag t) nil [90 107])
+            ("isPrime" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [121 127]))                  
+                :type "int")
+                nil [109 246])
+            ("isCoPrime" function
+               (:arguments 
+                  ( ("m" variable (:type "int") (reparse-symbol arg-sub-list) [262 268])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [269 275]))                  
+                :type "int")
+                nil [248 383])
+            ("test_case_easy" function
+               (:arguments 
+                  ( ("f" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [405 413])
+                    ("num_tests" variable (:type "int") (reparse-symbol arg-sub-list) [414 428])
+                    ("max_n" variable (:type "int") (reparse-symbol arg-sub-list) [429 439])
+                    ("max_d" variable (:type "int") (reparse-symbol arg-sub-list) [440 450]))                  
+                :type "void")
+                nil [385 731])
+            ("test_case_hard" function
+               (:arguments 
+                  ( ("f" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [753 761])
+                    ("num_tests" variable (:type "int") (reparse-symbol arg-sub-list) [762 776])
+                    ("max_n" variable (:type "int") (reparse-symbol arg-sub-list) [777 787])
+                    ("max_d" variable (:type "int") (reparse-symbol arg-sub-list) [788 798])
+                    ("max_m" variable (:type "int") (reparse-symbol arg-sub-list) [799 809]))                  
+                :type "void")
+                nil [733 1120])
+            ("main" function (:type "int") nil [1122 1670]))          
+    :file "gen_test.c"
+    :pointmax 1671
+    :fsize 1670
+    :lastmodtime '(20753 3487)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "prob5_naive.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [75 93])
+            ("fact" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [114 120]))                  
+                :type "long int")
+                nil [100 208])
+            ("find_result" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [226 232])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [233 239])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [240 246]))                  
+                :type "int")
+                nil [210 351])
+            ("main" function (:type "int") nil [353 622]))          
+    :file "prob5_naive.c"
+    :pointmax 623
+    :fsize 622
+    :lastmodtime '(20752 55043)
+    :unmatched-syntax '((LONG 95 . 99))
+    )
+   (semanticdb-table "prob5_sample.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [47 65])
+            ("stdlib.h" include (:system-flag t) nil [66 85])
+            ("math.h" include (:system-flag t) nil [86 103])
+            ("eq_params" type
+               (:typedef ("eq_params" type (:type "struct") nil nil)
+                :superclasses "eq_params"
+                :type "typedef")
+                nil [193 294])
+            ("eq_params" type
+               (:members 
+                  ( ("pi" variable (:type "int") (reparse-symbol classsubparts) [221 228])
+                    ("ni" variable (:type "int") (reparse-symbol classsubparts) [230 237])
+                    ("ri" variable (:type "long int") (reparse-symbol classsubparts) [244 256])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("eq_params" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [258 281]))                  
+                :type "struct")
+                nil [193 294])
+            ("inverse" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [308 314])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [315 321]))                  
+                :type "int")
+                nil [296 584])
+            ("power_in_fact" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [604 610])
+                    ("pi" variable (:type "int") (reparse-symbol arg-sub-list) [611 618]))                  
+                :type "int")
+                nil [586 705])
+            ("power_in" function
+               (:arguments 
+                  ( ("d" variable (:type "int") (reparse-symbol arg-sub-list) [720 726])
+                    ("pi" variable (:type "int") (reparse-symbol arg-sub-list) [727 734]))                  
+                :type "int")
+                nil [707 820])
+            ("find_ri" function
+               (:arguments 
+                  ( ("pi" variable (:type "int") (reparse-symbol arg-sub-list) [844 851])
+                    ("ni" variable (:type "int") (reparse-symbol arg-sub-list) [852 859])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [860 866])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [867 873]))                  
+                :type "long int")
+                nil [827 1588])
+            ("divisible" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1604 1610])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [1611 1617]))                  
+                :type "int")
+                nil [1590 2122])
+            ("find_result" function
+               (:arguments 
+                  ( ("n" variable (:type "int") (reparse-symbol arg-sub-list) [2140 2146])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [2147 2153])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [2154 2160]))                  
+                :type "int")
+                nil [2124 3217])
+            ("main" function (:type "int") nil [3219 3489]))          
+    :file "prob5_sample.c"
+    :pointmax 3448
+    :fsize 3448
+    :lastmodtime '(20752 58561)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!Downloads!Bitwise_prob5!Bitwise!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

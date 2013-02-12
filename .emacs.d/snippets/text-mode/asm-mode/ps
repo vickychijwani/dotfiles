@@ -1,0 +1,5 @@
+#name : print string
+# --
+la \$a0, ${1:label}
+li \$v0, 4
+syscall

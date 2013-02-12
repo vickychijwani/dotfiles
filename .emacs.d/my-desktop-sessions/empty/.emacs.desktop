@@ -1,0 +1,18 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jan 12 08:13:04 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("user" "buf" "status" ")" "st_buf_src" "l" "all" "my_copy" "sys_errlist" "ofp" "fill" "flymake" "error(0" "error(1" "error(0" "error(1"))
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/Documents/Ruby/critter/models/tweet.rb" "/home/vicky/Documents/Ruby/critter/models/hashtag.rb" "/home/vicky/Documents/Ruby/critter/main.rb" "/home/vicky/Documents/Ruby/critter/Rakefile" "/home/vicky/Documents/Ruby/critter/Gemfile" "/home/vicky/Documents/Ruby/critter/public/js/home.js" "/home/vicky/Documents/Ruby/critter/models/init.rb" "/home/vicky/Documents/Ruby/critter/models/index_tweets.rb" "/home/vicky/Documents/Ruby/critter/models/user.rb" "/home/vicky/Documents/Ruby/critter/routes/auth.rb" "/home/vicky/Documents/Ruby/critter/app.rb" "/home/vicky/Documents/Ruby/critter/config.ru" "/home/vicky/Documents/Ruby/critter/helpers/init.rb" "/home/vicky/Documents/Ruby/critter/helpers/helpers.rb" "/home/vicky/Documents/Ruby/critter/routes/main.rb" "/home/vicky/Documents/Ruby/critter/routes/init.rb" "/home/vicky/Documents/Ruby/critter/main.rb" "/home/vicky/Academics/OS/Assignments/.gitignore" "/home/vicky/Academics/OS/Assignments/README.md" "/home/vicky/Academics/OS/Assignments/.gitignore" "/home/vicky/Academics/OS/Assignments/.git/COMMIT_EDITMSG" "/home/vicky/Academics/OS/Assignments/1/src/Makefile" "/home/vicky/Academics/OS/Assignments/2/src/Makefile" "/usr/include/bits/sys_errlist.h" "/usr/include/stdio.h" "/home/vicky/.emacs.d/init/plugins.el" "/tmp/binary-test.c" "/home/vicky/Academics/OS/Assignments/2/src/dir/blah" "/home/vicky/Downloads/coreutils-8.15/src/cp.c" "/home/vicky/Downloads/coreutils-8.15/src/copy.c"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:

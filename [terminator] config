@@ -1,0 +1,79 @@
+[global_config]
+  enabled_plugins = ActivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+  switch_to_tab_10 = <Alt>0
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_4 = <Alt>4
+  close_term = None
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_1 = <Alt>1
+  split_vert = <Ctrl><Shift>e
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+[profiles]
+  [[default]]
+    use_system_font = False
+    foreground_color = "#d0d0d0"
+    scroll_on_output = False
+    font = Inconsolata Medium 13
+    background_color = "#0f0f0f"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[bitwise]]
+    [[[child0]]]
+      position = 1600:20
+      type = Window
+      order = 0
+      parent = ""
+      size = 1362, 744
+    [[[child1]]]
+      labels = None, None, None
+      type = Notebook
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 1064
+      type = HPaned
+      order = 0
+      parent = child1
+    [[[child4]]]
+      position = 354
+      type = VPaned
+      order = 1
+      parent = child2
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal5]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child4
+    [[[terminal7]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal6]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child4
+    [[[terminal8]]]
+      profile = default
+      type = Terminal
+      order = 2
+      parent = child1
+[plugins]

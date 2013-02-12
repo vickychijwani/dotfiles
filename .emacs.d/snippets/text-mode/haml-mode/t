@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tag
+# author: Vicky Chijwani (vickychijwani@gmail.com)
+# --
+${1:%tag}${2:.class}${3:{ :${4:attr} => "${5:value}"$0 }}

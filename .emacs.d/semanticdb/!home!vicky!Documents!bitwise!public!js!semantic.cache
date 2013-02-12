@@ -1,0 +1,63 @@
+;; Object js/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "js/"
+  :tables (list 
+   (semanticdb-table "team-selector.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "team-selector.js"
+    :pointmax 4115
+    :fsize 4114
+    :lastmodtime '(20747 8868)
+    :unmatched-syntax '((PAREN_BLOCK 2 . 4113))
+    )
+   (semanticdb-table "site.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "site.js"
+    :pointmax 1042
+    :fsize 1041
+    :lastmodtime '(20755 6034)
+    :unmatched-syntax '((PAREN_BLOCK 2 . 1040))
+    )
+   (semanticdb-table "topics.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "topics.js"
+    :pointmax 603
+    :fsize 602
+    :lastmodtime '(20724 30363)
+    :unmatched-syntax '((PAREN_BLOCK 2 . 601))
+    )
+   (semanticdb-table "posts.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "posts.js"
+    :pointmax 1406
+    :fsize 1405
+    :lastmodtime '(20724 30363)
+    :unmatched-syntax '((PAREN_BLOCK 2 . 1404))
+    )
+   (semanticdb-table "enigma.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "enigma.js"
+    :pointmax 2212
+    :fsize 2292
+    :lastmodtime '(20761 35309)
+    :unmatched-syntax '((PAREN_BLOCK 2 . 2210) (PAREN_BLOCK 3 . 2211) (PAREN_BLOCK 3 . 2211) (PAREN_BLOCK 2 . 2210) (PAREN_BLOCK 3 . 2211))
+    )
+   (semanticdb-table "pulldown-nav.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "pulldown-nav.js"
+    :pointmax 1358
+    :fsize 1357
+    :lastmodtime '(20737 28076)
+    :unmatched-syntax '((PAREN_BLOCK 2 . 1356))
+    )
+   )
+  :file "!home!vicky!Documents!bitwise!public!js!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

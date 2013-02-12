@@ -1,0 +1,6 @@
+#name : read string
+# --
+la \$a0, ${1:label}
+li \$a1, ${2:length}
+li \$v0, 8
+syscall

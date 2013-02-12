@@ -1,0 +1,150 @@
+;; Object jp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "jp/"
+  :tables (list 
+   (semanticdb-table "image_utils.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("uchar" type
+               (:typedef ("unsigned char")
+                :superclasses "unsigned char"
+                :type "typedef")
+                nil [42 70])
+            ("uint" type
+               (:typedef ("unsigned int")
+                :superclasses "unsigned int"
+                :type "typedef")
+                nil [71 97])
+            ("PPMREADBUFLEN" variable (:constant-flag t) nil [106 119])
+            ("Pixel" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [138 145])
+                    ("b" variable (:type "unsigned char") (reparse-symbol classsubparts) [150 172])
+                    ("g" variable (:type "unsigned char") (reparse-symbol classsubparts) [150 172])
+                    ("r" variable (:type "unsigned char") (reparse-symbol classsubparts) [150 172]))                  
+                :type "class")
+                nil [124 175])
+            ("Image" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [190 197])
+                    ("data" variable
+                       (:pointer 1
+                        :type ("Pixel" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [202 214])
+                    ("h" variable (:type "int") (reparse-symbol classsubparts) [219 228])
+                    ("w" variable (:type "int") (reparse-symbol classsubparts) [219 228])
+                    ("Image" function
+                       (:constructor-flag t
+                        :type ("Image" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [233 250])
+                    ("free_img" function (:type "void") (reparse-symbol classsubparts) [256 330])
+                    ("set_size" function
+                       (:arguments 
+                          ( ("_w" variable (:type "int") (reparse-symbol arg-sub-list) [349 356])
+                            ("_h" variable (:type "int") (reparse-symbol arg-sub-list) [357 364]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [335 463])
+                    ("get_brightness" function
+                       (:typemodifiers ("inline")
+                        :arguments 
+                          ( ("r" variable (:type "int") (reparse-symbol arg-sub-list) [497 503])
+                            ("g" variable (:type "int") (reparse-symbol arg-sub-list) [504 510])
+                            ("b" variable (:type "int") (reparse-symbol arg-sub-list) [511 517]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [468 577])
+                    ("get_brightness" function
+                       (:typemodifiers ("inline")
+                        :arguments 
+                          ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [611 617])
+                            ("j" variable (:type "int") (reparse-symbol arg-sub-list) [618 624]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [582 707])
+                    ("set_color" function
+                       (:typemodifiers ("inline")
+                        :arguments 
+                          ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [734 740])
+                            ("j" variable (:type "int") (reparse-symbol arg-sub-list) [741 747])
+                            ("col" variable (:type "int") (reparse-symbol arg-sub-list) [748 756]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [712 860])
+                    ("get_pixel" function
+                       (:typemodifiers ("inline")
+                        :arguments 
+                          ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [888 894])
+                            ("j" variable (:type "int") (reparse-symbol arg-sub-list) [895 901]))                          
+                        :type ("Pixel" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [865 930])
+                    ("set_pixel" function
+                       (:typemodifiers ("inline")
+                        :arguments 
+                          ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [958 964])
+                            ("j" variable (:type "int") (reparse-symbol arg-sub-list) [965 971])
+                            ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Pixel" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [972 987]))                          
+                        :type ("Pixel" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [935 1013])
+                    ("savefile" function
+                       (:arguments 
+                          ( ("path" variable
+                               (:pointer 1
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [1032 1043]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1018 1235])
+                    ("read_ppm_binary" function
+                       (:arguments 
+                          ( ("pf" variable
+                               (:pointer 1
+                                :type ("FILE" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1262 1271]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [1241 1451])
+                    ("read_ppm_ascii" function
+                       (:arguments 
+                          ( ("pf" variable
+                               (:pointer 1
+                                :type ("FILE" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1476 1485]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [1456 1698])
+                    ("read_ppm" function
+                       (:arguments 
+                          ( ("pf" variable
+                               (:pointer 1
+                                :type ("FILE" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1717 1726]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [1703 2744])
+                    ("vertical_swap" function (:type "void") (reparse-symbol classsubparts) [2750 2989]))                  
+                :type "class")
+                nil [176 2992]))          
+    :file "image_utils.h"
+    :pointmax 2993
+    :fsize 2992
+    :lastmodtime '(20762 18823)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("all" function nil nil [1 42])
+            ("clean" function nil nil [42 57]))          
+    :file "Makefile"
+    :pointmax 57
+    :fsize 56
+    :lastmodtime '(20762 17273)
+    :unmatched-syntax '((shell-command 50 . 56) (bol 49 . 49) (shell-command 7 . 41) (bol 6 . 6))
+    )
+   )
+  :file "!home!vicky!Academics!Computer Graphics!Assignments!2!jp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

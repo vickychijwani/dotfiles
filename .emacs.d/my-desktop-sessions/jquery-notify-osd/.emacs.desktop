@@ -1,0 +1,73 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Feb 25 10:45:11 2012
+;; Desktop file format version 206
+;; Emacs version 23.4.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("buf" "status" ")" "st_buf_src" "l" "all" "my_copy" "sys_errlist" "ofp" "fill" "flymake" "error(0" "error(1" "error(0" "error(1" "print_error"))
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/Documents/jquery-notify-osd/js/notify-osd.js" "/home/vicky/Academics/OS/Assignments/.gitignore" "/home/vicky/Academics/OS/Assignments/README.md" "/home/vicky/Academics/OS/Assignments/.gitignore" "/home/vicky/Academics/OS/Assignments/.git/COMMIT_EDITMSG" "/home/vicky/Academics/OS/Assignments/1/src/Makefile" "/home/vicky/Academics/OS/Assignments/2/src/Makefile" "/usr/include/bits/sys_errlist.h" "/usr/include/stdio.h" "/home/vicky/.emacs.d/init/plugins.el" "/tmp/binary-test.c" "/home/vicky/Academics/OS/Assignments/2/src/dir/blah" "/home/vicky/Downloads/coreutils-8.15/src/cp.c" "/home/vicky/Downloads/coreutils-8.15/src/copy.c" "/home/vicky/Downloads/coreutils-8.15/src/copy.h" "/home/vicky/Downloads/coreutils-8.15/src/copy.c" "/home/vicky/Downloads/coreutils-8.15/src/cp.c" "/home/vicky/Academics/OS/Assignments/2/src/Makefile" "/home/vicky/Academics/OS/Assignments/2/src/shell.c"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/Documents/jquery-notify-osd/js/script.js"
+  "script.js"
+  'js-mode
+  '(auto-complete-mode autopair-mode highlight-parentheses-mode highlight-changes-mode hs-minor-mode)
+  1
+  '(4888 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  nil
+  "js"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode)
+  373
+  '(nil nil)
+  t
+  '("/home/vicky/Documents/jquery-notify-osd/js/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "jquery-notify-osd"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode)
+  506
+  '(nil nil)
+  t
+  '("/home/vicky/Documents/jquery-notify-osd/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/jquery-notify-osd/js/notify-osd.js"
+  "notify-osd.js"
+  'js-mode
+  '(auto-complete-mode autopair-mode highlight-parentheses-mode highlight-changes-mode hs-minor-mode)
+  1
+  '(9848 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/jquery-notify-osd/index.html"
+  "index.html"
+  'html-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode highlight-changes-mode)
+  1
+  '(2446 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def
+# author: Vicky Chijwani (vickychijwani@gmail.com)
+# --
+def ${1:method}(${2:args})
+  $0
+end

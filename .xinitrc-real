@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# remap keys
+xmodmap ~/.Xmodmap
+
+# clear awesome error logs
+echo > ~/.cache/awesome/stdout
+echo > ~/.cache/awesome/stderr
+
+# finally start awesome window manager itself
+awesome >> ~/.cache/awesome/stdout 2>> ~/.cache/awesome/stderr

@@ -1,0 +1,23 @@
+ControlMaster auto
+ControlPath /tmp/ssh_mux_%h_%p_%r
+ForwardX11 yes
+ForwardX11Trusted yes
+StrictHostKeyChecking no
+UserKnownHostsFile /dev/null
+
+Host bitwise
+  HostName 10.5.22.55
+  Port 5000
+  User bitwise
+
+Host bitwise-rack
+  HostName 10.3.103.118
+  User bitwise
+
+Host dep
+  HostName 10.5.18.45
+  User vickyc
+
+Host prat
+  HostName 10.102.40.16
+  User prat

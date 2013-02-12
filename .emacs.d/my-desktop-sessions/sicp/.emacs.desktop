@@ -1,0 +1,84 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Mar 24 04:27:16 2012
+;; Desktop file format version 206
+;; Emacs version 23.4.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("sicp" "1.40" "kill" "paredit"))
+(setq register-alist nil)
+(setq file-name-history '("~/Documents/sicp/chapter-2/2.2.scm" "~/Documents/sicp/chapter-1/1.46.scm" "~/Documents/sicp/chapter-1/1.45.scm" "~/Documents/sicp/chapter-1/1.43.scm" "~/Documents/sicp/chapter-1/1.42.scm" "~/Documents/sicp/chapter-1/1.41.scm" "~/Documents/sicp/chapter-1/1.40.scm" "/home/vicky/.xbmc/userdata/advancedsettings.xml" "~/Documents/sicp/chapter-1/1.39.scm" "~/Documents/sicp/chapter-1/1.38.scm" "~/Documents/sicp/chapter-1/~1.38.scm" "~/Documents/sicp/chapter-1/\\~1.38.scm" "/home/vicky/Documents/sicp/chapter-1/1.31-a.scm" "/home/vicky/Documents/sicp/chapter-1/1.31-b.scm" "~/Documents/sicp/chapter-1/1.37-a.scm" "/home/vicky/Academics/OS/Assignments/2/src/shell.c" "~/Documents/sicp/chapter-1/1.32-a.scm" "/sudo:vicky-laptop:/usr/local/bin/emacskill" "/home/vicky/.emacs.d/my-desktop.el" "~/Documents/sicp/chapter-1/1.31-b.scm" "~/Documents/sicp/chapter-1/1.31-a.scm" "~/Documents/sicp/chapter-1/~1.31-a.scm" "~/Documents/sicp/chapter-1/1.30.scm" "~/Documents/sicp/chapter-1/1.29.scm" "~/Documents/sicp/chapter-1/1.27.scm" "~/Documents/sicp/chapter-1/~1.27.scm" "~/Documents/sicp/chapter-1/1.27.scm" "/home/vicky/Documents/blog/_config.yml"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/Documents/sicp/chapter-2/~2.3.scm"
+  "~2.3.scm"
+  'scheme-mode
+  '(eldoc-mode auto-complete-mode autopair-mode yas/minor-mode highlight-parentheses-mode highlight-changes-mode paredit-mode)
+  335
+  '(230 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  '(autopair-mode highlight-parentheses-mode)
+  240202
+  '(240202 t)
+  t
+  '("/usr/share/info/sicp" "2-1-2")
+  '((tab-width . 8) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  nil
+  "chapter-2"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode)
+  286
+  '(nil nil)
+  t
+  '("/home/vicky/Documents/sicp/chapter-2/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/sicp/chapter-2/2.1.scm"
+  "2.1.scm"
+  'scheme-mode
+  '(eldoc-mode auto-complete-mode autopair-mode yas/minor-mode highlight-parentheses-mode highlight-changes-mode paredit-mode)
+  82
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  nil
+  "chapter-1"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode)
+  1573
+  '(nil nil)
+  t
+  '("/home/vicky/Documents/sicp/chapter-1/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "sicp"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode)
+  343
+  '(nil nil)
+  t
+  '("/home/vicky/Documents/sicp/")
+  nil)
+

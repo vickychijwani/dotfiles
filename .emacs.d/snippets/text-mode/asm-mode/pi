@@ -1,0 +1,5 @@
+#name : print int
+# --
+move \$a0, ${1:\$t0}
+li \$v0, 1
+syscall

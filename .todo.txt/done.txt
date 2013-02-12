@@ -1,0 +1,33 @@
+x 2012-04-19 blah
+x 2012-08-05 +js JS: The Good Parts
+x 2012-08-05 +intern return ticket
+x 2012-08-22 +money verma 2600
+x 2012-08-23 blah
+x 2012-08-23 blah
+x 2012-08-25 +assign IR, 24th Aug
+x 2012-08-28 +assign IR, 24th Aug
+x 2012-08-28 +assign IR, 24th Aug
+x 2012-08-30 +test ToC, 29th Aug
+x 2012-08-30 +assign Algo
+x 2012-09-02 +acads intern report this week
+x 2012-09-02 +placement registration, 3rd Sept
+x 2012-09-08 DP return ticket
+x 2012-09-24 +assign bio, 24th Sept
+x 2012-09-27 +exam 1. ToC, 26th Sept [AN], V2-F
+x 2012-09-28 +exam 2. IP, 27th Sept [AN], V3-E
+x 2012-09-29 +exam 3. AI, 28th Sept [AN], NR221-C
+x 2012-10-04 +exam 4. IR, 1st Oct [AN], V4-E
+x 2012-10-04 +exam 5. Bio, 2nd Oct [FN], Dept-107
+x 2012-10-17 +ticket tatkal book on 16th morning
+x 2012-10-17 jha harddrive cover
+x 2012-11-03 download forbrydelsen + subs
+x 2012-11-14 +assign IP project, 31st Oct
+x 2012-11-14 +algo 1 algo / topic per day, blog about it
+x 2012-11-14 +algo skiena, programming challenges, cracking the coding interview
+x 2012-11-20 +test IR 15th
+x 2012-11-25 kola 100, tibroo 300 + 100 (dominos +150?), rohit 100, prateek -110 +150
+x 2012-11-25 +exam 21st Nov (Wed): ToC, S301-B [AN]
+x 2012-11-25 +exam 22nd Nov (Thu): IP, V1-F [AN]
+x 2012-11-25 +exam 23rd Nov (Fri): AI, F116-B [AN]
+x 2012-11-27 +exam 26th Nov (Mon): IR, F116-D [AN]
+x 2012-11-27 +exam 27th Nov (Tue): Algo, Dept [FN]

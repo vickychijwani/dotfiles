@@ -1,0 +1,77 @@
+#!/bin/bash
+
+# AUTHOR: Vicky Chijwani
+
+# PURPOSE: Bash script to increase speaker volume beyond 100%, like VLC media player
+# does. You can bind something like "vol_ctrl inc 5" to a keyboard shortcut like
+# Ctrl + Shift + Alt + Up, so pressing that will increase volume by 5% upto
+# max_vol (specified below). Similarly for "vol_ctrl dec 5" (min volume is 0, of
+# course).
+
+# USAGE: vol_ctrl <op> <percent>
+#   - <op> can be either "inc" (increase) or "dec" (decrease)
+#   - <percent> is a number (without a % sign) indicating how much % to change the
+#     volume by
+# If <op> is not "inc" or "dec", prints current volume (in percent) and exits.
+
+# NOTE: This script only works for PulseAudio on Linux!
+
+# WARNING: make sure max_vol is NOT too large; it could BLOW UP YOUR SPEAKER!!!
+# About 120% is SAFE; 150% is OK (DON'T KEEP IT AT 150% ALL THE TIME!); 170% is
+# DANGEROUS! USE IT ONLY RARELY! DON'T TELL ME I DIDN'T WARN YOU!!
+
+declare -i max_vol
+max_vol=170 # max volume in percentage. READ THE WARNING ABOVE FIRST!
+show_notifications="yes" # if "yes", notifications are displayed
+notification_timeout=1000 # timeout for notifications, in milliseconds
+
+# -----------------------------------------------------
+# you shouldn't need to change anything below this line
+# -----------------------------------------------------
+
+function get_vol {
+    local vol=`pacmd list-sinks | grep 'volume: 0:' | sed -e 's/\s\s*/ /g' | cut -d' ' -f4 | grep -E '[0-9]+' --only-matching`
+    echo -n $vol
+}
+
+declare -i vol
+vol=`get_vol`
+
+if [[ $1 == "" || $1 != "inc" && $1 != "dec" ]]; then
+    echo $vol
+    exit
+fi
+
+op=$1
+percent=$2
+
+if [ $op == "inc" ]; then
+    if [ $vol -lt $max_vol ]; then
+        pactl set-sink-volume 0 -- +$percent%
+    fi
+elif [ $op == "dec" ]; then
+    if [ $vol -gt 0 ]; then
+        pactl set-sink-volume 0 -- -$percent%
+    fi
+fi
+
+function get_output {
+    vol=`get_vol`
+    echo 'Volume: '$vol
+}
+
+echo $limit_reached
+output=`get_output`
+echo $output
+if [ $show_notifications == "yes" ]; then
+    dbus-send --type=method_call --dest='org.freedesktop.Notifications' \
+        /org/freedesktop/Notifications org.freedesktop.Notifications.Notify \
+        string:'vol_ctrl' \
+        uint32:1 \
+        string:'' \
+        string:'' \
+        string:"$output" \
+        array:string:'' \
+        dict:string:string:'','' \
+        int32:$notification_timeout
+fi

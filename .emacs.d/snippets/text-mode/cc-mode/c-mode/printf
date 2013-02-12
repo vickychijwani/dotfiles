@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name : printf
+# --
+printf("$0\\n");

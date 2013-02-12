@@ -1,0 +1,6 @@
+#name : code (for Jekyll blog posts)
+#contributor: Vicky Chijwani <vickychijwani@gmail.com>
+# --
+{% highlight ${1:sh} %}
+$0
+{% endhighlight %}

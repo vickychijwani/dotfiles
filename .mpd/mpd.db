@@ -1,0 +1,2657 @@
+info_begin
+format: 1
+mpd_version: 0.17.3
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: Composer
+tag: Performer
+tag: Disc
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+info_end
+directory: temp
+mtime: 1343076638
+begin: temp
+directory: Coldplay
+mtime: 1343076638
+begin: temp/Coldplay
+directory: A Rush of Blood to the Head
+mtime: 1347583656
+begin: temp/Coldplay/A Rush of Blood to the Head
+song_begin: 02 In My Place.mp3
+Time: 229
+Artist: Coldplay
+Title: In My Place
+Album: A Rush of Blood to the Head
+Track: 2/11
+Date: 2002
+Genre: alternative
+mtime: 1329434305
+song_end
+song_begin: Coldplay - God Put a Smile Upon Your Face.mp3
+Time: 297
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: God Put A Smile Upon Your Face
+Album: A Rush of Blood to the Head
+Track: 3
+Date: 2002
+Genre: Alternative
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1337670517
+song_end
+song_begin: The Scientist.mp3
+Time: 309
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: The Scientist
+Album: A Rush of Blood to the Head
+Track: 4
+Date: 2002
+Genre: Other
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1337670518
+song_end
+song_begin: Clocks.mp3
+Time: 308
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Clocks
+Album: A Rush of Blood to the Head
+Track: 5
+Date: 2002
+Genre: Other
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1329433452
+song_end
+song_begin: 11. Amsterdam.mp3
+Time: 319
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Amsterdam
+Album: A Rush of Blood to the Head
+Track: 11/
+Date: 2002
+Genre: Rock
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1347583656
+song_end
+song_begin: A_Rush_Of_Blood_To_The_Head.mp3
+Time: 350
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: A Rush of Blood to the Head
+Album: A Rush of Blood to the Head
+Track: 20/
+Date: 2002
+Genre: Alternative
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347572966
+song_end
+end: temp/Coldplay/A Rush of Blood to the Head
+directory: Mylo Xyloto
+mtime: 1358333486
+begin: temp/Coldplay/Mylo Xyloto
+song_begin: 01-coldplay-mylo_xyloto.mp3
+Time: 43
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Mylo Xyloto
+Album: Mylo Xyloto
+Track: 1
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670224
+song_end
+song_begin: 02-coldplay-hurts_like_heaven.mp3
+Time: 242
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Hurts Like Heaven
+Album: Mylo Xyloto
+Track: 2
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670225
+song_end
+song_begin: 03-coldplay-paradise.mp3
+Time: 278
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Paradise
+Album: Mylo Xyloto
+Track: 3/
+Date: 2011
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1358333486
+song_end
+song_begin: 04-coldplay-charlie_brown.mp3
+Time: 285
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Charlie Brown
+Album: Mylo Xyloto
+Track: 4
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670225
+song_end
+song_begin: 05-coldplay-us_against_the_world.mp3
+Time: 240
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Us Against the World
+Album: Mylo Xyloto
+Track: 5
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670225
+song_end
+song_begin: 06-coldplay-m.m.i.x..mp3
+Time: 49
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: M.M.I.X.
+Album: Mylo Xyloto
+Track: 6
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670225
+song_end
+song_begin: Every Teardrop is a Waterfall.mp3
+Time: 241
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Every Teardrop Is a Waterfall
+Album: Mylo Xyloto
+Track: 7
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670231
+song_end
+song_begin: 08-coldplay-major_minus.mp3
+Time: 210
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Major Minus
+Album: Mylo Xyloto
+Track: 8
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670226
+song_end
+song_begin: 09-coldplay-u.f.o..mp3
+Time: 138
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: U.F.O.
+Album: Mylo Xyloto
+Track: 9
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670227
+song_end
+song_begin: 10-coldplay-princess_of_china.mp3
+Time: 239
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Princess of China
+Album: Mylo Xyloto
+Track: 10/
+Date: 2011
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1347573238
+song_end
+song_begin: 11-coldplay-up_in_flames.mp3
+Time: 193
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Up in Flames
+Album: Mylo Xyloto
+Track: 11
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670228
+song_end
+song_begin: 12-coldplay-a_hopeful_transmission.mp3
+Time: 33
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: A Hopeful Transmission
+Album: Mylo Xyloto
+Track: 12/
+Date: 2011
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1347586851
+song_end
+song_begin: 13-coldplay-dont_let_it_break_your_heart.mp3
+Time: 234
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Don't Let It Break Your Heart
+Album: Mylo Xyloto
+Track: 13
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670230
+song_end
+song_begin: 14-coldplay-up_with_the_birds.mp3
+Time: 228
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Up with the Birds
+Album: Mylo Xyloto
+Track: 14/
+Date: 2011
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1347588529
+song_end
+end: temp/Coldplay/Mylo Xyloto
+directory: Parachutes
+mtime: 1347578290
+begin: temp/Coldplay/Parachutes
+song_begin: Coldplay-Don't Panic.mp3
+Time: 137
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Don't Panic
+Album: Parachutes
+Track: 1/
+Date: 2000
+Genre: Other
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347571406
+song_end
+song_begin: Cold Play - spies.mp3
+Time: 319
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Spies
+Album: Parachutes
+Track: 3/
+Date: 2000
+Date: 2000
+Genre: Rock
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347573246
+song_end
+song_begin: Coldplay - Sparks.mp3
+Time: 227
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Sparks
+Album: Parachutes
+Track: 4
+Date: 2000
+Date: 2000
+Genre: Rock
+Composer: C.F. Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1326606560
+song_end
+song_begin: Colplay - Yellow.mp3
+Time: 270
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Yellow
+Album: Parachutes
+Track: 5/
+Date: 2000
+Genre: Rock
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347591715
+song_end
+song_begin: Coldplay - Trouble.mp3
+Time: 271
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Trouble
+Album: Parachutes
+Track: 6/
+Date: 2000
+Date: 2000
+Genre: Alternative
+Composer: Guy Berryman/Jon Buckland/Max Martin/Will Champion
+mtime: 1347570795
+song_end
+song_begin: Cold play- Parachute.mp3
+Time: 311
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Parachutes
+Album: Parachutes
+Track: 7/
+Date: 2000
+Genre: Rock
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347570787
+song_end
+song_begin: 07-HIGH SPEED.mp3
+Time: 255
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: High Speed
+Album: Parachutes
+Track: 8/
+Date: 2000
+Genre: Rock
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347570783
+song_end
+song_begin: Coldplay - We Never Change.mp3
+Time: 249
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: We Never Change
+Album: Parachutes
+Track: 9/
+Date: 2000
+Genre: rock
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347570807
+song_end
+song_begin: Shiver.mp3
+Time: 302
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Shiver
+Album: Parachutes
+Track: 16/
+Date: 2000
+Genre: Other
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347578290
+song_end
+end: temp/Coldplay/Parachutes
+directory: Viva La Vida
+mtime: 1347494439
+begin: temp/Coldplay/Viva La Vida
+song_begin: 01 Life In Technicolor.mp3
+Time: 150
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Life In Technicolor
+Album: Viva La Vida Or Death And All His Friends
+Track: 01
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606021
+song_end
+song_begin: 02 Cemeteries Of London.mp3
+Time: 201
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Cemeteries Of London
+Album: Viva La Vida Or Death And All His Friends
+Track: 02
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606022
+song_end
+song_begin: 04 42.mp3
+Time: 237
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: 42
+Album: Viva La Vida Or Death And All His Friends
+Track: 04
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606024
+song_end
+song_begin: 05 Lovers In Japan  Reign Of Love.mp3
+Time: 411
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Lovers In Japan / Reign Of Love
+Album: Viva La Vida Or Death And All His Friends
+Track: 05
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606026
+song_end
+song_begin: 06 Yes.mp3
+Time: 427
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Yes
+Album: Viva La Vida Or Death And All His Friends
+Track: 06
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606027
+song_end
+song_begin: 07 Viva La Vida.mp3
+Time: 241
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Viva La Vida
+Album: Viva La Vida Or Death And All His Friends
+Track: 07
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606028
+song_end
+song_begin: 08 Violet Hill.mp3
+Time: 223
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Violet Hill
+Album: Viva La Vida Or Death And All His Friends
+Track: 08
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606029
+song_end
+song_begin: 09 Strawberry Swing.mp3
+Time: 250
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Strawberry Swing
+Album: Viva La Vida Or Death And All His Friends
+Track: 09
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606032
+song_end
+song_begin: 10 Death And All His Friends.mp3
+Time: 379
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Death And All His Friends
+Album: Viva La Vida Or Death And All His Friends
+Track: 10
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606035
+song_end
+end: temp/Coldplay/Viva La Vida
+directory: X&Y
+mtime: 1358333880
+begin: temp/Coldplay/X&Y
+song_begin: 01 - Coldplay - X&Y - Square One.mp3
+Time: 287
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Square One
+Album: X&Y
+Track: 1/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1358333822
+song_end
+song_begin: What If.mp3
+Time: 297
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: What If
+Album: X&Y
+Track: 2/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333880
+song_end
+song_begin: 03 - Coldplay - X&Y - White Shadows.mp3
+Time: 328
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: White Shadows
+Album: X&Y
+Track: 3/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333823
+song_end
+song_begin: Fix You.mp3
+Time: 295
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Fix You
+Album: X&Y
+Track: 4/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333826
+song_end
+song_begin: 05 - Coldplay - X&Y - Talk.mp3
+Time: 311
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Talk
+Album: X&Y
+Track: 5/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Bartos/Berryman/Buckland/Champion/Hütter/Martin/Schult
+mtime: 1358333826
+song_end
+song_begin: 06 - Coldplay - X&Y - X&Y.mp3
+Time: 273
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: X&Y
+Album: X&Y
+Track: 6/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333826
+song_end
+song_begin: Speed of Sound.mp3
+Time: 288
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Speed of Sound
+Album: X&Y
+Track: 7/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333826
+song_end
+song_begin: 08 - Coldplay - X&Y - Message.mp3
+Time: 285
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Message
+Album: X&Y
+Track: 8/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333827
+song_end
+song_begin: 09 - Coldplay - X&Y - Low.mp3
+Time: 331
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Low
+Album: X&Y
+Track: 9/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333828
+song_end
+song_begin: 10 - Coldplay - X&Y - Hardest Part.mp3
+Time: 264
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Hardest Part
+Album: X&Y
+Track: 10/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333828
+song_end
+song_begin: 11 - Coldplay - X&Y - Swallowed in the Sea.mp3
+Time: 238
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Swallowed in the Sea
+Album: X&Y
+Track: 11/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333828
+song_end
+song_begin: 12 - Coldplay - X&Y - Twisted Logic.mp3
+Time: 272
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Twisted Logic
+Album: X&Y
+Track: 12/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333828
+song_end
+song_begin: 13 - Coldplay - X&Y - Til Kingdom Come [Hidden Track].mp3
+Time: 250
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Til Kingdom Come [Hidden Track]
+Album: X&Y
+Track: 13/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333838
+song_end
+end: temp/Coldplay/X&Y
+end: temp/Coldplay
+end: temp
+song_begin: I Need A Doctor.mp3
+Time: 280
+Artist: Dr. Dre
+Title: I Need A Doctor
+mtime: 1344124802
+song_end
+song_begin: If This Was A Movie.mp3
+Time: 235
+Artist: Taylor Swift
+Title: If This Was A Movie
+mtime: 1347781947
+song_end
+song_begin: O Re Piya.mp3
+Time: 257
+Artist: Shankar Tucker
+Title: O Re Piya [Rolling In The Deep
+mtime: 1337672097
+song_end
+song_begin: Somebody That I Used to Know [Cover].mp3
+Time: 264
+Artist: Walk Off The Earth
+Title: Somebody That I Used to Know [Cover]
+mtime: 1347783423
+song_end
+song_begin: The Real Slim Shady.mp3
+Time: 287
+Artist: Eminem
+Title: The Real Slim Shady
+Track: 0
+Genre: Other
+Disc: 0
+mtime: 1312879830
+song_end
+song_begin: Tujhse Naraz Nahin Zindagi.mp3
+Time: 342
+Title: Tujhse Naraz Nahin
+mtime: 1340632497
+song_end
+song_begin: Rolling In The Deep.mp3
+Time: 226
+Artist: Adele
+Title: Rolling In The Deep
+Album: 21
+Track: 14
+Date: 2011
+Genre: Dance
+mtime: 1319563968
+song_end
+song_begin: Give Me Some Sunshine.mp3
+Time: 247
+Artist: Suraj Jagan, Sharman Joshi
+Title: Give Me Some Sunshine
+Album: 3 Idiots
+Track: 04
+Date: 2009
+Genre: Soundtrack
+Composer: www.Songs.PK
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1359358903
+song_end
+song_begin: Lose Yourself.mp3
+Time: 326
+Artist: Eminem
+AlbumArtist: Eminem
+Title: Lose Yourself
+Album: 8 Mile Soundtrack
+Track: 2/
+Date: 2002
+Genre: Rap
+Composer: Jules Bass/L. Resto/M. Mathers
+mtime: 1347584538
+song_end
+song_begin: In My Place.mp3
+Time: 229
+Artist: Coldplay
+Title: In My Place
+Album: A Rush of Blood to the Head
+Track: 2/11
+Date: 2002
+Genre: alternative
+mtime: 1329434305
+song_end
+song_begin: The Scientist.mp3
+Time: 309
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: The Scientist
+Album: A Rush of Blood to the Head
+Track: 04
+Date: 2002
+Genre: Other
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1351277333
+song_end
+song_begin: Clocks.mp3
+Time: 310
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Clocks
+Album: A Rush of Blood to the Head
+Track: 5
+Date: 2002
+Genre: Alternative
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1337670855
+song_end
+song_begin: Amsterdam.mp3
+Time: 319
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Amsterdam
+Album: A Rush of Blood to the Head
+Track: 11/
+Date: 2002
+Genre: Rock
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1347583657
+song_end
+song_begin: A Rush of Blood to the Head.mp3
+Time: 350
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: A Rush of Blood to the Head
+Album: A Rush of Blood to the Head
+Track: 20
+Date: 2002
+Genre: Alternative
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1337670720
+song_end
+song_begin: Waiting for the End.mp3
+Time: 232
+Artist: Linkin Park
+Title: Waiting For The End
+Album: A Thousand Suns
+Track: 8/15
+Date: 2010
+Genre: Rock
+mtime: 1347572501
+song_end
+song_begin: Iridescent.mp3
+Time: 297
+Artist: Linkin Park
+Title: Iridescent
+Album: A Thousand Suns
+Track: 12/15
+Date: 2010-09-14
+Genre: Rock
+mtime: 1358753499
+song_end
+song_begin: Aadat [Jal].mp3
+Time: 265
+Artist: Atif Aslam
+AlbumArtist: JAL
+Title: Aadat
+Album: Aadat
+Track: 8
+Genre: Rock
+Composer: گوہر
+mtime: 1337670730
+song_end
+song_begin: Thank You.mp3
+Time: 219
+Artist: Dido
+Title: Thank You
+Album: Acoustic Love
+Track: 3
+Date: 2005
+Genre: Acoustic
+mtime: 1290859902
+song_end
+song_begin: Raabta.mp3
+Time: 245
+Artist: Arijit Singh
+AlbumArtist: www.Songs.PK
+Title: Raabta
+Album: Agent Vinod
+Track: 03/11
+Date: 2012
+Genre: Bollywood Music
+Composer: Music: Pritam | Lyrics: Amitabh Bhattacharya
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+Disc: 1/1
+mtime: 1347584014
+song_end
+song_begin: Tera Hone Laga Hoon.mp3
+Time: 300
+Artist: Kailash Kher, Atif Aslam
+AlbumArtist: Kailash Kher, Atif Aslam
+Title: Tera Hone Laga Hoon
+Album: Ajab Prem Ki Ghazab Kahani
+Track: 4
+Date: 2009
+Genre: Soundtrack
+Composer: Music: Pritam | Lyrics: Ashish Pandit
+mtime: 1302281136
+song_end
+song_begin: I'm No Superman.mp3
+Time: 219
+Artist: Lazlo Bane
+AlbumArtist: Soundtrack
+Title: Superman
+Album: All the Time in the World
+Track: 5
+Date: 2002
+Genre: Soundtrack
+Composer: Chad Fischer/Chris Link/Tim Bright
+mtime: 1337672010
+song_end
+song_begin: Boulevard of Broken Dreams.mp3
+Time: 261
+Artist: Green Day
+AlbumArtist: Green Day
+Title: Boulevard of Broken Dreams
+Album: American Idiot
+Track: 4
+Date: 2004
+Genre: Punk Rock
+Composer: Billie Joe Armstrong/Green Day
+mtime: 1273236790
+song_end
+song_begin: Wake Me Up When September Ends.mp3
+Time: 285
+Artist: Green Day
+AlbumArtist: Green Day
+Title: Wake Me Up When September Ends
+Album: American Idiot
+Track: 11/13
+Date: 2004
+Genre: Punk Rock
+Composer: Billie Joe Armstrong/Green Day
+mtime: 1273236800
+song_end
+song_begin: Here Without You.mp3
+Time: 239
+Artist: 3 Doors Down
+AlbumArtist: 3 Doors Down
+Title: Here Without You
+Album: Away From The Sun
+Track: 6/
+Date: 2002
+Genre: Rock
+Composer: Brad Arnold/C. "DJ Smooth" Henderson/Matt Roberts/Todd Harrell
+Disc: 1/1
+mtime: 1347584538
+song_end
+song_begin: Nothin' on You.mp3
+Time: 224
+Artist: B.o.B
+AlbumArtist: B.o.B
+Title: Nothin' On You
+Album: B.o.B Presents: The Adventures of Bobby Ray
+Track: 02
+Date: 2011
+Genre: General Pop Vocal
+Composer: Bruno Mars
+Disc: 1/1
+mtime: 1359358926
+song_end
+song_begin: You're Beautiful.mp3
+Time: 213
+Artist: James Blunt
+AlbumArtist: James Blunt
+Title: You're Beautiful
+Album: Back to Bedlam
+Track: 2
+Date: 2005
+Genre: Acoustic
+Composer: A. Ghost/Amanda Ghost/James Blunt/s. Skarbek/Sacha Skarbek
+mtime: 1340633027
+song_end
+song_begin: Blackberry Light.mp3
+Time: 218
+Artist: Charlie Mars
+AlbumArtist: Charlie Mars
+Title: Blackberry Light
+Album: Blackberry Light
+mtime: 1358469984
+song_end
+song_begin: I Do I Do.mp3
+Time: 249
+Artist: Charlie Mars
+Title: I Do I Do
+Album: Blackberry Light
+mtime: 1351866297
+song_end
+song_begin: Boats and Birds.mp3
+Time: 174
+Artist: Gregory And The Hawk
+AlbumArtist: Gregory & the Hawk
+Title: Boats And Birds
+Album: Boats And Birds
+Track: 1/
+Date: 2006
+Genre: Blues
+mtime: 1347586901
+song_end
+song_begin: It's My Life.mp3
+Time: 226
+Artist: Bon Jovi
+AlbumArtist: BONJOVI
+Title: It's My Life
+Album: Bon Jovi
+Track: 02
+Genre: Rock
+mtime: 1344124741
+song_end
+song_begin: Birthday Song.mp3
+Time: 267
+Artist: Ben Lee
+AlbumArtist: Ben Lee
+Title: Birthday Song
+Album: Breathing Tornados
+Track: 6
+Date: 1999
+Genre: Rock
+Composer: Ben Lee
+mtime: 1337670775
+song_end
+song_begin: Breathless.mp3
+Time: 186
+Artist: Shankar Mahadevan
+AlbumArtist: Shankar Mahadevan
+Title: Breathless
+Album: Breathless
+Track: 1
+Genre: Pop
+Composer: PREM SONI
+Performer: PREM SONI
+Performer: PREM SONI
+mtime: 1337671920
+song_end
+song_begin: Californication.mp3
+Time: 324
+Artist: Red Hot Chili Peppers
+AlbumArtist: Red Hot Chili Peppers
+Title: Californication
+Album: Californication
+Track: 06
+Date: 1999
+Genre: Metal
+Composer: Anthony Kiedis/Chad Smith/Flea/John Frusciante
+mtime: 1350201346
+song_end
+song_begin: Wherever You Will Go.mp3
+Time: 313
+Artist: The Calling
+AlbumArtist: Soundtrack
+Title: Wherever You Will Go
+Album: Camino Palmero
+Track: 3/
+Date: 2001
+Genre: Soundtrack
+Composer: Aaron Kamin/Alex Band
+Disc: 1/1
+mtime: 1347584306
+song_end
+song_begin: Play My Music.mp3
+Time: 199
+Artist: Jonas Brothers
+Title: Play My Music
+Album: Camp Rock
+mtime: 1344124622
+song_end
+song_begin: This Is Me [Piano Version].mp3
+Time: 53
+Artist: Demi Lovato
+AlbumArtist: Jonas Brothers, Demi Lovato, Renee Sandstrom
+Title: This Is Me [Piano Version]
+Album: Camp Rock
+mtime: 1302281142
+song_end
+song_begin: Gotta Find You [Album Version].mp3
+Time: 242
+Artist: Joe Jonas
+AlbumArtist: Jonas Brothers, Demi Lovato, Renee Sandstrom
+Title: Gotta Find You [Album Version]
+Album: Camp Rock
+Track: 3
+Date: 2008
+Genre: Pop
+mtime: 1302281138
+song_end
+song_begin: Gotta Find You [Movie Version].mp3
+Time: 123
+Artist: Joe Jonas
+AlbumArtist: Jonas Brothers, Demi Lovato, Renee Sandstrom
+Title: Gotta Find You [Movie Version]
+Album: Camp Rock
+Track: 3/
+Date: 2008
+Genre: Soundtrack
+Composer: Adam Watts
+mtime: 1347586886
+song_end
+song_begin: Nazrein Mila Tu.mp3
+Time: 137
+Artist: Sangeet Haldipur
+AlbumArtist: Jonas Brothers, Demi Lovato, Renee Sandstrom
+Title: Nazrein Mila Tu
+Album: Camp Rock
+Track: 3
+Date: 2008
+Genre: Other
+Composer: PREM SONI
+mtime: 1302281138
+song_end
+song_begin: This Is Me [Album Version].mp3
+Time: 197
+Artist: Demi Lovato
+AlbumArtist: Jonas Brothers, Demi Lovato, Renee Sandstrom
+Title: This Is Me [Album Version]
+Album: Camp Rock
+Track: 4
+Date: 2008
+Genre: Other
+mtime: 1302281138
+song_end
+song_begin: This Is Me [Movie Version].mp3
+Time: 175
+Artist: Demi Lovato
+AlbumArtist: Jonas Brothers, Demi Lovato, Renee Sandstrom
+Title: This Is Me [Movie Version]
+Album: Camp Rock
+Track: 6
+Date: 2008
+Genre: Soundtrack
+Composer: Adam Watts
+mtime: 1302281142
+song_end
+song_begin: Carnival of Rust.mp3
+Time: 260
+Artist: Poets of the Fall
+AlbumArtist: Poets of the Fall
+Title: Carnival of Rust
+Album: Carnival of Rust
+Track: 03
+Date: 2006
+Genre: Rock
+Composer: Poets of the Fall
+mtime: 1335041668
+song_end
+song_begin: Explosive.mp3
+Time: 192
+Artist: Bond
+Title: Explosive
+Album: Classified
+mtime: 1344125062
+song_end
+song_begin: Tujhko Jo Paaya.mp3
+Time: 185
+Artist: Mohit Chauhan
+AlbumArtist: Pritam
+Title: Tujhko Jo Paaya
+Album: Crook
+Track: 06
+Date: 2010
+Genre: Bollywood Music
+Composer: Pritam
+Performer: www.Songs.PK
+Disc: 1
+mtime: 1351889396
+song_end
+song_begin: Mockingbird.mp3
+Time: 251
+Artist: Eminem
+AlbumArtist: Eminem
+Title: Mockingbird
+Album: Curtain Call: The Hits
+Track: 12/17
+Date: 2005
+Genre: Rap
+Composer: L. Resto/M. Mathers
+mtime: 1347584538
+song_end
+song_begin: Epilogue - cut.mp3
+Time: 93
+Artist: Daniel Licht
+Title: Epilogue
+Album: Dexter
+mtime: 1340694821
+song_end
+song_begin: Blood Theme.mp3
+Time: 145
+Artist: Daniel Licht
+AlbumArtist: Various Artists
+Title: Blood Theme
+Album: Dexter
+Track: 24
+Date: 2007-08-28
+Genre: Soundtrack
+Composer: Daniel Licht
+mtime: 1327940744
+song_end
+song_begin: Die This Way.mp3
+Time: 235
+Artist: Jon Licht
+Title: Die This Way
+Album: Dexter
+Track: 25/25
+Date: 2007-08-28
+Genre: Soundtrack
+mtime: 1327941240
+song_end
+song_begin: Colourblind.mp3
+Time: 215
+Artist: Darius
+AlbumArtist: Darius
+Title: Colourblind
+Album: Dive In
+Track: 1
+Date: 2002
+Genre: Folk
+Composer: Darius
+mtime: 1302281480
+song_end
+song_begin: Khabar Nahi.mp3
+Time: 259
+Artist: Shafaqat Amanat Ali
+AlbumArtist: Various Artists
+Title: Khabar Nahi
+Album: Dostana
+Track: 5
+Date: 2008
+Genre: Other
+Composer: Vishal & Shekhar
+mtime: 1302281140
+song_end
+song_begin: Stop and Stare.mp3
+Time: 224
+Artist: OneRepublic
+AlbumArtist: One Republic
+Title: Stop And Stare
+Album: Dreaming Out Loud
+Track: 12
+Date: 2008
+Genre: Top 40
+mtime: 1340633567
+song_end
+song_begin: Chasing Cars.mp3
+Time: 268
+Artist: Snow Patrol
+AlbumArtist: Snow Patrol
+Title: Chasing Cars
+Album: Eyes Open
+Track: 1
+Date: 2006
+Genre: Alternative
+Composer: Connolly/Gary Lightbody/Jonny Quinn/Lightbody/Nathan Connolly/Quinn/Simpson/Tom Simpson/Wilson
+mtime: 1337671939
+song_end
+song_begin: My Immortal.mp3
+Time: 264
+Artist: Evanescence
+AlbumArtist: Various Artists
+Title: My Immortal
+Album: Fallen
+Track: 4
+Date: 2003
+Genre: Rock
+Composer: A Lee
+mtime: 1340694852
+song_end
+song_begin: Jump Then Fall.mp3
+Time: 238
+Artist: Taylor Swift
+AlbumArtist: Taylor Swift
+Title: Jump Then Fall
+Album: Fearless
+Track: 1/19
+Date: 2009
+Genre: Country
+mtime: 1302281136
+song_end
+song_begin: Love Story.mp3
+Time: 236
+Artist: Taylor Swift
+Title: Love Story
+Album: Fearless
+Track: 9/19
+Date: 2009
+Genre: Country
+mtime: 1290686028
+song_end
+song_begin: You Belong With Me.mp3
+Time: 232
+Artist: Taylor Swift
+AlbumArtist: Taylor Swift
+Title: You Belong With Me
+Album: Fearless
+Track: 12/19
+Date: 2009
+Genre: Country
+mtime: 1302281144
+song_end
+song_begin: Bless the Broken Road.mp3
+Time: 230
+Artist: Rascal Flatts
+AlbumArtist: Rascal Flatts
+Title: Bless The Broken Road
+Album: Feels Like Today
+Track: 11
+Date: 2004
+Genre: Country
+Composer: Jeff Hanna/Marcus Hummon
+mtime: 1337671887
+song_end
+song_begin: Handlebars.mp3
+Time: 192
+Artist: Flobots
+AlbumArtist: Flobots
+Title: Handlebars
+Album: Fight With Tools
+Track: 6
+Date: 2008
+Genre: Pop
+Composer: The Flobots
+mtime: 1337671968
+song_end
+song_begin: Fireflies.mp3
+Time: 222
+Artist: Owl City
+Title: Fireflies
+Album: Fireflies
+Track: 8/46
+Date: 2010
+Genre: Pop
+Disc: 1/1
+mtime: 1290290022
+song_end
+song_begin: What Goes Around Comes Around.mp3
+Time: 449
+Artist: Justin Timberlake
+AlbumArtist: Justin Timberlake
+Title: What Goes Around Comes Around
+Album: FutureSex LoveSounds
+Track: 6
+Date: 2006
+Genre: R&B
+Composer: Justin Timberlake/N. Hills/T. Mosley
+mtime: 1302281464
+song_end
+song_begin: Game of Thrones.mp3
+Time: 106
+Artist: Ramin Djawadi
+Title: Game of Thrones Main Title
+Album: Game of Thrones
+Track: 01/29
+Date: 2011
+Genre: Soundtrack
+mtime: 1346759957
+song_end
+song_begin: Umbrella.mp3
+Time: 276
+Artist: Rihanna
+AlbumArtist: Rihanna
+Title: Umbrella
+Album: Good Girl Gone Bad
+Track: 1
+Date: 2007
+Date: 2007
+Genre: R&B
+Composer: Christopher Stewart/Kuk Harrell/Nash, Terius "Dream"/S. Carter/T. Harrell
+mtime: 1273315370
+song_end
+song_begin: Weathered.mp3
+Time: 330
+Artist: Creed
+AlbumArtist: Creed
+Title: Weathered
+Album: Greatest Hits
+Track: 13
+Date: 2004
+Genre: Rock
+Composer: Stapp
+mtime: 1302281144
+song_end
+song_begin: Heaven By Your Side.mp3
+Time: 265
+Artist: A1
+AlbumArtist: A One
+Title: Heaven By Your Side
+Album: Here We Come
+Track: 1
+Date: 1999
+Genre: Blues
+Composer: Ben Adams/Mark Read/Paul Marazzi
+mtime: 1337671975
+song_end
+song_begin: Hey, Soul Sister.mp3
+Time: 217
+Artist: Train
+AlbumArtist: Train
+Title: Hey, Soul Sister
+Album: Hey, Soul Sister
+Track: 12
+Date: 2009
+Date: 2009
+Genre: Alternative
+Disc: 01
+mtime: 1337671986
+song_end
+song_begin: You Are The Music In Me.mp3
+Time: 207
+Artist: Zac Efron, Vanessa Hudgens
+AlbumArtist: Zac Efron, Vanessa Hudgens
+Title: You Are The Music In Me
+Album: High School Musical 2
+Track: 4
+Date: 2007
+Genre: Soundtrack
+mtime: 1302281136
+song_end
+song_begin: Gotta Go My Own Way.mp3
+Time: 223
+Artist: Zac Efron, Vanessa Hudgens
+AlbumArtist: Zac Efron, Vanessa Hudgens
+Title: Gotta Go My Own Way
+Album: High School Musical 2
+Track: 7/11
+Date: 2007
+Genre: Soundtracks
+Disc: 1/1
+mtime: 1302281136
+song_end
+song_begin: Over My Head (Cable Car).mp3
+Time: 241
+Artist: The Fray
+Title: Over My Head (Cable Car)
+Album: How To Save A Life
+mtime: 1347585131
+song_end
+song_begin: How To Save A Life.mp3
+Time: 264
+Artist: The Fray
+AlbumArtist: The Fray
+Title: How To Save A Life
+Album: How To Save A Life
+Track: 1
+Genre: Unknown
+mtime: 1307192598
+song_end
+song_begin: Tadap Tadap.mp3
+Time: 395
+Artist: K. K.
+AlbumArtist: K.K.
+Title: Tadap Tadap
+Album: Hum Dil De Chuke Sanam
+Track: 08
+Date: 1999
+Genre: Blues
+Composer: PREM SONI
+mtime: 1359358829
+song_end
+song_begin: In The End.mp3
+Time: 218
+Artist: Linkin Park
+AlbumArtist: Linkin Park
+Title: In The End
+Album: Hybrid Theory
+Track: 8
+Date: 2000
+Genre: Rock
+Composer: Linkin Park
+mtime: 1337672026
+song_end
+song_begin: Hum Rahe Ya Na Rahe.mp3
+Time: 254
+Artist: Indian Idol 1 Finalists
+Title: Hum Rahe Ya Na Rahe
+Album: Indian Idol
+Track: 00
+Genre: Pop
+mtime: 1254380680
+song_end
+song_begin: Somebody's Me.mp3
+Time: 239
+Artist: Enrique Iglesias
+AlbumArtist: Enrique Iglesias
+Title: Somebody's Me
+Album: Insomniac
+Track: 4
+Date: 2007
+Genre: Latin
+Composer: Enrique Iglesias/John Shanks/Kaca DioGuardi
+mtime: 1262566904
+song_end
+song_begin: Jaane Tu [Female].mp3
+Time: 221
+Title: Jaane Tu [Female]
+Album: Jaane Tu... Ya Jaane Na
+mtime: 1344124724
+song_end
+song_begin: Kabhi Kabhi Aditi.mp3
+Time: 221
+Title: Kabhi Kabhi Aditi
+Album: Jaane Tu... Ya Jaane Na
+mtime: 1344124695
+song_end
+song_begin: Nazrein Milana.mp3
+Time: 237
+Artist: Benny Dayal, Satish Chakravarthy, Sayonara, Darshana, Shweta, Bhargavi, Anupama
+AlbumArtist: Runa Rizvi
+Title: Nazrein Milana
+Album: Jaane Tu... Ya Jaane Na
+Track: 4/
+Genre: <Unknown>
+mtime: 1347572501
+song_end
+song_begin: Kahin To Hogi Woh.mp3
+Time: 305
+Artist: Rashad Ali, Vasundhara Das
+AlbumArtist: Runa Rizvi
+Title: Kahin To Hogi Woh
+Album: Jaane Tu... Ya Jaane Na
+Track: 6
+Date: 2008
+Genre: <Unknown>
+Composer: A.R. Rahman/Abbas Tyrewala
+mtime: 1337672046
+song_end
+song_begin: Jaane Tu [Male].mp3
+Time: 344
+Artist: Sukhwinder Singh
+AlbumArtist: Runa Rizvi
+Title: Jaane Tu [Jai]
+Album: Jaane Tu... Ya Jaane Na
+Track: 7
+Date: 2008
+Genre: Pop
+mtime: 1302281140
+song_end
+song_begin: Tum Se Hi.mp3
+Time: 323
+Artist: Mohit Chauhan
+AlbumArtist: Various Artists
+Title: Tum Se Hi
+Album: Jab We Met
+Track: 2
+Date: 2007
+Genre: <Unknown>
+mtime: 1338456673
+song_end
+song_begin: Pehla Nasha.mp3
+Time: 291
+Artist: Udit Narayan, Sadhana Sargam
+AlbumArtist: Various Artists
+Title: Pehla Nasha
+Album: Jo Jeeta Wohi Sikandar
+Track: 10
+Genre: Other
+Composer: Jatin-Lalit
+mtime: 1359358896
+song_end
+song_begin: When You Look Me In The Eyes.mp3
+Time: 236
+Artist: Jonas Brothers
+AlbumArtist: Jonas Brothers
+Title: When You Look Me in the Eyes
+Album: Jonas Brothers
+Track: 9
+Date: 2008
+Genre: Other
+Composer: Joe Jonas/Nicholas Jonas/Raymond Boyd
+mtime: 1337671214
+song_end
+song_begin: No Air.mp3
+Time: 265
+Artist: Jordin Sparks, Chris Brown
+AlbumArtist: Jordin Sparks, Chris Brown
+Title: No Air
+Album: Jordin Sparks
+Track: 3
+Date: 2007
+Genre: Other
+Composer: D. Thomas/Fauntleroy J. II/Griggs, Erik "Blue Tooth"/Mason, H. Jr./Underdogs
+mtime: 1337672088
+song_end
+song_begin: Call Your Name.mp3
+Time: 243
+Artist: Daughtry
+Title: Call Your Name
+Album: Leave This Town
+Track: 12
+Date: 2009
+Genre: Rock/Pop
+mtime: 1303589452
+song_end
+song_begin: Complicated.mp3
+Time: 246
+Artist: Avril Lavigne
+AlbumArtist: Avril Lavigne
+Title: Complicated
+Album: Let Go
+Track: 2
+Date: 2002
+Genre: Pop
+Composer: Avril Lavigne/Graham Edwards/Lauren Christy/Matrix/Scott Spock
+mtime: 1273237518
+song_end
+song_begin: Crystallize Dubstep Violin.mp3
+Time: 258
+Artist: Lindsey Stirling
+AlbumArtist: Lindsey Stirling
+Title: Crystallize Dubstep Violin
+Album: Lindsey Stirling
+mtime: 1348214517
+song_end
+song_begin: Shadows.mp3
+Time: 235
+Artist: Lindsey Stirling
+AlbumArtist: Lindsey Stirling
+Title: Shadows
+Album: Lindsey Stirling
+mtime: 1348214465
+song_end
+song_begin: Spontaneous Me.mp3
+Time: 159
+Artist: Lindsey Stirling
+AlbumArtist: Lindsey Stirling
+Title: Spontaneous Me
+Album: Lindsey Stirling
+mtime: 1348214492
+song_end
+song_begin: Emptiness.mp3
+Time: 232
+Artist: Gajendra Verma
+Title: Emptiness
+Album: Lonely
+Genre: Blues
+mtime: 1359069465
+song_end
+song_begin: Last Kiss.mp3
+Time: 197
+Artist: Pearl Jam
+AlbumArtist: Pearl Jam
+Title: Last Kiss
+Album: Lost Dogs
+Track: 10
+Date: 2003
+Genre: Rock
+Composer: Wayne Cochran
+Disc: 2
+mtime: 1302281144
+song_end
+song_begin: Love The Way You Lie [Part II - Rihanna feat. Eminem].mp3
+Time: 296
+Artist: Rihanna
+Title: Love The Way You Lie [Part II - Rihanna feat. Eminem]
+Album: Loud
+Track: 11
+Date: 2010
+Genre: Other
+mtime: 1315561696
+song_end
+song_begin: To Build A Home.mp3
+Time: 371
+Artist: The Cinematic Orchestra
+Title: To Build A Home
+Album: Ma Fleur
+Track: 01/11
+Date: 2007
+Genre: Electronica/Dance
+Composer: J. Swinscoe
+Disc: 1/1
+mtime: 1358758843
+song_end
+song_begin: What Hurts the Most [Male].mp3
+Time: 214
+Artist: Rascal Flatts
+AlbumArtist: Rascal Flatts
+Title: What Hurts The Most
+Album: Me And My Gang
+Track: 2/
+Date: 2006
+Genre: Country
+Composer: Jeffrey Steele/Steve Robson
+mtime: 1358333888
+song_end
+song_begin: Numb.mp3
+Time: 187
+Artist: Linkin Park
+AlbumArtist: Linkin Park
+Title: Numb
+Album: Meteora
+Track: 13/
+Date: 2003
+Genre: Alternative
+Composer: Linkin Park
+mtime: 1347572502
+song_end
+song_begin: Teardrop.mp3
+Time: 331
+Artist: Massive Attack
+AlbumArtist: Massive Attack
+Title: Teardrop
+Album: Mezzanine
+Track: 3/
+Date: 1998
+Genre: Trip-Hop
+Composer: Elizabeth Fraser/Grantley Marshall/Mushroom/Robert "3D" del Naja
+mtime: 1347572502
+song_end
+song_begin: Oceans Away.mp3
+Time: 239
+Artist: The Fray
+AlbumArtist: The Fray
+Title: Oceans Away
+Album: Movement EP
+Track: 1
+Genre: Unknown
+mtime: 1307192596
+song_end
+song_begin: Haal-e-Dil.mp3
+Time: 349
+Artist: Harshit Saxena
+AlbumArtist: Murder 2
+Title: Haale Dil
+Album: Murder 2
+Track: 1
+Date: 2011
+Genre: Bollywood Music
+Composer: Lyrics: Sayeed Quadri, Kumaar, Mithoon
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+mtime: 1312027642
+song_end
+song_begin: Phir Mohabbat.mp3
+Time: 332
+Artist: Mohd Irfan
+Title: Phir Mohabbat
+Album: Murder 2
+Track: 4/8
+Date: 2011
+Composer: Music: Mithoon, Sangeet, Siddharth Saldipur, Harshit Saxena | Lyrics: Sayeed Quadri, Kumaar, Mithoon
+mtime: 1344112918
+song_end
+song_begin: Hurts Like Heaven.mp3
+Time: 242
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Hurts Like Heaven
+Album: Mylo Xyloto
+Track: 2
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670941
+song_end
+song_begin: Paradise.mp3
+Time: 278
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Paradise
+Album: Mylo Xyloto
+Track: 3
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337671075
+song_end
+song_begin: Every Teardrop is a Waterfall.mp3
+Time: 241
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Every Teardrop Is a Waterfall
+Album: Mylo Xyloto
+Track: 7
+Date: 2011-10-24
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1337670889
+song_end
+song_begin: Princess of China.mp3
+Time: 239
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Princess of China
+Album: Mylo Xyloto
+Track: 10/
+Date: 2011
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1347572500
+song_end
+song_begin: Up in Flames.mp3
+Time: 193
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Up in Flames
+Album: Mylo Xyloto
+Track: 11/
+Date: 2011
+Genre: Pop
+Composer: Guy Berryman/Jonny Buckland
+mtime: 1347613415
+song_end
+song_begin: Time of Your Life.mp3
+Time: 154
+Artist: Green Day
+AlbumArtist: Green Day
+Title: Time of Your Life
+Album: Nimrod
+Track: 15/
+Date: 1998
+Genre: Alternative
+Composer: Billie Joe Armstrong/Green Day
+mtime: 1347572502
+song_end
+song_begin: Zombie.mp3
+Time: 307
+Artist: The Cranberries
+AlbumArtist: The Cranberries
+Title: Zombie
+Album: No Need to Argue
+Track: 3
+Date: 1994
+Genre: Sconosciuto
+Composer: Dolores O'Riordan
+mtime: 1275896016
+song_end
+song_begin: Bye Bye Bye.mp3
+Time: 201
+Artist: N-Sync
+AlbumArtist: N-Sync
+Title: Bye Bye Bye
+Album: No Strings Attached
+Track: 18
+Date: 2000
+Genre: Other
+Composer: Andreas Carlsson
+mtime: 1302281140
+song_end
+song_begin: No Surprises.mp3
+Time: 230
+Artist: Radiohead
+AlbumArtist: Radiohead
+ArtistSort: Radiohead
+AlbumArtistSort: Radiohead
+Title: No Surprises
+Album: OK Computer
+Track: 10/12
+Date: 1997
+Genre: Rock
+Composer: Colin Greenwood
+MUSICBRAINZ_ALBUMID: fba5f8fe-c6c8-4511-8562-c9febf482674
+MUSICBRAINZ_ARTISTID: a74b1b7f-71a5-4011-9441-d0b5e4122711
+MUSICBRAINZ_TRACKID: d423a445-3cb7-4fdb-98bd-74659f6c1c60
+mtime: 1302281144
+song_end
+song_begin: Vanilla Twilight.mp3
+Time: 232
+Artist: Owl City
+AlbumArtist: Owl City
+Title: Vanilla Twilight
+Album: Ocean Eyes
+Track: 11/
+Date: 2009
+Genre: Synthpop
+Composer: Owl City & Adam Young
+Disc: 1/1
+MUSICBRAINZ_ALBUMARTISTID: usicBrainz Album Artist Id
+MUSICBRAINZ_ARTISTID: usicBrainz Artist Id
+AlbumArtistSort: LBUMARTI
+MUSICBRAINZ_ALBUMID: usicBrainz Album Id
+MUSICBRAINZ_TRACKID: 407a198b-945f-42ae-aa6e-f8087435cee1
+mtime: 1347586184
+song_end
+song_begin: Creep.mp3
+Time: 238
+Artist: Radiohead
+AlbumArtist: Radiohead
+Title: Creep
+Album: Pablo Honey
+Track: 1
+Date: 1993
+Genre: Funny
+Composer: Colin Greenwood/Ed O'Brien/Jonny Greenwood/Phil Selway/Thom Yorke
+mtime: 1294112362
+song_end
+song_begin: Trouble.mp3
+Time: 271
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Trouble
+Album: Parachutes
+Track: 6/
+Date: 2000
+Date: 2000
+Genre: Alternative
+Composer: Guy Berryman/Jon Buckland/Max Martin/Will Champion
+mtime: 1347570800
+song_end
+song_begin: Shiver.mp3
+Time: 302
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Shiver
+Album: Parachutes
+Track: 16/
+Date: 2000
+Genre: Other
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1347571404
+song_end
+song_begin: Yellow.mp3
+Time: 270
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Yellow
+Album: Parachutes
+Track: 5
+Date: 2000
+Genre: Other
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+Disc: 1/1
+mtime: 1340633025
+song_end
+song_begin: This Night.mp3
+Time: 210
+Artist: Black Lab
+AlbumArtist: Black Lab
+Title: This Night
+Album: Passion Leaves a Trace
+Track: 4
+Date: 2007
+Genre: Other
+Composer: Paul Durham
+mtime: 1312704492
+song_end
+song_begin: Apologize.mp3
+Time: 184
+Artist: Timbaland
+Title: Apologize
+Album: Present Shock Value
+Track: 16
+Date: 2007
+Genre: R&B
+mtime: 1290363154
+song_end
+song_begin: Tujh Mein Rab Dikhta Hai [Female].mp3
+Time: 104
+Artist: Shreya Goshal
+Title: Tujh Mein Rab Dikhta Hai [Female]
+Album: Rab Ne Bana Di Jodi
+Track: 5
+mtime: 1254378226
+song_end
+song_begin: Tujh Mein Rab Dikhta Hai [Male].mp3
+Time: 284
+Artist: Roop Kumar Rathod
+AlbumArtist: www.Songs.PK
+Title: Tujh Mein Rab Dikhta Hai [Male]
+Album: Rab Ne Bana Di Jodi
+Track: 1
+Date: 2008
+Genre: Other
+Composer: www.Songs.PK
+Disc: 1/1
+mtime: 1257155028
+song_end
+song_begin: Summer of '69.mp3
+Time: 219
+Artist: Bryan Adams
+AlbumArtist: Bryan Adams
+Title: Summer of '69
+Album: Reckless
+Track: 3
+Date: 1993
+Genre: Other
+Composer: Bryan Adams/Jim Vallance
+mtime: 1273243570
+song_end
+song_begin: Space Bound.mp3
+Time: 279
+Artist: Eminem
+Title: Space Bound
+Album: Recovery
+Genre: Rap
+mtime: 1315913896
+song_end
+song_begin: Not Afraid.mp3
+Time: 250
+Artist: Eminem
+AlbumArtist: Eminem
+Title: Not Afraid
+Album: Recovery
+Track: 7
+Date: 2010
+Genre: Rap & Hip-Hop
+Composer: Boi-1da
+mtime: 1312814504
+song_end
+song_begin: Love the Way You Lie.mp3
+Time: 263
+Artist: Eminem
+AlbumArtist: Eminem
+Title: Love The Way You Lie
+Album: Recovery
+Track: 15
+Date: 2000
+Genre: Rap
+Composer: Marshall Mathers
+mtime: 1312982126
+song_end
+song_begin: One Of Us.mp3
+Time: 257
+Artist: Joan Osborne
+AlbumArtist: Various Artists
+Title: One Of Us
+Album: Relish
+Track: 3/16
+Date: 2008
+Genre: Rock
+Composer: Bazillian
+Disc: 2/2
+mtime: 1347586878
+song_end
+song_begin: Behind Blue Eyes.mp3
+Time: 366
+Artist: Limp Bizkit
+AlbumArtist: Limp Bizkit
+ArtistSort: Limp Bizkit
+Title: Behind Blue Eyes
+Album: Results May Vary
+Track: 15/18
+Date: 2003-05-28
+Date: 2003
+Genre: Pop
+Composer: Pete Townshend
+MUSICBRAINZ_ALBUMARTISTID: 8f9d6bb2-dba4-4cca-9967-cc02b9f4820c
+MUSICBRAINZ_ARTISTID: 8f9d6bb2-dba4-4cca-9967-cc02b9f4820c
+AlbumArtistSort: Limp Bizkit
+MUSICBRAINZ_ALBUMID: 74e39a11-555c-42ed-a064-4202733a682d
+MUSICBRAINZ_TRACKID: 76310606-416d-441f-b5c5-8beb54726521
+mtime: 1296663592
+song_end
+song_begin: Engel.mp3
+Time: 265
+Artist: Rammstein
+Title: Engel
+Album: Sehnsucht
+Track: 02
+Date: 2008
+Genre: Rock
+mtime: 1352037398
+song_end
+song_begin: Engel [English].mp3
+Time: 268
+Artist: Rammstein
+AlbumArtist: Rammstein
+Title: Engel [English]
+Album: Sehnsucht
+Track: 12
+Date: 1998
+Genre: Other
+Composer: Rammstein
+mtime: 1352037386
+song_end
+song_begin: Landing In London.mp3
+Time: 272
+Artist: 3 Doors Down
+AlbumArtist: 3 Doors Down
+Title: Landing In London
+Album: Seventeen Days
+Track: 5
+Date: 2005
+Genre: Rock
+Composer: Brad Arnold
+mtime: 1302281146
+song_end
+song_begin: Khoya Khoya Chand.mp3
+Time: 194
+Title: Khoya Khoya Chand
+Album: Shaitaan
+mtime: 1347782024
+song_end
+song_begin: Nasha.mp3
+Time: 198
+Artist: Prashant Pillai, Bindu Nambiar
+AlbumArtist: [Www.Bollytadka.Com]
+Title: Nasha
+Album: Shaitan
+Track: 03
+Date: 2011
+Genre: Soudtrack
+Composer: [Www.Bollytadka.Com]
+Disc: 1/1
+mtime: 1359358909
+song_end
+song_begin: Love The Way You Lie [Part II - Skylar Grey].mp3
+Time: 246
+Artist: Skylar Grey
+Title: Love The Way You Lie [Part II - Skylar Grey]
+Album: Skylar Grey
+Track: 1
+Date: 2011
+Genre: Pop
+Composer: Skylar Grey/ Alex Da Kid
+mtime: 1312982742
+song_end
+song_begin: We Are Young.mp3
+Time: 252
+Artist: Fun
+Title: We Are Young
+Album: Some Nights
+Track: 1/
+Date: 2012
+Genre: Pop
+mtime: 1347585646
+song_end
+song_begin: Bleeding Love.mp3
+Time: 263
+Artist: Leona Lewis
+AlbumArtist: Leona Lewis
+Title: Bleeding Love
+Album: Spirit
+Date: 2007
+Genre: Pop
+mtime: 1307192630
+song_end
+song_begin: Church.mp3
+Time: 241
+Artist: T-Pain, Teddy Verseti
+AlbumArtist: Various Artists
+Title: Church
+Album: Step Up 2: The Streets
+Track: 7
+Date: 2008
+Genre: R&B
+Composer: T-Pain
+mtime: 1302281142
+song_end
+song_begin: Tujhe Chand Chahiye.mp3
+Time: 327
+Artist: Vishal Dadlani, Sunidhi Chauhan
+Title: Tujhe Chaand Chahiye
+Album: Supari
+Genre: Blues
+mtime: 1359358890
+song_end
+song_begin: Our Song.mp3
+Time: 210
+Artist: Taylor Swift
+AlbumArtist: Taylor Swift
+Title: Our Song
+Album: Taylor Swift
+Track: 11
+Date: 2006
+Genre: Other
+Composer: Taylor Swift
+mtime: 1273238492
+song_end
+song_begin: Teardrops On My Guitar.mp3
+Time: 205
+Artist: Taylor Swift
+AlbumArtist: Taylor Swift
+Title: Teardrops On My Guitar
+Album: Taylor Swift
+Track: 3
+Date: 2006
+Date: 2006
+Genre: Country
+Composer: Liz Rose/Taylor Swift
+Disc: 1/1
+mtime: 1340633018
+song_end
+song_begin: Airplanes.mp3
+Time: 179
+Artist: B.o.B
+Title: Airplanes
+Album: The Adventures of Bobby Ray
+Track: 4/
+Date: 2010
+Genre: Hip Hop
+Composer: Alex Grant/Bobby Simmons, Jr./Jeremy Dussolliet/Justin Franks/Tim Sommers
+mtime: 1347571169
+song_end
+song_begin: Ooh Ahh.mp3
+Time: 233
+Artist: Grits
+AlbumArtist: Grits
+Title: Ooh Ahh
+Album: The Art Of Translation
+Track: 14
+Date: 2002
+Genre: Rap & RnB
+Composer: Otto Price/Ric Robbins/Stacy Jones/Teron Carter/Toby McKeehan
+mtime: 1337672105
+song_end
+song_begin: Fake Plastic Trees.mp3
+Time: 290
+Artist: Radiohead
+AlbumArtist: Radiohead
+Title: Fake Plastic Trees
+Album: The Bends
+Track: 376
+Date: 1995
+Genre: Other
+Performer: VA
+Performer: VA
+Disc: 4
+mtime: 1348576734
+song_end
+song_begin: Sing for the Moment.mp3
+Time: 342
+Artist: Eminem
+AlbumArtist: Eminem
+Title: Sing For The Moment
+Album: The Eminem Show
+Track: 1
+Date: 2005
+Genre: ----
+Composer: Jeff Bass/L. Resto/Luis Resto/M. Mathers/Marshall Mathers/S. King/S. Tyler/Steven King/Steven Tyler
+mtime: 1337672141
+song_end
+song_begin: You Found Me.mp3
+Time: 244
+Artist: The Fray
+AlbumArtist: The Fray
+Title: You Found Me
+Album: The Fray
+Track: 3
+Date: 2009
+Genre: Rock
+Composer: King
+mtime: 1302281134
+song_end
+song_begin: Never Say Never.mp3
+Time: 259
+Artist: The Fray
+AlbumArtist: The Fray
+Title: Never Say Never
+Album: The Fray
+Track: 5/
+Date: 2009
+Genre: AlternRock
+Composer: King/Slade/The Fray
+mtime: 1347584544
+song_end
+song_begin: Stan.mp3
+Time: 404
+Artist: Eminem
+AlbumArtist: Eminem
+Title: Stan
+Album: The Marshall Mathers LP
+Track: 03
+Date: 2000
+Genre: Rap & Hip-Hop
+Composer: Dido Armstrong/Marshall Mathers/Paul Herman
+mtime: 1344124469
+song_end
+song_begin: Jar of Hearts.mp3
+Time: 247
+Artist: Christina Perri
+AlbumArtist: Christina Perri
+Title: Jar of Hearts
+Album: The Ocean Way Sessions
+Track: 21
+Date: 2011
+Genre: Pop
+mtime: 1320550749
+song_end
+song_begin: Remember the Name.mp3
+Time: 231
+Artist: Fort Minor
+AlbumArtist: Fort Minor
+Title: Remember the Name
+Album: The Rising Tied
+Track: 2
+Track: 02
+Date: 2005
+Genre: Hip-Hop
+Genre: Pop Rap
+Composer: Mike Shinoda/R. Maginn/T. Bashir
+mtime: 1273668000
+song_end
+song_begin: Home.mp3
+Time: 350
+Artist: Alexi Murdoch
+AlbumArtist: Alexi Murdoch
+Title: Home
+Album: Time Without Consequence
+Track: 3/11
+Date: 2006
+Genre: Alternative & Punk
+Composer: Alexi Murdoch
+Disc: 1/1
+mtime: 1347570767
+song_end
+song_begin: My Heart Will Go On.mp3
+Time: 279
+Artist: Celine Dion
+AlbumArtist: Celine Dion
+Title: My Heart Will Go On
+Album: Titanic
+Track: 1
+Genre: Other
+Composer: James Horner
+mtime: 1273238444
+song_end
+song_begin: 21 Guns.mp3
+Time: 318
+Artist: Green Day
+AlbumArtist: Green Day
+Title: 21 Guns
+Album: Transformers - Revenge Of The Fallen
+Track: 2/
+Genre: Alternative Rock
+mtime: 1347586899
+song_end
+song_begin: Wavin' Flag.mp3
+Time: 221
+Artist: K'Naan
+AlbumArtist: K'Naan
+Title: Wavin' Flag
+Album: Troubadour
+Track: 7
+Date: 2009
+Genre: Rap & Hip-Hop
+Composer: B. Mars
+mtime: 1302281142
+song_end
+song_begin: Tu To Na Aayi.mp3
+Time: 224
+Artist: Parleen, Abhishek, Chang and Suhit
+AlbumArtist: Various Artists
+Title: Tu To Na Aayi
+Album: Tu To Na Aayi
+Track: 1
+Date: 2008
+Genre: Pop
+mtime: 1302281136
+song_end
+song_begin: Dil Ibadat.mp3
+Time: 329
+Artist: K. K.
+Title: Dil Ibadat
+Album: Tum Mile
+Track: 2/9
+Date: 2009
+Genre: Bollywood Music
+Performer: www.Songs.PK
+Performer: www.Songs.PK
+Disc: 1/1
+mtime: 1359358850
+song_end
+song_begin: Skyscraper.mp3
+Time: 246
+Artist: Demi Lovato
+AlbumArtist: Demi Lovato
+Title: Skyscraper
+Album: Unbroken
+Track: 11
+Date: 2011
+Genre: Dance
+Composer: Kerli Koiv/Lindy Robbins/Toby Gad
+mtime: 1340633010
+song_end
+song_begin: Lost!.mp3
+Time: 235
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Lost!
+Album: Viva La Vida Or Death And All His Friends
+Track: 03
+Date: 2008-06-12
+Genre: Alternative
+mtime: 1326606023
+song_end
+song_begin: 42.mp3
+Time: 237
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: 42
+Album: Viva La Vida Or Death And All His Friends
+Track: 04
+Date: 2008-06-12
+Genre: Alternative
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1340624546
+song_end
+song_begin: Viva La Vida.mp3
+Time: 241
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Viva La Vida
+Album: Viva La Vida Or Death And All His Friends
+Track: 07
+Date: 2008-06-12
+Genre: Alternative
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1340624551
+song_end
+song_begin: Violet Hill.mp3
+Time: 223
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Violet Hill
+Album: Viva La Vida Or Death And All His Friends
+Track: 08
+Date: 2008-06-12
+Genre: Alternative
+Composer: Chris Martin/Guy Berryman/Jon Buckland/Will Champion
+mtime: 1340624548
+song_end
+song_begin: Good Life.mp3
+Time: 253
+Artist: OneRepublic
+AlbumArtist: OneRepublic
+Title: Good Life
+Album: Waking Up
+Track: 6/11
+Date: 2009
+Genre: Alternative rock
+Composer: Brent Kutzle/Eddie Fisher/Noel Zancanella/Ryan Tedder
+mtime: 1347586184
+song_end
+song_begin: Good Life [Megan Nicole].mp3
+Time: 178
+Artist: Megan Nicole, Alex Goot
+AlbumArtist: Dave Gigliotti
+Title: Good Life [Megan Nicole]
+Album: Waking Up
+Track: 7/
+Date: 2005
+Genre: New Age
+Composer: Dave Gigliotti
+mtime: 1347572501
+song_end
+song_begin: Rain, Rain Go Away.mp3
+Time: 205
+Artist: Breaking Benjamin
+AlbumArtist: Breaking Benjamin
+Title: Rain
+Album: We Are Not Alone
+Track: 11
+Date: 2004
+Genre: Metal
+Composer: Ben Burnley/Billy Corgan/Breaking Benjamin
+mtime: 1337672128
+song_end
+song_begin: I'm Yours.mp3
+Time: 241
+Artist: Jason Mraz
+AlbumArtist: Jason Mraz
+Title: I'm Yours
+Album: We Sing. We Dance. We Steal Things
+Track: 27/
+Date: 2010
+Genre: Pop
+Composer: Jason Mraz
+Disc: 1/1
+mtime: 1358334143
+song_end
+song_begin: Someday.mp3
+Time: 240
+Artist: Flipsyde
+AlbumArtist: Flipsyde
+Title: Someday
+Album: We the People
+Track: 1
+Date: 2005
+Genre: Rap & Hip-Hop
+Composer: Dave Lopez/Jinho "Piper" Ferreira/Steve Knight
+mtime: 1337672160
+song_end
+song_begin: One Last Breath.mp3
+Time: 240
+Artist: Creed
+AlbumArtist: Creed
+Title: One Last Breath
+Album: Weathered
+Track: 6
+Date: 2001
+Genre: Rock
+Composer: Mark Tremonti
+mtime: 1302281136
+song_end
+song_begin: Whatever It Takes.mp3
+Time: 207
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Whatever It Takes
+Album: Who We Are
+Track: 3
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1302281146
+song_end
+song_begin: Who We Are.mp3
+Time: 207
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Who We Are
+Album: Who We Are
+Track: 4
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1302281146
+song_end
+song_begin: Broken.mp3
+Time: 287
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Broken
+Album: Who We Are
+Track: 5/
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1347584015
+song_end
+song_begin: Easier To Be.mp3
+Time: 211
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Easier To Be
+Album: Who We Are
+Track: 7
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1302281148
+song_end
+song_begin: Make Me Over.mp3
+Time: 237
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Make Me Over
+Album: Who We Are
+Track: 8
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1302281148
+song_end
+song_begin: Mesmerized.mp3
+Time: 193
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Mesmerized
+Album: Who We Are
+Track: 9
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1302281148
+song_end
+song_begin: Learn You Inside Out.mp3
+Time: 267
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Learn You Inside Out
+Album: Who We Are
+Track: 11
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1302281148
+song_end
+song_begin: Storm.mp3
+Time: 266
+Artist: Lifehouse
+AlbumArtist: Lifehouse
+Title: Storm
+Album: Who We Are
+Track: 12
+Date: 2007
+Genre: Rock
+Composer: Jason Wade
+mtime: 1302281148
+song_end
+song_begin: What If.mp3
+Time: 297
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: What If
+Album: X&Y
+Track: 2/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333822
+song_end
+song_begin: Fix You.mp3
+Time: 295
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Fix You
+Album: X&Y
+Track: 4/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333825
+song_end
+song_begin: X&Y.mp3
+Time: 273
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: X&Y
+Album: X&Y
+Track: 6/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333826
+song_end
+song_begin: Speed of Sound.mp3
+Time: 288
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Speed of Sound
+Album: X&Y
+Track: 7/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333826
+song_end
+song_begin: Hardest Part.mp3
+Time: 264
+Artist: Coldplay
+AlbumArtist: Coldplay
+Title: Hardest Part
+Album: X&Y
+Track: 10/
+Date: 2006
+Date: 2006
+Genre: Pop
+Composer: Berryman/Buckland/Champion/Martin
+mtime: 1358333828
+song_end
+song_begin: Yaadein Yaad Aati Hain.mp3
+Time: 313
+Artist: Hariharan
+AlbumArtist: Various Artists
+Title: Yaadein Yaad Aati Hain
+Album: Yaadein
+Track: 2
+Genre: genre
+mtime: 1302281142
+song_end
+song_begin: Yaaron.mp3
+Time: 270
+Artist: K. K.
+AlbumArtist: www.premsoni.tk
+Title: Yaaron
+Album: Yaaron
+Track: 3
+Genre: Other
+Composer: PREM SONI
+Performer: www.premsoni.tk
+Performer: www.premsoni.tk
+mtime: 1273243570
+song_end
+song_begin: Mad.mp3
+Time: 255
+Artist: Ne-Yo
+AlbumArtist: Ne-Yo
+Title: Mad
+Album: Year of the Gentleman
+Track: 4
+Date: 2008
+Genre: Soul and R&B
+Composer: Mikkel Storleer Eriksen/S. Smith/T.E. Hermansen
+mtime: 1337672075
+song_end
+song_begin: Woh Lamhe.mp3
+Time: 320
+Artist: Atif Aslam
+AlbumArtist: Anu Malik
+Title: Woh Lamhe
+Album: Zeher
+Track: 2/
+Genre: Blues
+Composer: Anu Malik
+mtime: 1347572501
+song_end

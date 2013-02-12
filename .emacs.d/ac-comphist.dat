@@ -1,0 +1,378 @@
+((("sunburst" .
+   [1 0 0 0 0 0 0 0])
+  ("monokai" .
+   [1 0 0 0 0 0 0])
+  ("instant-search-using-helm" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("javascript" .
+   [0 0 0 0 0 0 2 0 1 0])
+  ("status_text" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("attempt_no" .
+   [1 0 0 0 1 0 0 0 0 0])
+  ("command" .
+   [1 0 0 0 0 0 0])
+  ("sprintf" .
+   [0 0 0 0 0 1 0])
+  ("submission" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("struct" .
+   [0 0 1 0 0 1])
+  ("stat" .
+   [1 0 0 0])
+  ("s" .
+   [1])
+  ("status" .
+   [2 0 0 0 0 0])
+  ("ck-launch-session" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("set-fringe-style" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("/usr/local/MATLAB/R2012a/bin/matlab" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("/usr/local/MATLAB/R2012a/bin/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("/usr/local/MATLAB/R2012a/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("/usr/local/MATLAB/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("/usr/local/" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("source" .
+   [1 0 0 0 0 0])
+  ("defun" .
+   [1 0 0 0 0])
+  ("kill-buffer" .
+   [1 0 0 0 0 0 0 0 0 0 1])
+  ("my-desktop-read" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  (":background" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("my-long-line-face" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  (":slant" .
+   [1 0 0 0 1 0])
+  ("defadvice" .
+   [0 0 0 0 0 0 1 0 0])
+  ("trailing-whitespace" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("normal-" .
+   [0 0 0 0 0 1 0])
+  (":foreground" .
+   [0 0 0 0 0 2 1 0 0 0 0])
+  (":inverse-video" .
+   [0 0 0 0 0 0 1 0 0 0 0 1 0 0])
+  (":inverse" .
+   [0 0 0 0 1 0 0 0])
+  ("lambda" .
+   [2 0 0 0 0 1])
+  ("delete-frame-functions" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("debug-on-error" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("setup-window-system-frame-colours" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("server-visit-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("add-hook" .
+   [4 0 0 0 0 0 1 0])
+  ("ad-activate" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("server-create-window-system-frame" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("after-make-frame-functions" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("paredit" .
+   [1 0 0 0 0 0 0])
+  ("eval-after-load" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("progn" .
+   [2 0 0 0 0])
+  ("light" .
+   [1 0 0 0 0])
+  ("argv" .
+   [1 0 0 0])
+  ("formats" .
+   [0 0 0 1 0 0 0])
+  ("bookmark-save-flag" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("flymake-goto-next-error" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("nil" .
+   [14 0 0])
+  ("url-http-attempt-keepalives" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [4 0 0 0])
+  ("NULL" .
+   [0 0 1 0])
+  ("myls" .
+   [1 0 0 0])
+  ("path" .
+   [1 0 0 0])
+  ("mode" .
+   [1 0 0 0])
+  ("filename" .
+   [1 0 0 0 0 0 0 0])
+  ("myopen" .
+   [1 0 0 0 0 0])
+  ("my" .
+   [1 0])
+  ("int" .
+   [1 0 0])
+  ("fs_name" .
+   [3 0 0 0 0 0 0])
+  ("char" .
+   [4 0 0 0])
+  ("const" .
+   [3 0 0 0 0])
+  ("mount" .
+   [2 0 0 0 0])
+  ("fs" .
+   [2 0])
+  ("sizeof" .
+   [1 0 0 0 0 0])
+  ("fwrite" .
+   [1 0 0 0 0 0])
+  ("include" .
+   [1 0 0 0 0 0 0])
+  ("used" .
+   [2 0 0 0])
+  ("ref_count" .
+   [0 0 0 0 0 0 0 1 0])
+  ("size" .
+   [1 0 0 0])
+  ("attr" .
+   [1 0 0 0])
+  ("creation_time" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("root_inode_init" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0])
+  ("root_inode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("root" .
+   [7 0 0 0])
+  ("inode_t" .
+   [4 0 0 0 0 0 0])
+  ("to" .
+   [1 0])
+  ("structure" .
+   [1 0 0 0 0 0 0 0 0])
+  ("data" .
+   [3 0 0 0])
+  ("block" .
+   [1 0 0 0 0])
+  ("param" .
+   [2 0 0 0 0])
+  ("super" .
+   [4 0 0 0 0])
+  ("super_local" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("super_block_t" .
+   [1 0 0 0 0 0 0 0 0 0 0 3 0])
+  ("self" .
+   [28 0 0 0])
+  ("event" .
+   [8 0 0 0 0])
+  ("print" .
+   [10 0 0 0 0])
+  ("def" .
+   [2 0 0])
+  ("mouseMoveEvent" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 1 0])
+  ("start" .
+   [9 0 0 0 0])
+  ("end" .
+   [8 0 0])
+  ("scenePos" .
+   [12 0 0 0 0 1 0 0])
+  ("setCursor" .
+   [0 0 0 0 0 0 1 0 0])
+  ("Qt" .
+   [1 0])
+  ("interpolated_points" .
+   [0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 2])
+  ("append" .
+   [3 0 0 0 0 0])
+  ("pointItem" .
+   [11 0 0 0 0 0 0 0 0])
+  ("points" .
+   [11 0 0 0 0 0])
+  ("points2" .
+   [2 0 0 0 0 0 0])
+  ("for" .
+   [8 0 3])
+  ("point" .
+   [15 0 0 0 0])
+  ("in" .
+   [1 0])
+  ("zip" .
+   [1 0 0])
+  ("moveBy" .
+   [2 0 0 0 0 0])
+  ("scene" .
+   [3 0 0 0 0])
+  ("window" .
+   [12 0 0 0 0 0])
+  ("parent" .
+   [4 0 0 0 0 0])
+  ("data_points" .
+   [0 0 0 0 1 0 0 7 0 0 0])
+  ("boundingRect" .
+   [0 0 0 0 0 3 0 1 0 0 0 0])
+  ("center" .
+   [5 0 0 0 0 0])
+  ("rect" .
+   [11 0 0 0])
+  ("moveCenter" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("QPointF" .
+   [1 0 0 0 0 0 0])
+  ("QRectF" .
+   [1 0 0 0 0 0])
+  ("setPos" .
+   [3 0 0 0 0 0])
+  ("stretchX" .
+   [0 0 0 0 0 1 0 0])
+  ("stretchY" .
+   [0 0 1 0 0 0 0 0])
+  ("0001" .
+   [1 0 0 0])
+  ("widget" .
+   [1 0 0 0 0 0])
+  ("tweets" .
+   [1 0 0 0 0 0])
+  ("all" .
+   [1 0 0])
+  ("order" .
+   [1 0 0 0 0])
+  ("created_at" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("desc" .
+   [1 0 0 0])
+  ("text" .
+   [1 0 0 0])
+  ("like" .
+   [1 0 0 0])
+  ("query" .
+   [1 0 0 0 0])
+  ("replace" .
+   [1 0 0 0 0 0 0])
+  ("interactive" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("load-path" .
+   [0 0 0 0 0 0 0 1 0])
+  ("require" .
+   [2 0 0 0 0 0 0])
+  ("color-theme" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("color-theme-solarized" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3])
+  ("dark" .
+   [7 0 0 0])
+  ("modify-syntax-entry" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("highlight-parentheses-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("color-theme-initialized" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("color-theme-initialize" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("if" .
+   [2 0])
+  ("message" .
+   [3 0 0 0 0 0 1])
+  ("concat" .
+   [1 0 0 0 0 0])
+  ("desktop-file-modtime" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("desktop-full-file-name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("my-desktop-save" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("file-attributes" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("nth" .
+   [1 0 0])
+  ("when" .
+   [4 0 0 0])
+  ("call-interactively" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("kill-emacs-query-functions" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("find-file-hook" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("color-theme-solarized-dark" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("autoload" .
+   [1 0 0 0 0 0 0 1])
+  ("dired" .
+   [0 0 0 0 1])
+  ("dired-mode-map" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("set-face-attribute" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("flymake-errline" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("class" .
+   [1 0 0 0 0])
+  ("my-trailing-space-face" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":inherit" .
+   [0 0 0 0 1 0 0 0])
+  ("default" .
+   [1 0 0 0 1 0 0])
+  ("markdown-mode" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("switch-to-buffer" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2])
+  ("deft" .
+   [1 0 0 0])
+  ("initial-buffer-choice" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("deft-buffer-setup" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("emacs-startup-hook" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("color-" .
+   [0 0 0 0 0 1])
+  ("~/.cache/awesome/stdout" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("~/.cache/awesome/stderr" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("xrandr" .
+   [1 0 0 0 0 0])
+  ("--output" .
+   [1 0 0 0 0 0 0 0])
+  ("VGA2" .
+   [1 0 0 0])
+  ("LVDS2" .
+   [1 0 0 0 0])
+  ("buffer" .
+   [1 0 0 0 0 0])
+  ("file" .
+   [1 0 0 0])
+  ("visit" .
+   [1 0 0 0 0])
+  ("hideshowvis-minor-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("--daemon" .
+   [0 0 0 0 1 0 0 0])
+  ("proxy_host" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("&&" .
+   [1 0])
+  ("default_proxy" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("echo" .
+   [1 0 0 0])
+  ("zenburn-old" .
+   [3 0 0 0 0 0 0 0 0 1 0])
+  ("function" .
+   [1 0 0 0 0 0 0 0])))

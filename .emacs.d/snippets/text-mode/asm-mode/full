@@ -1,0 +1,10 @@
+#name : allocate space under a label
+# --
+	.text
+	.globl main
+main:
+	$1
+
+exit:
+	li $v0, 10
+	syscall

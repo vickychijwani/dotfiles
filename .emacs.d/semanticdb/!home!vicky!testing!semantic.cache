@@ -1,0 +1,18 @@
+;; Object testing/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "testing/"
+  :tables (list 
+   (semanticdb-table "underscore.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "underscore.js"
+    :pointmax 41418
+    :fsize 41417
+    :lastmodtime '(20760 17670)
+    :unmatched-syntax '((PAREN_BLOCK 41410 . 41416) (DOT 41405 . 41406) (PAREN_BLOCK 184 . 41405))
+    )
+   )
+  :file "!home!vicky!testing!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

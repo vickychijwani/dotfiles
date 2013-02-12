@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: attr
+# author: Vicky Chijwani (vickychijwani@gmail.com)
+# --
+, :${1:attr} => "${2:value}"$0

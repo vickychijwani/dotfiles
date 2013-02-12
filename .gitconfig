@@ -1,0 +1,21 @@
+[user]
+	name = Vicky Chijwani
+	email = vickychijwani@gmail.com
+[alias]
+	co = checkout
+	l = log
+	s = status
+	c = commit
+	b = branch
+	pretty = log --pretty=oneline --graph
+[color]
+	ui = auto
+[format]
+	pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+[github]
+	user = vickychijwani
+[gui]
+	recentrepo = /home/vicky/Documents/bitwise
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1596x876+0+20

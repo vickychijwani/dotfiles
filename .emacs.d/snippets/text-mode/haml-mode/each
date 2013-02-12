@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: each
+# author: Vicky Chijwani (vickychijwani@gmail.com)
+# --
+- ${1:enumerable}.each do |${2:var}|
+  $0

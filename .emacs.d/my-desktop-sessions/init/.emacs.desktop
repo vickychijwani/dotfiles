@@ -1,0 +1,106 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Jan  7 12:23:45 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/.emacs.d/init/utils.el" "/home/vicky/.emacs.d/init/server-shutdown-functions.el" "/home/vicky/.emacs.d/init/major-modes.el" "/home/vicky/.emacs.d/init/keybindings.el" "/home/vicky/.emacs.d/init/experimental.el" "/home/vicky/.emacs.d/init/color-theme-vicky.el" "/home/vicky/.emacs.d/init/plugins.el" "/home/vicky/.emacs.d/init/interface-and-environment.el" "/home/vicky/.emacs" "/home/vicky/Documents/C/Algorithms/utils.c" "/home/vicky/.emacs.d/init/experimental.el" "/home/vicky/.emacs.d/init/utils.el" "/home/vicky/.emacs.d/init/plugins.el" "/home/vicky/.emacs.d/init/major-modes.el" "/home/vicky/.emacs.d/init/keybindings.el" "/home/vicky/.emacs.d/init/interface-and-environment.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/.emacs.d/init/utils.el"
+  "utils.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.emacs.d/init/server-shutdown-functions.el"
+  "server-shutdown-functions.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.emacs.d/init/major-modes.el"
+  "major-modes.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.emacs.d/init/keybindings.el"
+  "keybindings.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.emacs.d/init/experimental.el"
+  "experimental.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.emacs.d/init/plugins.el"
+  "plugins.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.emacs.d/init/interface-and-environment.el"
+  "interface-and-environment.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(auto-complete-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode paredit-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

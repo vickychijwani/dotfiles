@@ -1,0 +1,19 @@
+#! /bin/bash
+# Launch XBMC in windowed mode, then use wmctrl to make it fullscreen
+
+# Start XBMC without blocking this script
+xbmc &
+
+# disable screensavers and DPMS and whatnot
+disable_screen_blanking
+
+# Wait for the XBMC window to appear
+status=0
+while [ $status -eq 0 ]
+do
+    sleep 1
+    status=`wmctrl -x -l | grep "XBMC Media Center" | wc -l | awk '{print $1}'`
+done
+
+# Force XBMC window to fullscreen
+wmctrl -x -r xbmc -b toggle,fullscreen

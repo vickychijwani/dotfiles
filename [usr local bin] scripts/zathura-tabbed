@@ -1,0 +1,9 @@
+#!/bin/bash
+
+raise-or-run "tabbed.Tabbed" "tabbed" &
+#tabbed &
+until wmctrl -lx | grep "tabbed.Tabbed"; do
+    sleep 0.5
+done
+wmctrl -r :ACTIVE:
+zathura -e `wmctrl -lx | grep "tabbed.Tabbed" | cut -d' ' -f1` "$1"

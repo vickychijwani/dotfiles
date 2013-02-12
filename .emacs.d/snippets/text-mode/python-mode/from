@@ -1,0 +1,2 @@
+# --
+from $1 import $2

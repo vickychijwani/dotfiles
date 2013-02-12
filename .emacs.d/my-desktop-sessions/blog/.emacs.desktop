@@ -1,0 +1,182 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Dec 21 17:42:48 2012
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("val" "><" "dired" "]" "the"))
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/.oh-my-zsh/themes/vicky.zsh-theme" "/home/vicky/Documents/blog/about.markdown" "/home/vicky/Academics/OS/Assignments/7/src/mem_mgmt.c" "/home/vicky/Documents/Ruby/twitter_timeline_search/Gemfile" "/home/vicky/Documents/blog/Gemfile" "/home/vicky/Academics/OS/Assignments/7/src/mem_mgmt.h" "/home/vicky/Academics/OS/Assignments/7/src/list.h" "/home/vicky/Academics/OS/Assignments/7/src/list.c" "/home/vicky/Documents/blog/_includes/header.html" "/home/vicky/Documents/blog/_layouts/default.html" "/home/vicky/Documents/blog/_layouts/page.html" "/home/vicky/Documents/blog/404.html1" "/home/vicky/Documents/blog/.htaccess" "/home/vicky/Documents/blog/_config.yml" "/home/vicky/Documents/blog/404.html" "/home/vicky/Documents/blog/archive.html" "/home/vicky/Documents/blog/_layouts/default.html" "/home/vicky/Documents/blog/_posts/2012-01-12-Reverse-Debugging-in-C.md" "/home/vicky/Documents/blog/_posts/2012-01-28-searchable-user-interfaces-are-the-future.md" "/home/vicky/Documents/blog/css/site.css" "~/Documents/blog/_posts/2012-01-28-searchable-user-interfaces-are-the-future.md"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/about.markdown"
+  "about.markdown"
+  'markdown-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode)
+  725
+  '(297 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_config.yml"
+  "_config.yml"
+  'yaml-mode
+  '(autopair-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  483
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_posts/2012-03-22-function-pointers-in-c-are-underrated.md"
+  "2012-03-22-function-pointers-in-c-are-underrated.md"
+  'markdown-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  1261
+  '(5464 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (fill-column . 80) (truncate-lines) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_drafts/2012-01-17-the-roots-of-lisp.md"
+  "2012-01-17-the-roots-of-lisp.md"
+  'markdown-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  7810
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (truncate-lines) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_posts/2012-01-12-Reverse-Debugging-in-C.md"
+  "2012-01-12-Reverse-Debugging-in-C.md"
+  'markdown-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  946
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (truncate-lines) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/Gemfile"
+  "Gemfile"
+  'fundamental-mode
+  '(autopair-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  229
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/404.html"
+  "404.html"
+  'html-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  34
+  '(25 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/.htaccess"
+  ".htaccess"
+  'fundamental-mode
+  '(autopair-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  39
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_includes/header.html"
+  "header.html"
+  'html-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  176
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_layouts/default.html"
+  "default.html"
+  'html-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  1
+  '(1303 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_layouts/page.html"
+  "page.html"
+  'html-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/archive.html"
+  "archive.html"
+  'html-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  133
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Documents/blog/_posts/2012-01-28-searchable-user-interfaces-are-the-future.md"
+  "2012-01-28-searchable-user-interfaces-are-the-future.md"
+  'markdown-mode
+  '(autopair-mode yas/minor-mode highlight-parentheses-mode ruby-block-mode highlight-changes-mode)
+  3375
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t)))
+
+(desktop-create-buffer 206
+  nil
+  "_posts"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode ruby-block-mode)
+  689
+  '(1 nil)
+  t
+  '("/home/vicky/Documents/blog/_posts/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "_drafts"
+  'dired-mode
+  '(autopair-mode highlight-parentheses-mode ruby-block-mode)
+  189
+  '(nil nil)
+  t
+  '("/home/vicky/Documents/blog/_drafts/")
+  nil)

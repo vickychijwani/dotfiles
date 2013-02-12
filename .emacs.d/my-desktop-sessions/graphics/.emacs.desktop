@@ -1,0 +1,73 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Feb 12 23:18:43 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("global.active_op = " "drag" "move-tex" "drag=s" "move-text" "DRAWING" "flymake" "star_center" "markdown" "star_+" "star_center" "star_center_x" "finalize_st" "finalize_polygon" "finalize" "convert_selec"))
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/.emacs.d/snippets/text-mode/cc-mode/for" "~/.emacs.d/snippets/text-mode/cc-mode/for" "/home/vicky/Academics/Computer Graphics/Assignments/2/utils.cpp" "/home/vicky/Academics/Computer Graphics/Assignments/2/types.h" "/home/vicky/Academics/Computer Graphics/Assignments/2/jp/image_utils.h" "/home/vicky/Academics/Computer Graphics/Assignments/2/jp/Makefile" "~/Academics/Computer Graphics/Assignments/2/jp/" "~/Academics/Computer Graphics/Assignments/2/jp/Makefile" "~/Academics/Computer Graphics/Assignments/2/jp/prog.cpp" "~/Academics/Computer Graphics/Assignments/2/jp.cpp" "/home/vicky/Downloads/prog.cpp" "/home/vicky/Academics/Computer Graphics/Assignments/2/2.cpp" "/home/vicky/Academics/Computer Graphics/Assignments/2/Makefile" "/home/vicky/Academics/Computer Graphics/Assignments/2/2.cpp" "/home/vicky/Academics/Computer Graphics/Assignments/1/test/intensity_profile.gp" "/home/vicky/Academics/Computer Graphics/Assignments/1/intensity_profile.gp" "/tmp/yaourt-tmp-vicky/aur-google-talkplugin/PKGBUILD" "/home/vicky/.lyrics/3 Doors Down - Here Without You.txt" "~/.lyrics/KK - Dil Ibadat.txt" "/home/vicky/Academics/Computer Graphics/Assignments/1/1.cpp" "/home/vicky/Academics/Computer Graphics/Assignments/1/1.copy.cpp" "/home/vicky/Downloads/example5.cpp" "/home/vicky/.config/awesome/keys.lua" "/home/vicky/Academics/6th sem/Networks/CNET Examples/flooding/plotfloodstats.gp" "/home/vicky/Academics/Computer Graphics/Assignments/1/test/intensity_profile" "/home/vicky/Academics/Computer Graphics/Assignments/1/test/intensity_profile.gp" "/home/vicky/Academics/6th sem/Networks/CNET Examples/flooding/plotfloodstats.gp" "/home/vicky/Academics/6th sem/Networks/Assignments/1/plot.gp" "/home/vicky/Academics/7th sem/Algorithms for Bioinformatics/Assignments/2/output_data_segment_gc_content" "/home/vicky/Academics/7th sem/Algorithms for Bioinformatics/Assignments/2/output_data_segment_gc_skew"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/Academics/Computer Graphics/Assignments/2/2.cpp"
+  "2.cpp"
+  'c++-mode
+  '(abbrev-mode drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  10202
+  '(10201 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/Computer Graphics/Assignments/2/jp/prog.cpp"
+  "prog.cpp"
+  'c++-mode
+  '(abbrev-mode drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  38981
+  '(25151 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/Computer Graphics/Assignments/2/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(drag-stuff-mode highlight-parentheses-mode undo-tree-mode)
+  12
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/Computer Graphics/Assignments/2/types.h"
+  "types.h"
+  'c-mode
+  '(abbrev-mode drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  1225
+  '(96 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/Computer Graphics/Assignments/2/jp/image_utils.h"
+  "image_utils.h"
+  'c-mode
+  '(abbrev-mode drag-stuff-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  503
+  '(765 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+

@@ -1,0 +1,4 @@
+#name : string constant in label
+# --
+${1:label}:
+	.asciiz "$2"

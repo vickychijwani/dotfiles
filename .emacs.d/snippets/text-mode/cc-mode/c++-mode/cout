@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name : cout
+# --
+cout << "$0" << endl;
