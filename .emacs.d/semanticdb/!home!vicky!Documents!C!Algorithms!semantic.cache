@@ -1,0 +1,115 @@
+;; Object Algorithms/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Algorithms/"
+  :tables (list 
+   (semanticdb-table "utils.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("time.h" include (:system-flag t) nil [20 37])
+            ("stdlib.h" include (:system-flag t) nil [38 57])
+            ("utils.h" include nil nil [58 76])
+            ("get_rand_int" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [140 146])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [147 153]))                  
+                :type "int")
+                nil [122 434])
+            ("get_int" function
+               (:arguments 
+                  ( ("n" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [450 457])
+                    ("a" variable (:type "int") (reparse-symbol arg-sub-list) [458 464])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [465 471])
+                    ("desc" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [472 483]))                  
+                :type "void")
+                nil [436 803])
+            ("print_1d_int_arr" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [828 835])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [836 842])
+                    ("delim" variable (:type "char") (reparse-symbol arg-sub-list) [843 854]))                  
+                :type "void")
+                nil [805 974])
+            ("print_std_1d_int_arr" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1002 1009])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1010 1016]))                  
+                :type "void")
+                nil [975 1052])
+            ("print_2d_int_arr" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1077 1085])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [1086 1092])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1093 1099])
+                    ("delim" variable (:type "char") (reparse-symbol arg-sub-list) [1100 1111]))                  
+                :type "void")
+                nil [1054 1193])
+            ("print_std_2d_int_arr" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1221 1229])
+                    ("m" variable (:type "int") (reparse-symbol arg-sub-list) [1230 1236])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1237 1243]))                  
+                :type "void")
+                nil [1194 1282])
+            ("print_sq_int_arr" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1307 1315])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1316 1322])
+                    ("delim" variable (:type "char") (reparse-symbol arg-sub-list) [1323 1334]))                  
+                :type "void")
+                nil [1284 1375])
+            ("print_std_sq_int_arr" function
+               (:arguments 
+                  ( ("a" variable
+                       (:pointer 2
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1403 1411])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1412 1418]))                  
+                :type "void")
+                nil [1376 1457])
+            ("print_int" function
+               (:arguments 
+                  ( ("desc" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1475 1486])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1487 1493]))                  
+                :type "void")
+                nil [1459 1529]))          
+    :file "utils.c"
+    :pointmax 1530
+    :fsize 1529
+    :lastmodtime '(20104 14431)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "utils.h"
+    :file "utils.h"
+    :fsize 1941
+    :lastmodtime '(20104 14486)
+    )
+   )
+  :file "!home!vicky!Documents!C!Algorithms!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

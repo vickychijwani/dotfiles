@@ -1,4 +1,4 @@
-;; This file has all customized key-bindings (global and mode-specific)
+;; this file has all customized key-bindings (global and mode-specific)
 
 ;; keybindings for built-in functions
 (global-set-key (kbd "M-g") 'goto-line)
@@ -9,12 +9,10 @@
 (global-set-key (kbd "C-S-x C-S-r") 'ido-recentf-open-files)
 (global-set-key (kbd "C-S-j") (lambda () (interactive) (join-line -1)))
 (global-set-key (kbd "C-l") 'ido-switch-buffer)
+(global-set-key (kbd "C-|") 'align-regexp)
 
 (global-set-key (kbd "<C-tab>") 'next-multiframe-window)
 (global-set-key (kbd "<C-S-iso-lefttab>") 'previous-multiframe-window)
-
-(global-set-key (kbd "C-s") 'isearch-forward-regexp)
-(global-set-key (kbd "C-r") 'isearch-backward-regexp)
 
 (global-set-key (kbd "<f5>") 'flymake-goto-prev-error)
 (global-set-key (kbd "<f6>") 'flymake-goto-next-error)
@@ -100,6 +98,10 @@
           (define-key paredit-mode-map (kbd "M-<up>") nil)
           (define-key paredit-mode-map (kbd "M-<down>") nil)))
 
+;;;; auto-complete-mode
+(eval-after-load "auto-complete"
+  '(progn (define-key ac-mode-map (kbd "TAB") 'auto-complete)))
+
 ;;;; magit
 (global-set-key (kbd "C-x g s") 'magit-status)
 (eval-after-load "magit"
@@ -162,5 +164,6 @@
           '(lambda ()
              (local-unset-key (kbd "<tab>"))
              (define-key markdown-mode-map (kbd "C-c d") 'date)))
+
 
 (provide 'keybindings)

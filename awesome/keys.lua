@@ -68,7 +68,7 @@ globalkeys = awful.util.table.join(globalkeys,
 
 module("ror")
 table5={
-   ["a"]={"eiskaltdcpp-qt", "Eiskaltdcpp" },
+   ["a"]={"eiskaltdcpp-gtk", "Eiskaltdcpp" },
    ["b"]={"smplayer", "Smplayer" },
    ["c"]={"chromium", "Chromium"},
    ["e"]={"emacsclient -a '' -c", "Emacs"},
@@ -79,5 +79,5 @@ table5={
    ["t"]={"terminator", "Terminator"},
    ["v"]={"vlc", "Vlc"},
    ["y"]={"conkeror google.com", "Conkeror"},
-   ["z"]={"evince", "Evince"},
+   ["z"]={"okular", "Okular"},
 }

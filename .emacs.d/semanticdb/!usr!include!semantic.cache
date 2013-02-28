@@ -9593,6 +9593,145 @@
           )
 
     )
+    (semanticdb-table "limits.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_LIBC_LIMITS_H_" variable (:constant-flag t) nil [940 955])
+            ("features.h" include (:system-flag t) nil [959 980])
+            ("MB_LEN_MAX" variable (:constant-flag t) nil [1143 1153])
+            ("_LIMITS_H" variable (:constant-flag t) nil [1559 1568])
+            ("bits/wordsize.h" include (:system-flag t) nil [1572 1598])
+            ("CHAR_BIT" variable (:constant-flag t) nil [1829 1837])
+            ("SCHAR_MIN" variable (:constant-flag t) nil [1911 1920])
+            ("SCHAR_MAX" variable (:constant-flag t) nil [1938 1947])
+            ("UCHAR_MAX" variable (:constant-flag t) nil [2030 2039])
+            ("CHAR_MIN" variable (:constant-flag t) nil [2196 2204])
+            ("CHAR_MAX" variable (:constant-flag t) nil [2226 2234])
+            ("SHRT_MIN" variable (:constant-flag t) nil [2330 2338])
+            ("SHRT_MAX" variable (:constant-flag t) nil [2358 2366])
+            ("USHRT_MAX" variable (:constant-flag t) nil [2456 2465])
+            ("INT_MIN" variable (:constant-flag t) nil [2542 2549])
+            ("INT_MAX" variable (:constant-flag t) nil [2575 2582])
+            ("UINT_MAX" variable (:constant-flag t) nil [2671 2679])
+            ("LONG_MAX" variable (:constant-flag t) nil [2791 2799])
+            ("LONG_MIN" variable (:constant-flag t) nil [2880 2888])
+            ("ULONG_MAX" variable (:constant-flag t) nil [3012 3021])
+            ("LLONG_MIN" variable (:constant-flag t) nil [4142 4151])
+            ("LLONG_MAX" variable (:constant-flag t) nil [4204 4213])
+            ("ULLONG_MAX" variable (:constant-flag t) nil [4270 4280]))          
+    :file "limits.h"
+    :pointmax 4530
+    :fsize 4529
+    :lastmodtime '(20698 55050)
+    :unmatched-syntax '((punctuation 3891 . 3892) (symbol 3890 . 3891) (punctuation 3889 . 3890) (symbol 3883 . 3889) (punctuation 3882 . 3883) (symbol 3869 . 3881) (punctuation 3867 . 3868))
+    :lexical-table 
+        '(("MB_LEN_MAX" . ((number "16" 1154 . 1156)))
+          ("SHRT_MAX" . ((number "32767" 2367 . 2372)))
+          ("LLONG_MAX" . ((symbol "__LONG_LONG_MAX__" 4214 . 4231)))
+          ("SCHAR_MAX" . ((number "127" 1948 . 1951)))
+          ("SHRT_MIN" . ((semantic-list "(-32768)" 2339 . 2347)))
+          ("LLONG_MIN" . ((semantic-list "(-LLONG_MAX-1)" 4152 . 4166)))
+          ("SCHAR_MIN" . ((semantic-list "(-128)" 1921 . 1927)))
+          ("LONG_MAX" . ((number "9223372036854775807L" 2800 . 2820)))
+          ("UCHAR_MAX" . ((number "255" 2040 . 2043)))
+          ("INT_MAX" . ((number "2147483647" 2583 . 2593)))
+          ("LONG_MIN" . ((semantic-list "(-LONG_MAX - 1L)" 2889 . 2905)))
+          ("INT_MIN" . ((semantic-list "(-INT_MAX - 1)" 2550 . 2564)))
+          ("_LIBC_LIMITS_H_" . ((number "1" 956 . 957)))
+          ("USHRT_MAX" . ((number "65535" 2466 . 2471)))
+          ("CHAR_BIT" . ((number "8" 1838 . 1839)))
+          ("ULLONG_MAX" . ((semantic-list "(LLONG_MAX * 2ULL + 1)" 4281 . 4303)))
+          ("CHAR_MAX" . ((symbol "SCHAR_MAX" 2235 . 2244)))
+          ("ULONG_MAX" . ((symbol "18446744073709551615UL" 3022 . 3044)))
+          ("_LIMITS_H" . ((number "1" 1569 . 1570)))
+          ("CHAR_MIN" . ((symbol "SCHAR_MIN" 2205 . 2214)))
+          ("UINT_MAX" . ((symbol "4294967295U" 2680 . 2691)))
+          )
+
+    )
+   (semanticdb-table "assert.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_ASSERT_H" variable (:constant-flag t) nil [1044 1053])
+            ("features.h" include (:system-flag t) nil [1056 1077])
+            ("__ASSERT_VOID_CAST" variable (:constant-flag t) nil [1136 1154])
+            ("__assert_fail" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("__assertion" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1853 1877])
+                    ("__file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1878 1897])
+                    ("__line" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1904 1924])
+                    ("__function" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1925 1948]))                  
+                :type "void")
+                nil [1826 1993])
+            ("__assert_perror_fail" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("__errnum" variable (:type "int") (reparse-symbol arg-sub-list) [2084 2097])
+                    ("__file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2098 2117])
+                    ("__line" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2124 2144])
+                    ("__function" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2145 2168]))                  
+                :type "void")
+                nil [2050 2213])
+            ("__assert" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("__assertion" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2322 2346])
+                    ("__file" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2347 2366])
+                    ("__line" variable (:type "int") (reparse-symbol arg-sub-list) [2367 2378]))                  
+                :type "void")
+                nil [2300 2423])
+            ("assert" variable (:constant-flag t) nil [2448 2454])
+            ("__ASSERT_FUNCTION" variable (:constant-flag t) nil [3191 3208])
+            ("static_assert" variable (:constant-flag t) nil [3574 3587]))          
+    :file "assert.h"
+    :pointmax 3610
+    :fsize 3609
+    :lastmodtime '(20698 55054)
+    :unmatched-syntax '((symbol 2426 . 2437) (symbol 1750 . 1763))
+    :lexical-table 
+        '(("__ASSERT_VOID_CAST" . 
+              ((symbol "static_cast" 1155 . 1166) (punctuation "<" 1166 . 1167) (VOID "void" 1167 . 1171) (punctuation ">" 1171 . 1172)))
+          ("_ASSERT_H" . ((number "1" 1054 . 1055)))
+          ("static_assert" . ((symbol "_Static_assert" 3588 . 3602)))
+          ("assert" (spp-arg-list ("expr") 2454 . 2460) . ((semantic-list "((expr)								\\
+   ? __ASSERT_VOID_CAST (0)						\\
+   : __assert_fail (__STRING(expr), __FILE__, __LINE__, __ASSERT_FUNCTION))" 2471 . 2598)))
+          ("__ASSERT_FUNCTION" . ((symbol "__PRETTY_FUNCTION__" 3209 . 3228)))
+          )
+
+    )
    )
   :file "!usr!include!semantic.cache"
   :semantic-tag-version "2.0"

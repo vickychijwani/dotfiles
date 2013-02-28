@@ -1,0 +1,63 @@
+;; Object CMakeFiles/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "CMakeFiles/"
+  :tables (list 
+   (semanticdb-table "Makefile2"
+    :major-mode 'makefile-mode
+    :tags 
+        '( ("default_target" function (:arguments ("all")) nil [163 183])
+            (".PHONY" function (:arguments ("default_target")) nil [183 207])
+            ("all" function nil nil [240 245])
+            (".PHONY" function (:arguments ("all")) nil [245 258])
+            ("preinstall" function nil nil [298 310])
+            (".PHONY" function (:arguments ("preinstall")) nil [310 330])
+            (".SUFFIXES" function nil nil [505 516])
+            ("SUFFIXES" variable nil nil [580 591])
+            (".SUFFIXES" function (:arguments (".hpux_make_needs_suffix_list")) nil [592 632])
+            ("$(VERBOSE)" function nil nil [674 693])
+            ("cmake_force" function nil nil [733 746])
+            (".PHONY" function (:arguments ("cmake_force")) nil [746 767])
+            ("SHELL" variable (:default-value ("/bin/sh")) nil [935 951])
+            ("CMAKE_COMMAND" variable (:default-value ("/usr/bin/cmake")) nil [976 1007])
+            ("RM" variable (:default-value ("/usr/bin/cmake" "-E" "remove" "-f")) nil [1040 1073])
+            ("EQUALS" variable (:default-value ("=")) nil [1109 1120])
+            ("CMAKE_EDIT_COMMAND" variable (:default-value ("/usr/bin/ccmake")) nil [1161 1198])
+            ("CMAKE_SOURCE_DIR" variable (:default-value ("/home/vicky/Academics/BTP/c++")) nil [1256 1305])
+            ("CMAKE_BINARY_DIR" variable (:default-value ("/home/vicky/Academics/BTP/c++")) nil [1362 1411])
+            ("CMakeFiles/main.dir/all" function (:arguments ("CMakeFiles/morph_skel.dir/all")) nil [1567 1875])
+            (".PHONY" function (:arguments ("CMakeFiles/main.dir/all")) nil [1875 1908])
+            ("all" function (:arguments ("CMakeFiles/main.dir/all")) nil [1934 1963])
+            (".PHONY" function (:arguments ("all")) nil [1963 1976])
+            ("CMakeFiles/main.dir/rule" function (:arguments ("cmake_check_build_system")) nil [2024 2302])
+            (".PHONY" function (:arguments ("CMakeFiles/main.dir/rule")) nil [2302 2336])
+            ("main" function (:arguments ("CMakeFiles/main.dir/rule")) nil [2368 2399])
+            (".PHONY" function (:arguments ("main")) nil [2399 2413])
+            ("CMakeFiles/main.dir/clean" function nil nil [2439 2535])
+            (".PHONY" function (:arguments ("CMakeFiles/main.dir/clean")) nil [2535 2570])
+            ("clean" function (:arguments ("CMakeFiles/main.dir/clean")) nil [2596 2629])
+            (".PHONY" function (:arguments ("clean")) nil [2629 2644])
+            ("CMakeFiles/morph_skel.dir/all" function nil nil [2806 3120])
+            (".PHONY" function (:arguments ("CMakeFiles/morph_skel.dir/all")) nil [3120 3159])
+            ("all" function (:arguments ("CMakeFiles/morph_skel.dir/all")) nil [3185 3220])
+            (".PHONY" function (:arguments ("all")) nil [3220 3233])
+            ("CMakeFiles/morph_skel.dir/rule" function (:arguments ("cmake_check_build_system")) nil [3281 3571])
+            (".PHONY" function (:arguments ("CMakeFiles/morph_skel.dir/rule")) nil [3571 3611])
+            ("morph_skel" function (:arguments ("CMakeFiles/morph_skel.dir/rule")) nil [3643 3686])
+            (".PHONY" function (:arguments ("morph_skel")) nil [3686 3706])
+            ("CMakeFiles/morph_skel.dir/clean" function nil nil [3732 3846])
+            (".PHONY" function (:arguments ("CMakeFiles/morph_skel.dir/clean")) nil [3846 3887])
+            ("clean" function (:arguments ("CMakeFiles/morph_skel.dir/clean")) nil [3913 3952])
+            (".PHONY" function (:arguments ("clean")) nil [3952 3967])
+            ("cmake_check_build_system" function nil nil [4272 4409])
+            (".PHONY" function (:arguments ("cmake_check_build_system")) nil [4409 4443]))          
+    :file "Makefile2"
+    :pointmax 4444
+    :fsize 4443
+    :lastmodtime '(20764 58481)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!Academics!BTP!c++!CMakeFiles!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

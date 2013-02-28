@@ -3,9 +3,61 @@
 (semanticdb-project-database-file "4.7.2/"
   :tables (list 
    (semanticdb-table "iostream"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_GLIBCXX_IOSTREAM" variable (:constant-flag t) nil [1295 1312])
+            ("bits/c++config.h" include (:system-flag t) nil [1343 1370])
+            ("ostream" include (:system-flag t) nil [1371 1389])
+            ("istream" include (:system-flag t) nil [1390 1408])
+            ("std" type
+               (:members 
+                  ( ("cin" variable
+                       (:typemodifiers ("extern")
+                        :type ("istream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2033 2052])
+                    ("cout" variable
+                       (:typemodifiers ("extern")
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2085 2105])
+                    ("cerr" variable
+                       (:typemodifiers ("extern")
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2139 2159])
+                    ("clog" variable
+                       (:typemodifiers ("extern")
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2205 2225])
+                    ("wcin" variable
+                       (:typemodifiers ("extern")
+                        :type ("wistream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2298 2319])
+                    ("wcout" variable
+                       (:typemodifiers ("extern")
+                        :type ("wostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2352 2374])
+                    ("wcerr" variable
+                       (:typemodifiers ("extern")
+                        :type ("wostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2407 2429])
+                    ("wclog" variable
+                       (:typemodifiers ("extern")
+                        :type ("wostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2474 2496])
+                    ("__ioinit" variable
+                       (:typemodifiers ("static")
+                        :type ("ios_base::Init" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2625 2656]))                  
+                :type "namespace")
+                nil [1410 2690]))          
     :file "iostream"
+    :pointmax 2736
     :fsize 2735
     :lastmodtime '(20698 49742)
+    :unmatched-syntax '((symbol 2680 . 2688) (semantic-list "{" 1455 . 1487) (symbol "__7" 1455 . 1487) (NAMESPACE "namespace" 1455 . 1487) (symbol 1328 . 1341) (symbol 1324 . 1327) (symbol 1317 . 1323) (punctuation 1316 . 1317))
+    :lexical-table 
+        '(("_GLIBCXX_IOSTREAM" . ((number "1" 1313 . 1314)))
+          )
+
     )
    (semanticdb-table "fstream"
     :file "fstream"
@@ -57,6 +109,71 @@
    (semanticdb-table "cstdio"
     :file "cstdio"
     :fsize 4347
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "algorithm"
+    :file "algorithm"
+    :fsize 2564
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "cmath"
+    :file "cmath"
+    :fsize 42653
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "cstddef"
+    :file "cstddef"
+    :fsize 1682
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "complex"
+    :file "complex"
+    :fsize 52309
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "map"
+    :file "map"
+    :fsize 2572
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "new"
+    :file "new"
+    :fsize 4275
+    :lastmodtime '(20698 49743)
+    )
+   (semanticdb-table "sstream"
+    :file "sstream"
+    :fsize 19206
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "limits"
+    :file "limits"
+    :fsize 67718
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "deque"
+    :file "deque"
+    :fsize 2717
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "list"
+    :file "list"
+    :fsize 2646
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "valarray"
+    :file "valarray"
+    :fsize 40083
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "set"
+    :file "set"
+    :fsize 2572
+    :lastmodtime '(20698 49742)
+    )
+   (semanticdb-table "istream"
+    :file "istream"
+    :fsize 29651
     :lastmodtime '(20698 49742)
     )
    )

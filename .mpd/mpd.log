@@ -6988,3 +6988,2086 @@ Feb 12 18:46 : listen: bind to '0.0.0.0:8000' failed: Address already in use (co
 Feb 12 18:46 : config: option 'mixer_device' on line 19 was not recognized
 Feb 12 19:54 : player_thread: played "No Surprises.mp3"
 Feb 12 21:27 : player_thread: played "Trouble.mp3"
+Feb 13 07:27 : avahi: Client Disconnected, will reconnect shortly
+Feb 13 07:27 : avahi: Could not reconnect: Daemon not running
+Feb 13 11:46 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 13 11:46 : config: option 'mixer_device' on line 19 was not recognized
+Feb 13 12:11 : avahi: Client Disconnected, will reconnect shortly
+Feb 13 12:11 : avahi: Could not reconnect: Daemon not running
+Feb 13 12:12 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 13 12:12 : config: option 'mixer_device' on line 19 was not recognized
+Feb 13 12:37 : avahi: Client Disconnected, will reconnect shortly
+Feb 13 12:37 : avahi: Could not reconnect: Daemon not running
+Feb 14 05:12 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 14 05:12 : config: option 'mixer_device' on line 19 was not recognized
+Feb 14 05:13 : updating /Dil Ibadat.mp3
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: Header missing
+Feb 14 05:13 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 14 05:13 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 14 05:13 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 14 05:13 : removing Dil Ibadat.mp3
+Feb 15 15:01 : player_thread: played "temp/Coldplay/X&Y/Speed of Sound.mp3"
+Feb 15 15:20 : player_thread: played "temp/Coldplay/X&Y/11 - Coldplay - X&Y - Swallowed in the Sea.mp3"
+Feb 15 15:35 : player_thread: played "temp/Coldplay/X&Y/11 - Coldplay - X&Y - Swallowed in the Sea.mp3"
+Feb 15 15:42 : player_thread: played "Vanilla Twilight.mp3"
+Feb 15 15:46 : player_thread: played "temp/Coldplay/Mylo Xyloto/05-coldplay-us_against_the_world.mp3"
+Feb 15 15:49 : player_thread: played "This Night.mp3"
+Feb 15 15:58 : player_thread: played "I Do I Do.mp3"
+Feb 15 16:01 : player_thread: played "temp/Coldplay/A Rush of Blood to the Head/02 In My Place.mp3"
+Feb 15 16:07 : player_thread: played "temp/Coldplay/Mylo Xyloto/03-coldplay-paradise.mp3"
+Feb 15 16:12 : player_thread: played "Trouble.mp3"
+Feb 15 16:18 : player_thread: played "To Build A Home.mp3"
+Feb 15 17:03 : player_thread: played "How To Save A Life.mp3"
+Feb 15 17:07 : player_thread: played "Waiting for the End.mp3"
+Feb 15 17:11 : player_thread: played "Over My Head (Cable Car).mp3"
+Feb 15 17:17 : player_thread: played "Californication.mp3"
+Feb 15 17:23 : added /02 - Main Kya Karoon.mp3
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 15 17:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 15 17:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 15 17:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 15 17:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: Header missing
+Feb 15 17:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 15 17:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 15 17:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 15 17:24 : removing 02 - Main Kya Karoon.mp3
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 15 17:24 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 15 17:24 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 15 17:24 : added /Main Kya Karoon.mp3
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: Header missing
+Feb 15 17:24 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 15 17:24 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 15 17:24 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 15 17:25 : player_thread: played "Tujhko Jo Paaya.mp3"
+Feb 15 17:29 : player_thread: played "Main Kya Karoon.mp3"
+Feb 15 17:40 : player_thread: played "temp/Coldplay/Mylo Xyloto/11-coldplay-up_in_flames.mp3"
+Feb 15 17:40 : player_thread: played "temp/Coldplay/Mylo Xyloto/12-coldplay-a_hopeful_transmission.mp3"
+Feb 15 17:44 : player_thread: played "temp/Coldplay/Mylo Xyloto/13-coldplay-dont_let_it_break_your_heart.mp3"
+Feb 15 17:58 : player_thread: played "Game of Thrones.mp3"
+Feb 15 18:13 : player_thread: played "Main Kya Karoon.mp3"
+Feb 15 18:17 : player_thread: played "No Surprises.mp3"
+Feb 15 18:22 : player_thread: played "Fake Plastic Trees.mp3"
+Feb 15 18:26 : player_thread: played "When You Look Me In The Eyes.mp3"
+Feb 15 21:14 : avahi: Client Disconnected, will reconnect shortly
+Feb 15 21:14 : avahi: Could not reconnect: Daemon not running
+Feb 16 04:46 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 16 04:46 : config: option 'mixer_device' on line 19 was not recognized
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: Header missing
+Feb 16 04:46 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 16 04:46 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 16 04:46 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 17 05:00 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 17 05:00 : config: option 'mixer_device' on line 19 was not recognized
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: Header missing
+Feb 17 05:01 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 17 05:01 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 17 05:01 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 17 06:58 : player_thread: played "Waiting for the End.mp3"
+Feb 17 07:02 : player_thread: played "Over My Head (Cable Car).mp3"
+Feb 17 07:04 : player_thread: played "temp/Coldplay/Parachutes/Coldplay-Don't Panic.mp3"
+Feb 17 07:09 : player_thread: played "temp/Coldplay/X&Y/06 - Coldplay - X&Y - X&Y.mp3"
+Feb 17 07:13 : player_thread: played "temp/Coldplay/Parachutes/Coldplay - Sparks.mp3"
+Feb 17 07:16 : player_thread: played "No Surprises.mp3"
+Feb 17 09:01 : player_thread: played "temp/Coldplay/Parachutes/Coldplay - Trouble.mp3"
+Feb 17 09:07 : player_thread: played "Jaane Tu [Male].mp3"
+Feb 17 09:12 : player_thread: played "Lost!.mp3"
+Feb 17 13:08 : player_thread: played "Iridescent.mp3"
+Feb 17 13:11 : player_thread: played "This Night.mp3"
+Feb 17 13:16 : player_thread: played "I Do I Do.mp3"
+Feb 18 01:25 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 18 01:25 : config: option 'mixer_device' on line 19 was not recognized
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: Header missing
+Feb 18 01:26 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 18 01:26 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 18 01:26 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 18 13:30 : avahi: Client Disconnected, will reconnect shortly
+Feb 18 13:30 : avahi: Could not reconnect: Daemon not running
+Feb 18 18:53 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 18 18:53 : config: option 'mixer_device' on line 19 was not recognized
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: Header missing
+Feb 18 18:53 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 18 18:53 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 18 18:53 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 18 23:25 : avahi: Client Disconnected, will reconnect shortly
+Feb 18 23:25 : avahi: Could not reconnect: Daemon not running
+Feb 19 14:41 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 19 14:42 : config: option 'mixer_device' on line 19 was not recognized
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: Header missing
+Feb 19 14:42 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 19 14:42 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 19 14:42 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 19 17:23 : avahi: Client Disconnected, will reconnect shortly
+Feb 19 17:23 : avahi: Could not reconnect: Daemon not running
+Feb 19 18:32 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 19 18:32 : config: option 'mixer_device' on line 19 was not recognized
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: Header missing
+Feb 19 18:33 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 19 18:33 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 19 18:33 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 20 19:22 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 20 19:22 : config: option 'mixer_device' on line 19 was not recognized
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: Header missing
+Feb 20 19:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 20 19:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 20 19:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 20 22:43 : player_thread: played "Iridescent.mp3"
+Feb 20 22:48 : player_thread: played "Fake Plastic Trees.mp3"
+Feb 20 22:51 : player_thread: played "Game of Thrones.mp3"
+Feb 20 22:55 : player_thread: played "No Surprises.mp3"
+Feb 20 23:39 : player_thread: played "To Build A Home.mp3"
+Feb 21 00:13 : player_thread: played "Here Without You.mp3"
+Feb 21 01:14 : player_thread: played "Waiting for the End.mp3"
+Feb 21 03:21 : removing temp/Coldplay/X&Y/11 - Coldplay - X&Y - Swallowed in the Sea.mp3
+Feb 21 03:21 : added /Swallowed in the Sea.mp3
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: Header missing
+Feb 21 03:21 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:21 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:21 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:23 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 21 03:23 : added /Lost! (Acoustic Version).mp3
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:23 : removing Lost! (Acoustic Version).mp3
+Feb 21 03:23 : added /Lost! [Acoustic].mp3
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:23 : updating /Lost! [Acoustic].mp3
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: Header missing
+Feb 21 03:23 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:23 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:23 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:24 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:24 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:24 : updating /Lost! [Acoustic].mp3
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:24 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:24 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: Header missing
+Feb 21 03:24 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:24 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:24 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:25 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:25 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:25 : removing Lost! [Acoustic].mp3
+Feb 21 03:25 : added /Lost! [Piano].mp3
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:25 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:25 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: Header missing
+Feb 21 03:25 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 03:25 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 03:25 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 03:30 : player_thread: played "temp/Coldplay/Parachutes/Coldplay - Trouble.mp3"
+Feb 21 03:35 : player_thread: played "Whatever It Takes.mp3"
+Feb 21 04:08 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 21 04:23 : player_thread: played "Space Bound.mp3"
+Feb 21 11:18 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 21 11:18 : config: option 'mixer_device' on line 19 was not recognized
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: Header missing
+Feb 21 11:19 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 21 11:19 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 21 11:19 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 21 22:35 : player_thread: played "temp/Coldplay/A Rush of Blood to the Head/02 In My Place.mp3"
+Feb 22 00:56 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 22 00:56 : config: option 'mixer_device' on line 19 was not recognized
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: Header missing
+Feb 22 00:57 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 22 00:57 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 22 00:57 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 22 01:36 : player_thread: played "Raabta.mp3"
+Feb 22 01:57 : player_thread: played "Numb.mp3"
+Feb 22 02:54 : player_thread: played "Stop and Stare.mp3"
+Feb 22 05:58 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 22 08:07 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 22 08:12 : player_thread: played "temp/Coldplay/Mylo Xyloto/11-coldplay-up_in_flames.mp3"
+Feb 22 08:17 : player_thread: played "temp/Coldplay/Parachutes/Coldplay - Trouble.mp3"
+Feb 22 08:21 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 22 09:24 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 22 13:19 : avahi: Client Disconnected, will reconnect shortly
+Feb 22 13:19 : avahi: Could not reconnect: Daemon not running
+Feb 22 16:24 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 22 16:24 : config: option 'mixer_device' on line 19 was not recognized
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: Header missing
+Feb 22 16:25 : ffmpeg/mp3: decoding for stream 0 failed
+Feb 22 16:25 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp1, 0 channels, s16): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Feb 22 16:25 : ffmpeg/mp3: Estimating duration from bitrate, this may be inaccurate
+Feb 22 19:19 : player_thread: played "temp/Coldplay/X&Y/08 - Coldplay - X&Y - Message.mp3"
+Feb 22 20:43 : avahi: Client Disconnected, will reconnect shortly
+Feb 22 20:43 : avahi: Could not reconnect: Daemon not running
+Feb 22 21:41 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 22 21:41 : config: option 'mixer_device' on line 19 was not recognized
+Feb 22 21:42 : added /Dil Ibadat.mp3
+Feb 23 08:26 : avahi: Client Disconnected, will reconnect shortly
+Feb 23 08:26 : avahi: Could not reconnect: Daemon not running
+Feb 24 02:21 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 24 02:21 : config: option 'mixer_device' on line 19 was not recognized
+Feb 24 21:48 : avahi: Client Disconnected, will reconnect shortly
+Feb 24 21:48 : avahi: Could not reconnect: Daemon not running
+Feb 24 22:51 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 24 22:51 : inotify: Failed to stat /home/vicky/Music/Dil Ibadat.mp3: Input/output error
+Feb 24 22:51 : config: option 'mixer_device' on line 19 was not recognized
+Feb 24 22:51 : removing Dil Ibadat.mp3
+Feb 24 22:58 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 25 12:58 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 25 12:58 : inotify: Failed to stat /home/vicky/Music/Dil Ibadat.mp3: Input/output error
+Feb 25 12:58 : config: option 'mixer_device' on line 19 was not recognized
+Feb 25 13:14 : avahi: Client Disconnected, will reconnect shortly
+Feb 25 13:14 : avahi: Could not reconnect: Daemon not running
+Feb 25 16:33 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 25 16:33 : inotify: Failed to stat /home/vicky/Music/Dil Ibadat.mp3: Input/output error
+Feb 25 16:33 : config: option 'mixer_device' on line 19 was not recognized
+Feb 26 14:00 : avahi: Client Disconnected, will reconnect shortly
+Feb 26 14:00 : avahi: Could not reconnect: Daemon not running
+Feb 27 09:58 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 27 09:58 : inotify: Failed to stat /home/vicky/Music/Dil Ibadat.mp3: Input/output error
+Feb 27 09:58 : config: option 'mixer_device' on line 19 was not recognized
+Feb 27 10:26 : avahi: Client Disconnected, will reconnect shortly
+Feb 27 10:26 : avahi: Could not reconnect: Daemon not running
+Feb 27 12:52 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 27 12:52 : inotify: Failed to stat /home/vicky/Music/Dil Ibadat.mp3: Input/output error
+Feb 27 12:52 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 01:53 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 01:53 : inotify: Failed to stat /home/vicky/Music/Dil Ibadat.mp3: Input/output error
+Feb 28 01:53 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 02:49 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 02:49 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 04:06 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 04:06 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 13:21 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 13:21 : decoder_thread: Unrecognized URI
+Feb 28 13:21 : decoder_thread: Unrecognized URI
+Feb 28 13:21 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 13:21 : avahi: Service 'Music Player' successfully established.
+Feb 28 13:41 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 13:41 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 13:41 : avahi: Service 'Music Player' successfully established.
+Feb 28 13:49 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 13:49 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 13:49 : avahi: Service 'Music Player' successfully established.
+Feb 28 14:27 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 14:27 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 14:27 : avahi: Service 'Music Player' successfully established.
+Feb 28 15:08 : inotify: music directory was removed - cannot continue to watch it
+Feb 28 15:42 : player_thread: played "temp/Coldplay/A Rush of Blood to the Head/02 In My Place.mp3"
+Feb 28 15:46 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 15:46 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 15:46 : avahi: Service 'Music Player' successfully established.
+Feb 28 15:46 : update: updating /My Immortal.mp3
+Feb 28 15:46 : update: updating /Hey, Soul Sister.mp3
+Feb 28 15:46 : update: updating /21 Guns.mp3
+Feb 28 15:46 : update: updating /Sing for the Moment.mp3
+Feb 28 15:46 : update: updating /Up in Flames.mp3
+Feb 28 15:46 : update: updating /I'm No Superman.mp3
+Feb 28 15:46 : update: updating /Die This Way.mp3
+Feb 28 15:46 : update: updating /Umbrella.mp3
+Feb 28 15:46 : update: updating /Boats and Birds.mp3
+Feb 28 15:46 : update: updating /Wavin' Flag.mp3
+Feb 28 15:46 : update: updating /Lost!.mp3
+Feb 28 15:46 : update: updating /Pehla Nasha.mp3
+Feb 28 15:46 : update: updating /Stop and Stare.mp3
+Feb 28 15:46 : update: updating /Jump Then Fall.mp3
+Feb 28 15:46 : update: updating /Handlebars.mp3
+Feb 28 15:46 : update: updating /Tujhe Chand Chahiye.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/01-coldplay-mylo_xyloto.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/11-coldplay-up_in_flames.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/10-coldplay-princess_of_china.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/03-coldplay-paradise.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/14-coldplay-up_with_the_birds.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/06-coldplay-m.m.i.x..mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/08-coldplay-major_minus.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/13-coldplay-dont_let_it_break_your_heart.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/05-coldplay-us_against_the_world.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/12-coldplay-a_hopeful_transmission.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/Every Teardrop is a Waterfall.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/04-coldplay-charlie_brown.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/09-coldplay-u.f.o..mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Mylo Xyloto/02-coldplay-hurts_like_heaven.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Coldplay-Don't Panic.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Cold Play - spies.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Cold play- Parachute.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Coldplay - Trouble.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Shiver.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/07-HIGH SPEED.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Colplay - Yellow.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Coldplay - We Never Change.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Parachutes/Coldplay - Sparks.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/10 Death And All His Friends.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/04 42.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/09 Strawberry Swing.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/02 Cemeteries Of London.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/06 Yes.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/01 Life In Technicolor.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/05 Lovers In Japan  Reign Of Love.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/08 Violet Hill.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/Viva La Vida/07 Viva La Vida.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/03 - Coldplay - X&Y - White Shadows.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/06 - Coldplay - X&Y - X&Y.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/Fix You.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/01 - Coldplay - X&Y - Square One.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/13 - Coldplay - X&Y - Til Kingdom Come [Hidden Track].mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/09 - Coldplay - X&Y - Low.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/What If.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/08 - Coldplay - X&Y - Message.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/05 - Coldplay - X&Y - Talk.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/Speed of Sound.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/12 - Coldplay - X&Y - Twisted Logic.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/X&Y/10 - Coldplay - X&Y - Hardest Part.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/A Rush of Blood to the Head/Clocks.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/A Rush of Blood to the Head/02 In My Place.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/A Rush of Blood to the Head/Coldplay - God Put a Smile Upon Your Face.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/A Rush of Blood to the Head/11. Amsterdam.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/A Rush of Blood to the Head/The Scientist.mp3
+Feb 28 15:46 : update: updating temp/Coldplay/A Rush of Blood to the Head/A_Rush_Of_Blood_To_The_Head.mp3
+Feb 28 15:46 : update: updating /This Is Me [Movie Version].mp3
+Feb 28 15:46 : update: updating /Wherever You Will Go.mp3
+Feb 28 15:46 : update: updating /Waiting for the End.mp3
+Feb 28 15:46 : update: updating /Colourblind.mp3
+Feb 28 15:46 : update: updating /Not Afraid.mp3
+Feb 28 15:46 : update: updating /Woh Lamhe.mp3
+Feb 28 15:46 : update: updating /Thank You.mp3
+Feb 28 15:46 : update: updating /You're Beautiful.mp3
+Feb 28 15:46 : update: updating /Haal-e-Dil.mp3
+Feb 28 15:46 : update: updating /Princess of China.mp3
+Feb 28 15:46 : update: updating /A Rush of Blood to the Head.mp3
+Feb 28 15:46 : update: updating /Trouble.mp3
+Feb 28 15:46 : update: updating /Love Story.mp3
+Feb 28 15:46 : update: updating /It's My Life.mp3
+Feb 28 15:46 : update: updating /Over My Head (Cable Car).mp3
+Feb 28 15:46 : update: updating /Tera Hone Laga Hoon.mp3
+Feb 28 15:46 : update: updating /Summer of '69.mp3
+Feb 28 15:46 : update: updating /Epilogue - cut.mp3
+Feb 28 15:46 : update: updating /Oceans Away.mp3
+Feb 28 15:46 : update: updating /Tadap Tadap.mp3
+Feb 28 15:46 : update: updating /Engel [English].mp3
+Feb 28 15:46 : update: updating /Viva La Vida.mp3
+Feb 28 15:46 : update: updating /Californication.mp3
+Feb 28 15:46 : update: updating /Someday.mp3
+Feb 28 15:46 : update: updating /Nazrein Mila Tu.mp3
+Feb 28 15:46 : update: updating /Carnival of Rust.mp3
+Feb 28 15:46 : update: updating /Fix You.mp3
+Feb 28 15:46 : update: updating /Boulevard of Broken Dreams.mp3
+Feb 28 15:46 : update: updating /Complicated.mp3
+Feb 28 15:46 : update: updating /Landing In London.mp3
+Feb 28 15:46 : update: updating /Birthday Song.mp3
+Feb 28 15:46 : update: updating /Paradise.mp3
+Feb 28 15:46 : update: updating /Spontaneous Me.mp3
+Feb 28 15:46 : update: updating /Mad.mp3
+Feb 28 15:46 : update: updating /Clocks.mp3
+Feb 28 15:46 : update: updating /My Heart Will Go On.mp3
+Feb 28 15:46 : update: updating /No Surprises.mp3
+Feb 28 15:46 : update: updating /Play My Music.mp3
+Feb 28 15:46 : update: updating /You Belong With Me.mp3
+Feb 28 15:46 : update: updating /Gotta Find You [Album Version].mp3
+Feb 28 15:46 : update: updating /Blackberry Light.mp3
+Feb 28 15:46 : update: updating /In The End.mp3
+Feb 28 15:46 : update: updating /Lose Yourself.mp3
+Feb 28 15:46 : update: updating /Khabar Nahi.mp3
+Feb 28 15:46 : update: updating /This Night.mp3
+Feb 28 15:46 : update: updating /Teardrops On My Guitar.mp3
+Feb 28 15:46 : update: updating /Whatever It Takes.mp3
+Feb 28 15:46 : update: updating /In My Place.mp3
+Feb 28 15:46 : update: updating /Call Your Name.mp3
+Feb 28 15:46 : update: updating /Nazrein Milana.mp3
+Feb 28 15:46 : update: updating /Aadat [Jal].mp3
+Feb 28 15:46 : update: updating /Bye Bye Bye.mp3
+Feb 28 15:46 : update: updating /Breathless.mp3
+Feb 28 15:46 : update: updating /Yaaron.mp3
+Feb 28 15:46 : update: updating /Good Life [Megan Nicole].mp3
+Feb 28 15:46 : update: updating /Stan.mp3
+Feb 28 15:46 : update: updating /Khoya Khoya Chand.mp3
+Feb 28 15:46 : update: updating /Hurts Like Heaven.mp3
+Feb 28 15:46 : update: updating /Behind Blue Eyes.mp3
+Feb 28 15:46 : update: updating /Swallowed in the Sea.mp3
+Feb 28 15:46 : update: updating /Wake Me Up When September Ends.mp3
+Feb 28 15:46 : update: updating /Nothin' on You.mp3
+Feb 28 15:46 : update: updating /This Is Me [Piano Version].mp3
+Feb 28 15:46 : update: updating /Home.mp3
+Feb 28 15:46 : update: updating /Here Without You.mp3
+Feb 28 15:46 : update: updating /Jar of Hearts.mp3
+Feb 28 15:46 : update: updating /Kabhi Kabhi Aditi.mp3
+Feb 28 15:46 : update: updating /Numb.mp3
+Feb 28 15:46 : update: updating /To Build A Home.mp3
+Feb 28 15:46 : update: updating /Chasing Cars.mp3
+Feb 28 15:46 : update: updating /Fireflies.mp3
+Feb 28 15:46 : update: updating /Mockingbird.mp3
+Feb 28 15:46 : update: updating /You Found Me.mp3
+Feb 28 15:46 : update: updating /Tu To Na Aayi.mp3
+Feb 28 15:46 : update: updating /I Need A Doctor.mp3
+Feb 28 15:46 : update: updating /Iridescent.mp3
+Feb 28 15:46 : update: updating /Jaane Tu [Male].mp3
+Feb 28 15:46 : update: updating /Tujhse Naraz Nahin Zindagi.mp3
+Feb 28 15:46 : update: updating /Rolling In The Deep.mp3
+Feb 28 15:46 : update: updating /Bleeding Love.mp3
+Feb 28 15:46 : update: updating /Engel.mp3
+Feb 28 15:46 : update: updating /What If.mp3
+Feb 28 15:46 : update: updating /X&Y.mp3
+Feb 28 15:46 : update: updating /Somebody That I Used to Know [Cover].mp3
+Feb 28 15:46 : update: updating /Church.mp3
+Feb 28 15:46 : update: updating /Rain, Rain Go Away.mp3
+Feb 28 15:46 : update: updating /I'm Yours.mp3
+Feb 28 15:46 : update: updating /Last Kiss.mp3
+Feb 28 15:46 : update: updating /Yaadein Yaad Aati Hain.mp3
+Feb 28 15:46 : update: updating /Love The Way You Lie [Part II - Skylar Grey].mp3
+Feb 28 15:46 : update: updating /Give Me Some Sunshine.mp3
+Feb 28 15:46 : update: updating /We Are Young.mp3
+Feb 28 15:46 : update: updating /No Air.mp3
+Feb 28 15:46 : update: updating /What Hurts the Most [Male].mp3
+Feb 28 15:46 : update: updating /Shiver.mp3
+Feb 28 15:46 : update: updating /Skyscraper.mp3
+Feb 28 15:46 : update: updating /Explosive.mp3
+Feb 28 15:46 : update: updating /Broken.mp3
+Feb 28 15:46 : update: updating /The Real Slim Shady.mp3
+Feb 28 15:46 : update: updating /Jaane Tu [Female].mp3
+Feb 28 15:46 : update: updating /If This Was A Movie.mp3
+Feb 28 15:46 : update: updating /Learn You Inside Out.mp3
+Feb 28 15:46 : update: updating /Our Song.mp3
+Feb 28 15:46 : update: updating /Storm.mp3
+Feb 28 15:46 : update: updating /What Goes Around Comes Around.mp3
+Feb 28 15:46 : update: updating /Speed of Sound.mp3
+Feb 28 15:46 : update: updating /Main Kya Karoon.mp3
+Feb 28 15:46 : update: updating /Tujhko Jo Paaya.mp3
+Feb 28 15:46 : update: updating /Ooh Ahh.mp3
+Feb 28 15:46 : update: updating /Creep.mp3
+Feb 28 15:46 : update: updating /Nasha.mp3
+Feb 28 15:46 : update: updating /Zombie.mp3
+Feb 28 15:46 : update: updating /Make Me Over.mp3
+Feb 28 15:46 : update: updating /Every Teardrop is a Waterfall.mp3
+Feb 28 15:46 : update: updating /Fake Plastic Trees.mp3
+Feb 28 15:46 : update: updating /Bless the Broken Road.mp3
+Feb 28 15:46 : update: updating /This Is Me [Album Version].mp3
+Feb 28 15:46 : update: updating /Never Say Never.mp3
+Feb 28 15:46 : update: updating /Love The Way You Lie [Part II - Rihanna feat. Eminem].mp3
+Feb 28 15:46 : update: updating /Hum Rahe Ya Na Rahe.mp3
+Feb 28 15:46 : update: updating /Tujh Mein Rab Dikhta Hai [Female].mp3
+Feb 28 15:46 : update: updating /Gotta Find You [Movie Version].mp3
+Feb 28 15:46 : update: updating /Mesmerized.mp3
+Feb 28 15:46 : update: updating /Who We Are.mp3
+Feb 28 15:46 : update: updating /The Scientist.mp3
+Feb 28 15:46 : update: updating /Love the Way You Lie.mp3
+Feb 28 15:46 : update: updating /Raabta.mp3
+Feb 28 15:46 : update: updating /One Last Breath.mp3
+Feb 28 15:46 : update: updating /Violet Hill.mp3
+Feb 28 15:46 : update: updating /Airplanes.mp3
+Feb 28 15:46 : update: updating /Weathered.mp3
+Feb 28 15:46 : update: updating /Vanilla Twilight.mp3
+Feb 28 15:46 : update: updating /Yellow.mp3
+Feb 28 15:46 : update: updating /Teardrop.mp3
+Feb 28 15:46 : update: updating /Space Bound.mp3
+Feb 28 15:46 : update: updating /Amsterdam.mp3
+Feb 28 15:46 : update: updating /Easier To Be.mp3
+Feb 28 15:46 : update: updating /Lost! [Piano].mp3
+Feb 28 15:46 : update: updating /Game of Thrones.mp3
+Feb 28 15:46 : update: updating /Somebody's Me.mp3
+Feb 28 15:46 : update: updating /I Do I Do.mp3
+Feb 28 15:46 : update: updating /Kahin To Hogi Woh.mp3
+Feb 28 15:46 : update: updating /How To Save A Life.mp3
+Feb 28 15:46 : update: updating /Tum Se Hi.mp3
+Feb 28 15:46 : update: updating /Emptiness.mp3
+Feb 28 15:46 : update: updating /You Are The Music In Me.mp3
+Feb 28 15:46 : update: updating /Tujh Mein Rab Dikhta Hai [Male].mp3
+Feb 28 15:46 : update: updating /Apologize.mp3
+Feb 28 15:46 : update: updating /Crystallize Dubstep Violin.mp3
+Feb 28 15:46 : update: updating /42.mp3
+Feb 28 15:46 : update: updating /Heaven By Your Side.mp3
+Feb 28 15:46 : update: updating /Blood Theme.mp3
+Feb 28 15:46 : update: updating /One Of Us.mp3
+Feb 28 15:46 : update: updating /Hardest Part.mp3
+Feb 28 15:46 : update: updating /Phir Mohabbat.mp3
+Feb 28 15:46 : update: updating /Time of Your Life.mp3
+Feb 28 15:46 : update: updating /Gotta Go My Own Way.mp3
+Feb 28 15:46 : update: updating /Good Life.mp3
+Feb 28 15:46 : update: updating /When You Look Me In The Eyes.mp3
+Feb 28 15:46 : update: updating /Remember the Name.mp3
+Feb 28 15:46 : update: updating /O Re Piya.mp3
+Feb 28 15:46 : update: updating /Shadows.mp3
+Feb 28 16:31 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 16:31 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 16:31 : avahi: Service 'Music Player' successfully established.
+Feb 28 16:35 : player_thread: played "temp/Coldplay/A Rush of Blood to the Head/02 In My Place.mp3"
+Feb 28 16:44 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 16:44 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 16:44 : avahi: Service 'Music Player' successfully established.
+Feb 28 19:22 : listen: bind to '0.0.0.0:8000' failed: Address already in use (continuing anyway, because binding to '[::]:8000' succeeded)
+Feb 28 19:22 : config: option 'mixer_device' on line 19 was not recognized
+Feb 28 19:22 : avahi: Service 'Music Player' successfully established.
+Feb 28 19:51 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 28 20:02 : player_thread: played "Swallowed in the Sea.mp3"
+Feb 28 20:17 : player_thread: played "temp/Coldplay/X&Y/10 - Coldplay - X&Y - Hardest Part.mp3"

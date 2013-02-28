@@ -5297,3 +5297,956 @@
 2013-02-12T18:46:49+0530 [last.fm] waiting 60 seconds before trying again
 2013-02-12T19:50:47+0530 [last.fm] invalid session
 2013-02-12T21:23:04+0530 [last.fm] invalid session
+2013-02-13T11:46:47+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-13T11:46:47+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-13T12:12:51+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-13T12:12:51+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-14T05:12:12+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-14T05:12:12+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-15T14:56:51+0530 [last.fm] invalid session
+2013-02-15T15:16:39+0530 [last.fm] invalid session
+2013-02-15T15:23:02+0530 mpd error (6): Failed to resolve host name
+2013-02-15T15:23:02+0530 waiting 15 seconds before reconnecting
+2013-02-15T15:23:02+0530 starting mpdscribble (mdc 0.22)
+2013-02-15T15:23:02+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-15T15:23:05+0530 [last.fm] handshake successful
+2013-02-15T15:23:05+0530 [last.fm] session: 357b81f3d0df4916aef882a7598fd580
+2013-02-15T15:23:05+0530 [last.fm] now playing url: http://post.audioscrobbler.com:80/np_1.2
+2013-02-15T15:23:05+0530 [last.fm] submit url: http://post2.audioscrobbler.com:80/protocol_1.2
+2013-02-15T15:23:17+0530 mpd error (6): Failed to resolve host name
+2013-02-15T15:23:32+0530 mpd error (6): Failed to resolve host name
+2013-02-15T15:23:47+0530 mpd error (6): Failed to resolve host name
+2013-02-15T15:24:02+0530 mpd error (6): Failed to resolve host name
+2013-02-15T15:24:17+0530 mpd error (6): Failed to resolve host name
+2013-02-15T15:24:20+0530 shutting down
+2013-02-15T15:29:57+0530 connected to mpd 0.17.0 at localhost
+2013-02-15T15:29:57+0530 starting mpdscribble (mdc 0.22)
+2013-02-15T15:29:57+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-15T15:29:59+0530 [last.fm] handshake successful
+2013-02-15T15:29:59+0530 [last.fm] session: d549678a16c0418e83bd0afafa81fb03
+2013-02-15T15:29:59+0530 [last.fm] now playing url: http://post.audioscrobbler.com:80/np_1.2
+2013-02-15T15:29:59+0530 [last.fm] submit url: http://post2.audioscrobbler.com:80/protocol_1.2
+2013-02-15T15:30:08+0530 new song detected (Coldplay - Hardest Part), id: 47, pos: 47
+2013-02-15T15:30:09+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:30:10+0530 [last.fm] OK
+2013-02-15T15:30:48+0530 shutting down
+2013-02-15T15:38:04+0530 connected to mpd 0.17.0 at localhost
+2013-02-15T15:38:04+0530 starting mpdscribble (mdc 0.22)
+2013-02-15T15:38:04+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-15T15:38:07+0530 [last.fm] handshake successful
+2013-02-15T15:38:15+0530 new song detected (Owl City - Vanilla Twilight), id: 53, pos: 53
+2013-02-15T15:38:16+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:38:17+0530 [last.fm] OK
+2013-02-15T15:42:07+0530 1360923127, songchange: Owl City - Vanilla Twilight (232)
+2013-02-15T15:42:07+0530 new song detected (Coldplay - Us Against the World), id: 10, pos: 10
+2013-02-15T15:42:08+0530 [last.fm] submitting 1 song
+2013-02-15T15:42:12+0530 [last.fm] OK
+2013-02-15T15:42:12+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:42:13+0530 [last.fm] OK
+2013-02-15T15:46:06+0530 1360923366, songchange: Coldplay - Us Against the World (240)
+2013-02-15T15:46:06+0530 new song detected (Black Lab - This Night), id: 59, pos: 59
+2013-02-15T15:46:07+0530 [last.fm] submitting 1 song
+2013-02-15T15:46:08+0530 [last.fm] OK
+2013-02-15T15:46:08+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:46:08+0530 [last.fm] OK
+2013-02-15T15:49:36+0530 1360923576, songchange: Black Lab - This Night (210)
+2013-02-15T15:49:36+0530 new song detected (Jason Mraz - I'm Yours), id: 66, pos: 66
+2013-02-15T15:49:37+0530 [last.fm] submitting 1 song
+2013-02-15T15:49:38+0530 [last.fm] OK
+2013-02-15T15:49:38+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:49:38+0530 [last.fm] OK
+2013-02-15T15:53:56+0530 1360923836, songchange: Jason Mraz - I'm Yours (241)
+2013-02-15T15:53:56+0530 new song detected (Charlie Mars - I Do I Do), id: 56, pos: 56
+2013-02-15T15:53:57+0530 [last.fm] submitting 1 song
+2013-02-15T15:53:58+0530 [last.fm] OK
+2013-02-15T15:53:58+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:53:59+0530 [last.fm] OK
+2013-02-15T15:58:05+0530 1360924085, songchange: Charlie Mars - I Do I Do (249)
+2013-02-15T15:58:05+0530 new song detected (Coldplay - God Put A Smile Upon Your Face), id: 0, pos: 0
+2013-02-15T15:58:06+0530 [last.fm] submitting 1 song
+2013-02-15T15:58:07+0530 [last.fm] OK
+2013-02-15T15:58:07+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:58:07+0530 [last.fm] OK
+2013-02-15T15:58:09+0530 new song detected (Coldplay - In My Place), id: 3, pos: 3
+2013-02-15T15:58:10+0530 [last.fm] sending 'now playing' notification
+2013-02-15T15:58:11+0530 [last.fm] OK
+2013-02-15T16:01:58+0530 1360924318, songchange: Coldplay - In My Place (229)
+2013-02-15T16:01:58+0530 new song detected (Coldplay - Spies), id: 20, pos: 20
+2013-02-15T16:01:59+0530 [last.fm] submitting 1 song
+2013-02-15T16:02:00+0530 [last.fm] OK
+2013-02-15T16:02:00+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:02:00+0530 [last.fm] OK
+2013-02-15T16:02:36+0530 new song detected (Coldplay - Paradise), id: 8, pos: 8
+2013-02-15T16:02:37+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:02:38+0530 [last.fm] OK
+2013-02-15T16:07:13+0530 1360924633, songchange: Coldplay - Paradise (278)
+2013-02-15T16:07:13+0530 new song detected (Coldplay - Low), id: 46, pos: 46
+2013-02-15T16:07:14+0530 [last.fm] submitting 1 song
+2013-02-15T16:07:15+0530 [last.fm] OK
+2013-02-15T16:07:15+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:07:16+0530 [last.fm] OK
+2013-02-15T16:07:35+0530 new song detected (Coldplay - Trouble), id: 86, pos: 86
+2013-02-15T16:07:36+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:07:37+0530 [last.fm] OK
+2013-02-15T16:12:06+0530 1360924926, songchange: Coldplay - Trouble (271)
+2013-02-15T16:12:06+0530 new song detected (The Cinematic Orchestra - To Build A Home), id: 87, pos: 87
+2013-02-15T16:12:07+0530 [last.fm] submitting 1 song
+2013-02-15T16:12:08+0530 [last.fm] OK
+2013-02-15T16:12:08+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:12:08+0530 [last.fm] OK
+2013-02-15T16:18:17+0530 1360925297, songchange: The Cinematic Orchestra - To Build A Home (371)
+2013-02-15T16:18:17+0530 new song detected (Linkin Park - Iridescent), id: 93, pos: 88
+2013-02-15T16:18:18+0530 [last.fm] submitting 1 song
+2013-02-15T16:18:19+0530 [last.fm] OK
+2013-02-15T16:18:19+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:18:19+0530 [last.fm] OK
+2013-02-15T16:43:56+0530 1360926836, songchange: Linkin Park - Iridescent (297)
+2013-02-15T16:43:56+0530 new song detected (Radiohead - Fake Plastic Trees), id: 79, pos: 79
+2013-02-15T16:43:57+0530 [last.fm] submitting 1 song
+2013-02-15T16:43:58+0530 [last.fm] OK
+2013-02-15T16:43:58+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:43:59+0530 [last.fm] OK
+2013-02-15T16:59:29+0530 1360927769, songchange: Radiohead - Fake Plastic Trees (290)
+2013-02-15T16:59:29+0530 new song detected (The Fray - How To Save A Life), id: 61, pos: 61
+2013-02-15T16:59:30+0530 [last.fm] submitting 1 song
+2013-02-15T16:59:31+0530 [last.fm] OK
+2013-02-15T16:59:31+0530 [last.fm] sending 'now playing' notification
+2013-02-15T16:59:31+0530 [last.fm] OK
+2013-02-15T17:03:53+0530 1360928033, songchange: The Fray - How To Save A Life (264)
+2013-02-15T17:03:53+0530 new song detected (Linkin Park - Waiting For The End), id: 65, pos: 62
+2013-02-15T17:03:54+0530 [last.fm] submitting 1 song
+2013-02-15T17:03:55+0530 [last.fm] OK
+2013-02-15T17:03:55+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:03:55+0530 [last.fm] OK
+2013-02-15T17:07:45+0530 1360928265, songchange: Linkin Park - Waiting For The End (232)
+2013-02-15T17:07:45+0530 new song detected (The Fray - Over My Head (Cable Car)), id: 62, pos: 63
+2013-02-15T17:07:46+0530 [last.fm] submitting 1 song
+2013-02-15T17:07:47+0530 [last.fm] OK
+2013-02-15T17:07:47+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:07:47+0530 [last.fm] OK
+2013-02-15T17:11:48+0530 1360928508, songchange: The Fray - Over My Head (Cable Car) (241)
+2013-02-15T17:11:48+0530 new song detected (Red Hot Chili Peppers - Californication), id: 63, pos: 64
+2013-02-15T17:11:49+0530 [last.fm] submitting 1 song
+2013-02-15T17:11:50+0530 [last.fm] OK
+2013-02-15T17:11:50+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:11:50+0530 [last.fm] OK
+2013-02-15T17:17:14+0530 1360928834, songchange: Red Hot Chili Peppers - Californication (324)
+2013-02-15T17:17:14+0530 new song detected (Limp Bizkit - Behind Blue Eyes), id: 64, pos: 65
+2013-02-15T17:17:15+0530 [last.fm] submitting 1 song
+2013-02-15T17:17:16+0530 [last.fm] OK
+2013-02-15T17:17:16+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:17:16+0530 [last.fm] OK
+2013-02-15T17:22:18+0530 new song detected (Mohit Chauhan - Tujhko Jo Paaya), id: 67, pos: 67
+2013-02-15T17:22:19+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:22:19+0530 [last.fm] OK
+2013-02-15T17:25:23+0530 1360929323, songchange: Mohit Chauhan - Tujhko Jo Paaya (185)
+2013-02-15T17:25:23+0530 new song detected (Nikhil Paul George - Main Kya Karoon), id: 104, pos: 68
+2013-02-15T17:25:24+0530 [last.fm] submitting 1 song
+2013-02-15T17:25:27+0530 [last.fm] OK
+2013-02-15T17:25:27+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:25:28+0530 [last.fm] OK
+2013-02-15T17:29:54+0530 1360929594, songchange: Nikhil Paul George - Main Kya Karoon (270)
+2013-02-15T17:29:54+0530 new song detected (Leona Lewis - Bleeding Love), id: 68, pos: 69
+2013-02-15T17:29:55+0530 [last.fm] submitting 1 song
+2013-02-15T17:29:56+0530 [last.fm] OK
+2013-02-15T17:29:56+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:29:56+0530 [last.fm] OK
+2013-02-15T17:37:00+0530 new song detected (Coldplay - Up in Flames), id: 15, pos: 15
+2013-02-15T17:37:01+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:37:04+0530 [last.fm] OK
+2013-02-15T17:40:13+0530 1360930213, songchange: Coldplay - Up in Flames (193)
+2013-02-15T17:40:13+0530 new song detected (Coldplay - A Hopeful Transmission), id: 16, pos: 16
+2013-02-15T17:40:14+0530 [last.fm] submitting 1 song
+2013-02-15T17:40:15+0530 [last.fm] OK
+2013-02-15T17:40:15+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:40:15+0530 [last.fm] OK
+2013-02-15T17:40:46+0530 1360930246, songchange: Coldplay - A Hopeful Transmission (33)
+2013-02-15T17:40:46+0530 new song detected (Coldplay - Don't Let It Break Your Heart), id: 17, pos: 17
+2013-02-15T17:40:47+0530 [last.fm] submitting 1 song
+2013-02-15T17:40:47+0530 [last.fm] OK
+2013-02-15T17:40:47+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:40:49+0530 [last.fm] OK
+2013-02-15T17:44:40+0530 1360930480, songchange: Coldplay - Don't Let It Break Your Heart (234)
+2013-02-15T17:44:40+0530 new song detected (Coldplay - Up with the Birds), id: 18, pos: 18
+2013-02-15T17:44:41+0530 [last.fm] submitting 1 song
+2013-02-15T17:44:42+0530 [last.fm] OK
+2013-02-15T17:44:42+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:44:42+0530 [last.fm] OK
+2013-02-15T17:56:39+0530 new song detected (Ramin Djawadi - Game of Thrones Main Title), id: 76, pos: 77
+2013-02-15T17:56:40+0530 [last.fm] sending 'now playing' notification
+2013-02-15T17:56:41+0530 [last.fm] OK
+2013-02-15T17:58:25+0530 new song detected with tags missing (Khoya Khoya Chand.mp3)
+2013-02-15T17:58:25+0530 1360931305, songchange: Ramin Djawadi - Game of Thrones Main Title (106)
+2013-02-15T17:58:26+0530 [last.fm] submitting 1 song
+2013-02-15T17:58:27+0530 [last.fm] OK
+2013-02-15T18:08:49+0530 new song detected (Nikhil Paul George - Main Kya Karoon), id: 104, pos: 68
+2013-02-15T18:08:50+0530 [last.fm] sending 'now playing' notification
+2013-02-15T18:08:51+0530 [last.fm] OK
+2013-02-15T18:13:19+0530 1360932199, songchange: Nikhil Paul George - Main Kya Karoon (270)
+2013-02-15T18:13:19+0530 new song detected (Leona Lewis - Bleeding Love), id: 68, pos: 69
+2013-02-15T18:13:20+0530 [last.fm] submitting 1 song
+2013-02-15T18:13:21+0530 [last.fm] OK
+2013-02-15T18:13:21+0530 [last.fm] sending 'now playing' notification
+2013-02-15T18:13:21+0530 [last.fm] OK
+2013-02-15T18:14:06+0530 new song detected (Radiohead - No Surprises), id: 78, pos: 79
+2013-02-15T18:14:07+0530 [last.fm] sending 'now playing' notification
+2013-02-15T18:14:09+0530 [last.fm] OK
+2013-02-15T18:17:56+0530 1360932476, songchange: Radiohead - No Surprises (230)
+2013-02-15T18:17:56+0530 new song detected (Radiohead - Fake Plastic Trees), id: 79, pos: 80
+2013-02-15T18:17:57+0530 [last.fm] submitting 1 song
+2013-02-15T18:17:58+0530 [last.fm] OK
+2013-02-15T18:17:58+0530 [last.fm] sending 'now playing' notification
+2013-02-15T18:17:59+0530 [last.fm] OK
+2013-02-15T18:22:46+0530 1360932766, songchange: Radiohead - Fake Plastic Trees (290)
+2013-02-15T18:22:46+0530 new song detected (Jonas Brothers - When You Look Me in the Eyes), id: 80, pos: 81
+2013-02-15T18:22:47+0530 [last.fm] submitting 1 song
+2013-02-15T18:22:48+0530 [last.fm] OK
+2013-02-15T18:22:48+0530 [last.fm] sending 'now playing' notification
+2013-02-15T18:22:48+0530 [last.fm] OK
+2013-02-15T18:26:43+0530 1360933003, songchange: Jonas Brothers - When You Look Me in the Eyes (236)
+2013-02-15T18:26:43+0530 new song detected (Green Day - Wake Me Up When September Ends), id: 81, pos: 82
+2013-02-15T18:26:44+0530 [last.fm] submitting 1 song
+2013-02-15T18:26:45+0530 [last.fm] OK
+2013-02-15T18:26:45+0530 [last.fm] sending 'now playing' notification
+2013-02-15T18:26:45+0530 [last.fm] OK
+2013-02-15T21:10:43+0530 new song detected (Coldplay - Swallowed in the Sea), id: 48, pos: 48
+2013-02-15T21:10:44+0530 [last.fm] sending 'now playing' notification
+2013-02-15T21:10:45+0530 [last.fm] OK
+2013-02-15T21:14:22+0530 shutting down
+2013-02-16T04:46:08+0530 connected to mpd 0.17.0 at localhost
+2013-02-16T04:46:09+0530 starting mpdscribble (mdc 0.22)
+2013-02-16T04:46:09+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-16T04:46:13+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-16T04:46:13+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-16T04:47:14+0530 [last.fm] handshake successful
+2013-02-16T17:55:49+0530 new song detected (Coldplay - Swallowed in the Sea), id: 48, pos: 48
+2013-02-16T17:55:50+0530 [last.fm] sending 'now playing' notification
+2013-02-16T17:55:51+0530 [last.fm] OK
+2013-02-16T19:59:45+0530 shutting down
+2013-02-17T05:00:36+0530 connected to mpd 0.17.0 at localhost
+2013-02-17T05:00:38+0530 starting mpdscribble (mdc 0.22)
+2013-02-17T05:00:38+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-17T05:00:42+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-17T05:00:42+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-17T05:01:43+0530 [last.fm] handshake successful
+2013-02-17T06:54:17+0530 new song detected (Linkin Park - Waiting For The End), id: 62, pos: 62
+2013-02-17T06:54:18+0530 [last.fm] sending 'now playing' notification
+2013-02-17T06:54:19+0530 [last.fm] OK
+2013-02-17T06:58:09+0530 1361064489, songchange: Linkin Park - Waiting For The End (232)
+2013-02-17T06:58:09+0530 new song detected (The Fray - Over My Head (Cable Car)), id: 63, pos: 63
+2013-02-17T06:58:10+0530 [last.fm] submitting 1 song
+2013-02-17T06:58:11+0530 [last.fm] OK
+2013-02-17T06:58:11+0530 [last.fm] sending 'now playing' notification
+2013-02-17T06:58:11+0530 [last.fm] OK
+2013-02-17T07:02:11+0530 1361064731, songchange: The Fray - Over My Head (Cable Car) (241)
+2013-02-17T07:02:11+0530 new song detected (Coldplay - Don't Panic), id: 19, pos: 19
+2013-02-17T07:02:12+0530 [last.fm] submitting 1 song
+2013-02-17T07:02:12+0530 [last.fm] OK
+2013-02-17T07:02:12+0530 [last.fm] sending 'now playing' notification
+2013-02-17T07:02:13+0530 [last.fm] OK
+2013-02-17T07:04:28+0530 1361064868, songchange: Coldplay - Don't Panic (137)
+2013-02-17T07:04:28+0530 new song detected (Coldplay - X&Y), id: 43, pos: 43
+2013-02-17T07:04:29+0530 [last.fm] submitting 1 song
+2013-02-17T07:04:29+0530 [last.fm] OK
+2013-02-17T07:04:29+0530 [last.fm] sending 'now playing' notification
+2013-02-17T07:04:30+0530 [last.fm] OK
+2013-02-17T07:09:20+0530 1361065160, songchange: Coldplay - X&Y (273)
+2013-02-17T07:09:20+0530 new song detected (Coldplay - Sparks), id: 21, pos: 21
+2013-02-17T07:09:21+0530 [last.fm] submitting 1 song
+2013-02-17T07:09:21+0530 [last.fm] OK
+2013-02-17T07:09:21+0530 [last.fm] sending 'now playing' notification
+2013-02-17T07:09:22+0530 [last.fm] OK
+2013-02-17T07:13:07+0530 1361065387, songchange: Coldplay - Sparks (227)
+2013-02-17T07:13:07+0530 new song detected (Radiohead - No Surprises), id: 79, pos: 79
+2013-02-17T07:13:08+0530 [last.fm] submitting 1 song
+2013-02-17T07:13:08+0530 [last.fm] OK
+2013-02-17T07:13:08+0530 [last.fm] sending 'now playing' notification
+2013-02-17T07:13:09+0530 [last.fm] OK
+2013-02-17T07:16:57+0530 1361065617, songchange: Radiohead - No Surprises (230)
+2013-02-17T07:16:57+0530 new song detected (Coldplay - Talk), id: 42, pos: 42
+2013-02-17T07:16:58+0530 [last.fm] submitting 1 song
+2013-02-17T07:16:58+0530 [last.fm] OK
+2013-02-17T07:16:58+0530 [last.fm] sending 'now playing' notification
+2013-02-17T07:16:59+0530 [last.fm] OK
+2013-02-17T07:20:02+0530 shutting down
+2013-02-17T07:20:23+0530 connected to mpd 0.17.0 at localhost
+2013-02-17T07:20:23+0530 starting mpdscribble (mdc 0.22)
+2013-02-17T07:20:23+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-17T07:20:24+0530 [last.fm] handshake successful
+2013-02-17T08:41:05+0530 new song detected (Coldplay - Talk), id: 42, pos: 42
+2013-02-17T08:41:06+0530 [last.fm] sending 'now playing' notification
+2013-02-17T08:41:07+0530 [last.fm] OK
+2013-02-17T08:56:53+0530 new song detected (Coldplay - Trouble), id: 23, pos: 23
+2013-02-17T08:56:54+0530 [last.fm] sending 'now playing' notification
+2013-02-17T08:56:54+0530 [last.fm] OK
+2013-02-17T09:01:24+0530 1361071884, songchange: Coldplay - Trouble (271)
+2013-02-17T09:01:24+0530 new song detected (K. K. - Tadap Tadap), id: 90, pos: 90
+2013-02-17T09:01:25+0530 [last.fm] submitting 1 song
+2013-02-17T09:01:26+0530 [last.fm] OK
+2013-02-17T09:01:26+0530 [last.fm] sending 'now playing' notification
+2013-02-17T09:01:26+0530 [last.fm] OK
+2013-02-17T09:01:46+0530 new song detected (Sukhwinder Singh - Jaane Tu [Jai]), id: 100, pos: 100
+2013-02-17T09:01:47+0530 [last.fm] sending 'now playing' notification
+2013-02-17T09:01:47+0530 [last.fm] OK
+2013-02-17T09:07:30+0530 1361072250, songchange: Sukhwinder Singh - Jaane Tu [Jai] (344)
+2013-02-17T09:07:30+0530 new song detected (Coldplay - Yes), id: 33, pos: 33
+2013-02-17T09:07:31+0530 [last.fm] submitting 1 song
+2013-02-17T09:07:31+0530 [last.fm] OK
+2013-02-17T09:07:31+0530 [last.fm] sending 'now playing' notification
+2013-02-17T09:07:32+0530 [last.fm] OK
+2013-02-17T09:08:08+0530 new song detected (Coldplay - Lost!), id: 28, pos: 28
+2013-02-17T09:08:09+0530 [last.fm] sending 'now playing' notification
+2013-02-17T09:08:09+0530 [last.fm] OK
+2013-02-17T09:12:03+0530 1361072523, songchange: Coldplay - Lost! (235)
+2013-02-17T09:12:03+0530 new song detected (Coldplay - Low), id: 46, pos: 46
+2013-02-17T09:12:04+0530 [last.fm] submitting 1 song
+2013-02-17T09:12:04+0530 [last.fm] OK
+2013-02-17T09:12:04+0530 [last.fm] sending 'now playing' notification
+2013-02-17T09:12:05+0530 [last.fm] OK
+2013-02-17T13:03:06+0530 new song detected (Linkin Park - Iridescent), id: 88, pos: 88
+2013-02-17T13:03:07+0530 [last.fm] sending 'now playing' notification
+2013-02-17T13:03:08+0530 [last.fm] OK
+2013-02-17T13:08:04+0530 1361086684, songchange: Linkin Park - Iridescent (297)
+2013-02-17T13:08:04+0530 new song detected (Black Lab - This Night), id: 59, pos: 59
+2013-02-17T13:08:05+0530 [last.fm] submitting 1 song
+2013-02-17T13:08:06+0530 [last.fm] OK
+2013-02-17T13:08:06+0530 [last.fm] sending 'now playing' notification
+2013-02-17T13:08:09+0530 [last.fm] OK
+2013-02-17T13:11:33+0530 1361086893, songchange: Black Lab - This Night (210)
+2013-02-17T13:11:33+0530 new song detected (Coldplay - High Speed), id: 25, pos: 25
+2013-02-17T13:11:34+0530 [last.fm] submitting 1 song
+2013-02-17T13:11:35+0530 [last.fm] OK
+2013-02-17T13:11:35+0530 [last.fm] sending 'now playing' notification
+2013-02-17T13:11:35+0530 [last.fm] OK
+2013-02-17T13:12:16+0530 new song detected (Charlie Mars - I Do I Do), id: 72, pos: 72
+2013-02-17T13:12:17+0530 [last.fm] sending 'now playing' notification
+2013-02-17T13:12:17+0530 [last.fm] OK
+2013-02-17T13:16:25+0530 1361087185, songchange: Charlie Mars - I Do I Do (249)
+2013-02-17T13:16:25+0530 new song detected (Ramin Djawadi - Game of Thrones Main Title), id: 77, pos: 77
+2013-02-17T13:16:26+0530 [last.fm] submitting 1 song
+2013-02-17T13:16:27+0530 [last.fm] OK
+2013-02-17T13:16:27+0530 [last.fm] sending 'now playing' notification
+2013-02-17T13:16:27+0530 [last.fm] OK
+2013-02-17T18:13:25+0530 shutting down
+2013-02-18T01:25:56+0530 connected to mpd 0.17.0 at localhost
+2013-02-18T01:25:57+0530 starting mpdscribble (mdc 0.22)
+2013-02-18T01:25:57+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-18T01:26:01+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-18T01:26:01+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-18T01:27:02+0530 [last.fm] handshake successful
+2013-02-18T13:30:39+0530 shutting down
+2013-02-18T18:53:11+0530 connected to mpd 0.17.0 at localhost
+2013-02-18T18:53:11+0530 starting mpdscribble (mdc 0.22)
+2013-02-18T18:53:11+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-18T18:53:16+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-18T18:53:16+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-18T18:54:17+0530 [last.fm] handshake successful
+2013-02-18T23:25:22+0530 shutting down
+2013-02-19T14:42:01+0530 connected to mpd 0.17.0 at localhost
+2013-02-19T14:42:03+0530 starting mpdscribble (mdc 0.22)
+2013-02-19T14:42:03+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-19T14:42:07+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-19T14:42:12+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-19T14:43:13+0530 [last.fm] handshake successful
+2013-02-19T17:23:07+0530 shutting down
+2013-02-19T18:32:56+0530 connected to mpd 0.17.0 at localhost
+2013-02-19T18:32:56+0530 starting mpdscribble (mdc 0.22)
+2013-02-19T18:32:56+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-19T18:33:01+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-19T18:33:01+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-19T18:34:03+0530 [last.fm] handshake successful
+2013-02-20T09:05:45+0530 shutting down
+2013-02-20T19:22:51+0530 connected to mpd 0.17.0 at localhost
+2013-02-20T19:22:52+0530 starting mpdscribble (mdc 0.22)
+2013-02-20T19:22:52+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-20T19:22:56+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-20T19:22:56+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-20T19:23:57+0530 [last.fm] handshake successful
+2013-02-20T22:38:54+0530 new song detected (Linkin Park - Iridescent), id: 88, pos: 88
+2013-02-20T22:38:55+0530 [last.fm] sending 'now playing' notification
+2013-02-20T22:38:57+0530 [last.fm] OK
+2013-02-20T22:43:52+0530 1361380432, songchange: Linkin Park - Iridescent (297)
+2013-02-20T22:43:52+0530 new song detected (Coldplay - Message), id: 45, pos: 45
+2013-02-20T22:43:53+0530 [last.fm] submitting 1 song
+2013-02-20T22:43:54+0530 [last.fm] OK
+2013-02-20T22:43:54+0530 [last.fm] sending 'now playing' notification
+2013-02-20T22:43:59+0530 new song detected (Radiohead - Fake Plastic Trees), id: 80, pos: 80
+2013-02-20T22:44:01+0530 [last.fm] OK
+2013-02-20T22:49:17+0530 1361380757, songchange: Radiohead - Fake Plastic Trees (290)
+2013-02-20T22:49:17+0530 new song detected (Ramin Djawadi - Game of Thrones Main Title), id: 77, pos: 77
+2013-02-20T22:49:18+0530 [last.fm] submitting 1 song
+2013-02-20T22:49:21+0530 [last.fm] OK
+2013-02-20T22:49:21+0530 [last.fm] sending 'now playing' notification
+2013-02-20T22:49:21+0530 [last.fm] OK
+2013-02-20T22:51:22+0530 1361380882, songchange: Ramin Djawadi - Game of Thrones Main Title (106)
+2013-02-20T22:51:22+0530 new song detected (Radiohead - No Surprises), id: 79, pos: 79
+2013-02-20T22:51:23+0530 [last.fm] submitting 1 song
+2013-02-20T22:51:26+0530 [last.fm] OK
+2013-02-20T22:51:26+0530 [last.fm] sending 'now playing' notification
+2013-02-20T22:51:26+0530 [last.fm] OK
+2013-02-20T23:33:14+0530 1361383394, songchange: Radiohead - No Surprises (230)
+2013-02-20T23:33:14+0530 new song detected (The Cinematic Orchestra - To Build A Home), id: 87, pos: 87
+2013-02-20T23:33:15+0530 [last.fm] submitting 1 song
+2013-02-20T23:33:16+0530 [last.fm] OK
+2013-02-20T23:33:16+0530 [last.fm] sending 'now playing' notification
+2013-02-20T23:33:17+0530 [last.fm] OK
+2013-02-21T00:09:51+0530 1361385591, songchange: The Cinematic Orchestra - To Build A Home (371)
+2013-02-21T00:09:51+0530 new song detected (3 Doors Down - Here Without You), id: 71, pos: 71
+2013-02-21T00:09:52+0530 [last.fm] submitting 1 song
+2013-02-21T00:09:53+0530 [last.fm] OK
+2013-02-21T00:09:53+0530 [last.fm] sending 'now playing' notification
+2013-02-21T00:09:54+0530 [last.fm] OK
+2013-02-21T01:10:59+0530 1361389259, songchange: 3 Doors Down - Here Without You (239)
+2013-02-21T01:10:59+0530 new song detected (Linkin Park - Waiting For The End), id: 62, pos: 62
+2013-02-21T01:11:00+0530 [last.fm] submitting 1 song
+2013-02-21T01:11:01+0530 [last.fm] OK
+2013-02-21T01:11:01+0530 [last.fm] sending 'now playing' notification
+2013-02-21T01:11:02+0530 [last.fm] OK
+2013-02-21T03:18:27+0530 1361396907, songchange: Linkin Park - Waiting For The End (232)
+2013-02-21T03:18:27+0530 new song detected (Coldplay - Swallowed in the Sea), id: 48, pos: 48
+2013-02-21T03:18:28+0530 [last.fm] submitting 1 song
+2013-02-21T03:18:29+0530 [last.fm] OK
+2013-02-21T03:18:29+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:18:31+0530 [last.fm] OK
+2013-02-21T03:21:03+0530 1361397063, songchange: Coldplay - Swallowed in the Sea (238)
+2013-02-21T03:21:03+0530 new song detected (Coldplay - U.F.O.), id: 13, pos: 13
+2013-02-21T03:21:04+0530 [last.fm] submitting 1 song
+2013-02-21T03:21:04+0530 [last.fm] OK
+2013-02-21T03:21:04+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:21:05+0530 [last.fm] OK
+2013-02-21T03:21:38+0530 new song detected (Coldplay - Swallowed in the Sea), id: 101, pos: 38
+2013-02-21T03:21:39+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:21:39+0530 [last.fm] OK
+2013-02-21T03:24:37+0530 new song detected (Coldplay - Lost! [Acoustic]), id: 102, pos: 29
+2013-02-21T03:24:38+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:24:38+0530 [last.fm] OK
+2013-02-21T03:25:33+0530 new song detected (B.o.B - Airplanes), id: 89, pos: 88
+2013-02-21T03:25:34+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:25:34+0530 [last.fm] OK
+2013-02-21T03:25:52+0530 new song detected (Coldplay - 42), id: 31, pos: 32
+2013-02-21T03:25:53+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:25:53+0530 [last.fm] OK
+2013-02-21T03:26:24+0530 new song detected (Coldplay - Trouble), id: 23, pos: 23
+2013-02-21T03:26:25+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:26:25+0530 [last.fm] OK
+2013-02-21T03:31:46+0530 1361397706, songchange: Coldplay - Trouble (271)
+2013-02-21T03:31:46+0530 new song detected (Lifehouse - Whatever It Takes), id: 85, pos: 86
+2013-02-21T03:31:47+0530 [last.fm] submitting 1 song
+2013-02-21T03:31:47+0530 [last.fm] OK
+2013-02-21T03:31:47+0530 [last.fm] sending 'now playing' notification
+2013-02-21T03:31:48+0530 [last.fm] OK
+2013-02-21T04:04:55+0530 1361399695, songchange: Lifehouse - Whatever It Takes (207)
+2013-02-21T04:04:55+0530 new song detected (Coldplay - Swallowed in the Sea), id: 101, pos: 40
+2013-02-21T04:04:56+0530 [last.fm] submitting 1 song
+2013-02-21T04:04:56+0530 [last.fm] OK
+2013-02-21T04:04:56+0530 [last.fm] sending 'now playing' notification
+2013-02-21T04:04:57+0530 [last.fm] OK
+2013-02-21T04:18:38+0530 1361400518, songchange: Coldplay - Swallowed in the Sea (238)
+2013-02-21T04:18:38+0530 new song detected (Eminem - Space Bound), id: 93, pos: 93
+2013-02-21T04:18:39+0530 [last.fm] submitting 1 song
+2013-02-21T04:18:39+0530 [last.fm] OK
+2013-02-21T04:18:39+0530 [last.fm] sending 'now playing' notification
+2013-02-21T04:18:40+0530 [last.fm] OK
+2013-02-21T08:08:35+0530 shutting down
+2013-02-21T11:18:54+0530 connected to mpd 0.17.0 at localhost
+2013-02-21T11:18:54+0530 starting mpdscribble (mdc 0.22)
+2013-02-21T11:18:54+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-21T11:18:58+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-21T11:18:58+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-21T11:20:00+0530 [last.fm] handshake successful
+2013-02-21T22:32:09+0530 new song detected (Coldplay - In My Place), id: 3, pos: 3
+2013-02-21T22:32:11+0530 [last.fm] sending 'now playing' notification
+2013-02-21T22:32:12+0530 [last.fm] OK
+2013-02-21T23:28:00+0530 shutting down
+2013-02-22T00:56:59+0530 connected to mpd 0.17.0 at localhost
+2013-02-22T00:57:00+0530 starting mpdscribble (mdc 0.22)
+2013-02-22T00:57:00+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-22T00:57:04+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-22T00:57:04+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-22T00:58:05+0530 [last.fm] handshake successful
+2013-02-22T01:32:50+0530 new song detected (Arijit Singh - Raabta), id: 101, pos: 101
+2013-02-22T01:32:51+0530 [last.fm] sending 'now playing' notification
+2013-02-22T01:32:52+0530 [last.fm] OK
+2013-02-22T01:54:30+0530 1361478270, songchange: Arijit Singh - Raabta (245)
+2013-02-22T01:54:30+0530 new song detected (Linkin Park - Numb), id: 102, pos: 102
+2013-02-22T01:54:31+0530 [last.fm] submitting 1 song
+2013-02-22T01:54:32+0530 [last.fm] OK
+2013-02-22T01:54:32+0530 [last.fm] sending 'now playing' notification
+2013-02-22T01:54:33+0530 [last.fm] OK
+2013-02-22T02:50:18+0530 1361481618, songchange: Linkin Park - Numb (187)
+2013-02-22T02:50:18+0530 new song detected (OneRepublic - Stop And Stare), id: 103, pos: 103
+2013-02-22T02:50:19+0530 [last.fm] submitting 1 song
+2013-02-22T02:50:20+0530 [last.fm] OK
+2013-02-22T02:50:20+0530 [last.fm] sending 'now playing' notification
+2013-02-22T02:50:20+0530 [last.fm] OK
+2013-02-22T05:54:22+0530 1361492662, songchange: OneRepublic - Stop And Stare (224)
+2013-02-22T05:54:22+0530 new song detected (Coldplay - Swallowed in the Sea), id: 40, pos: 40
+2013-02-22T05:54:23+0530 [last.fm] submitting 1 song
+2013-02-22T05:54:24+0530 [last.fm] OK
+2013-02-22T05:54:24+0530 [last.fm] sending 'now playing' notification
+2013-02-22T05:54:25+0530 [last.fm] OK
+2013-02-22T08:02:54+0530 1361500374, songchange: Coldplay - Swallowed in the Sea (238)
+2013-02-22T08:02:54+0530 new song detected (Coldplay - Swallowed in the Sea), id: 40, pos: 40
+2013-02-22T08:02:55+0530 [last.fm] submitting 1 song
+2013-02-22T08:02:56+0530 [last.fm] OK
+2013-02-22T08:02:56+0530 [last.fm] sending 'now playing' notification
+2013-02-22T08:02:57+0530 [last.fm] OK
+2013-02-22T08:09:38+0530 1361500778, songchange: Coldplay - Swallowed in the Sea (238)
+2013-02-22T08:09:38+0530 new song detected (Coldplay - Up in Flames), id: 16, pos: 16
+2013-02-22T08:09:39+0530 [last.fm] submitting 1 song
+2013-02-22T08:09:39+0530 [last.fm] OK
+2013-02-22T08:09:39+0530 [last.fm] sending 'now playing' notification
+2013-02-22T08:09:40+0530 [last.fm] OK
+2013-02-22T08:13:05+0530 1361500985, songchange: Coldplay - Up in Flames (193)
+2013-02-22T08:13:05+0530 new song detected (Coldplay - Trouble), id: 24, pos: 24
+2013-02-22T08:13:06+0530 [last.fm] submitting 1 song
+2013-02-22T08:13:06+0530 [last.fm] OK
+2013-02-22T08:13:06+0530 [last.fm] sending 'now playing' notification
+2013-02-22T08:13:07+0530 [last.fm] OK
+2013-02-22T08:18:04+0530 1361501284, songchange: Coldplay - Trouble (271)
+2013-02-22T08:18:04+0530 new song detected (Coldplay - Swallowed in the Sea), id: 40, pos: 40
+2013-02-22T08:18:05+0530 [last.fm] submitting 1 song
+2013-02-22T08:18:05+0530 [last.fm] OK
+2013-02-22T08:18:05+0530 [last.fm] sending 'now playing' notification
+2013-02-22T08:18:06+0530 [last.fm] OK
+2013-02-22T09:20:35+0530 1361505035, songchange: Coldplay - Swallowed in the Sea (238)
+2013-02-22T09:20:35+0530 new song detected (Coldplay - Swallowed in the Sea), id: 40, pos: 40
+2013-02-22T09:20:36+0530 [last.fm] submitting 1 song
+2013-02-22T09:20:37+0530 [last.fm] OK
+2013-02-22T09:20:37+0530 [last.fm] sending 'now playing' notification
+2013-02-22T09:20:38+0530 [last.fm] OK
+2013-02-22T09:50:49+0530 1361506849, songchange: Coldplay - Swallowed in the Sea (238)
+2013-02-22T09:50:49+0530 new song detected (Adele - Rolling In The Deep), id: 104, pos: 104
+2013-02-22T09:50:50+0530 [last.fm] submitting 1 song
+2013-02-22T09:50:50+0530 [last.fm] OK
+2013-02-22T09:50:50+0530 [last.fm] sending 'now playing' notification
+2013-02-22T09:50:51+0530 [last.fm] OK
+2013-02-22T13:19:42+0530 shutting down
+2013-02-22T16:24:49+0530 connected to mpd 0.17.0 at localhost
+2013-02-22T16:24:49+0530 starting mpdscribble (mdc 0.22)
+2013-02-22T16:24:49+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-22T16:24:53+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-22T16:24:53+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-22T16:25:55+0530 [last.fm] handshake successful
+2013-02-22T19:14:29+0530 new song detected (Coldplay - Message), id: 48, pos: 48
+2013-02-22T19:14:30+0530 [last.fm] sending 'now playing' notification
+2013-02-22T19:14:32+0530 [last.fm] OK
+2013-02-22T20:43:03+0530 shutting down
+2013-02-22T21:41:37+0530 connected to mpd 0.17.0 at localhost
+2013-02-22T21:41:37+0530 starting mpdscribble (mdc 0.22)
+2013-02-22T21:41:37+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-22T21:41:42+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-22T21:41:42+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-22T21:42:44+0530 [last.fm] handshake successful
+2013-02-23T08:26:48+0530 shutting down
+2013-02-24T02:21:53+0530 connected to mpd 0.17.0 at localhost
+2013-02-24T02:21:53+0530 starting mpdscribble (mdc 0.22)
+2013-02-24T02:21:53+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-24T02:21:57+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-24T02:21:57+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-24T02:22:58+0530 [last.fm] handshake successful
+2013-02-24T21:48:51+0530 shutting down
+2013-02-24T22:51:13+0530 connected to mpd 0.17.0 at localhost
+2013-02-24T22:51:14+0530 starting mpdscribble (mdc 0.22)
+2013-02-24T22:51:14+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-24T22:51:18+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-24T22:51:18+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-24T22:52:19+0530 [last.fm] handshake successful
+2013-02-24T22:54:25+0530 new song detected (Coldplay - Swallowed in the Sea), id: 40, pos: 40
+2013-02-24T22:54:26+0530 [last.fm] sending 'now playing' notification
+2013-02-24T22:54:27+0530 [last.fm] OK
+2013-02-24T23:00:43+0530 1361727043, songchange: Coldplay - Swallowed in the Sea (238)
+2013-02-24T23:00:43+0530 new song detected (Nikhil Paul George - Main Kya Karoon), id: 70, pos: 70
+2013-02-24T23:00:44+0530 [last.fm] submitting 1 song
+2013-02-24T23:00:47+0530 [last.fm] OK
+2013-02-24T23:00:47+0530 [last.fm] sending 'now playing' notification
+2013-02-24T23:00:50+0530 [last.fm] OK
+2013-02-25T05:17:50+0530 shutting down
+2013-02-25T12:58:57+0530 connected to mpd 0.17.0 at localhost
+2013-02-25T12:58:59+0530 starting mpdscribble (mdc 0.22)
+2013-02-25T12:58:59+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-25T12:59:03+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-25T12:59:03+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-25T13:00:06+0530 [last.fm] handshake successful
+2013-02-25T13:14:17+0530 shutting down
+2013-02-25T16:33:43+0530 connected to mpd 0.17.0 at localhost
+2013-02-25T16:33:44+0530 starting mpdscribble (mdc 0.22)
+2013-02-25T16:33:44+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-25T16:33:48+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-25T16:33:48+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-25T16:34:48+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-25T16:34:48+0530 [last.fm] waiting 120 seconds before trying again
+2013-02-25T16:36:50+0530 [last.fm] handshake error: got HTTP status 7 (Connection terminated unexpectedly)
+2013-02-25T16:36:50+0530 [last.fm] waiting 240 seconds before trying again
+2013-02-25T16:40:50+0530 [last.fm] handshake error: got HTTP status 7 (Connection terminated unexpectedly)
+2013-02-25T16:40:50+0530 [last.fm] waiting 480 seconds before trying again
+2013-02-25T16:48:50+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-25T16:48:50+0530 [last.fm] waiting 960 seconds before trying again
+2013-02-25T17:04:50+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-25T17:04:50+0530 [last.fm] waiting 1920 seconds before trying again
+2013-02-25T17:36:51+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-25T17:36:51+0530 [last.fm] waiting 3840 seconds before trying again
+2013-02-25T18:40:53+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-25T18:40:53+0530 [last.fm] waiting 7200 seconds before trying again
+2013-02-25T20:40:53+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-25T20:40:53+0530 [last.fm] waiting 7200 seconds before trying again
+2013-02-25T22:40:53+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-25T22:40:53+0530 [last.fm] waiting 7200 seconds before trying again
+2013-02-26T00:40:54+0530 [last.fm] handshake error: got HTTP status 8 (Message Corrupt)
+2013-02-26T00:40:54+0530 [last.fm] waiting 7200 seconds before trying again
+2013-02-26T02:40:55+0530 [last.fm] handshake successful
+2013-02-26T14:00:17+0530 shutting down
+2013-02-27T09:58:46+0530 connected to mpd 0.17.0 at localhost
+2013-02-27T09:58:47+0530 starting mpdscribble (mdc 0.22)
+2013-02-27T09:58:47+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-27T09:58:51+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-27T09:58:51+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-27T09:59:52+0530 [last.fm] handshake successful
+2013-02-27T10:26:53+0530 shutting down
+2013-02-27T12:52:57+0530 connected to mpd 0.17.0 at localhost
+2013-02-27T12:52:58+0530 starting mpdscribble (mdc 0.22)
+2013-02-27T12:52:58+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-27T12:53:02+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-27T12:53:02+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-27T12:54:03+0530 [last.fm] handshake successful
+2013-02-28T01:21:57+0530 shutting down
+2013-02-28T01:53:28+0530 connected to mpd 0.17.0 at localhost
+2013-02-28T01:53:28+0530 starting mpdscribble (mdc 0.22)
+2013-02-28T01:53:28+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-28T01:53:32+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-28T01:53:32+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-28T01:54:33+0530 [last.fm] handshake successful
+2013-02-28T02:31:35+0530 mpd error (8): Connection closed by the server
+2013-02-28T02:31:35+0530 waiting 15 seconds before reconnecting
+2013-02-28T02:31:50+0530 mpd error (5): Connection refused
+2013-02-28T02:32:05+0530 mpd error (5): Connection refused
+2013-02-28T02:32:20+0530 mpd error (5): Connection refused
+2013-02-28T02:32:35+0530 mpd error (5): Connection refused
+2013-02-28T02:32:50+0530 mpd error (5): Connection refused
+2013-02-28T02:33:05+0530 mpd error (5): Connection refused
+2013-02-28T02:33:20+0530 mpd error (5): Connection refused
+2013-02-28T02:33:35+0530 mpd error (5): Connection refused
+2013-02-28T02:33:50+0530 mpd error (5): Connection refused
+2013-02-28T02:34:05+0530 mpd error (5): Connection refused
+2013-02-28T02:34:20+0530 mpd error (5): Connection refused
+2013-02-28T02:34:35+0530 mpd error (5): Connection refused
+2013-02-28T02:34:50+0530 mpd error (5): Connection refused
+2013-02-28T02:35:05+0530 mpd error (5): Connection refused
+2013-02-28T02:35:20+0530 mpd error (5): Connection refused
+2013-02-28T02:35:35+0530 mpd error (5): Connection refused
+2013-02-28T02:35:50+0530 mpd error (5): Connection refused
+2013-02-28T02:36:05+0530 mpd error (5): Connection refused
+2013-02-28T02:36:20+0530 mpd error (5): Connection refused
+2013-02-28T02:36:35+0530 mpd error (5): Connection refused
+2013-02-28T02:36:50+0530 mpd error (5): Connection refused
+2013-02-28T02:37:05+0530 mpd error (5): Connection refused
+2013-02-28T02:37:12+0530 shutting down
+2013-02-28T02:49:11+0530 connected to mpd 0.17.0 at localhost
+2013-02-28T02:49:12+0530 starting mpdscribble (mdc 0.22)
+2013-02-28T02:49:12+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-28T02:49:16+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-28T02:49:16+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-28T02:50:14+0530 mpd error (8): Connection closed by the server
+2013-02-28T02:50:14+0530 waiting 15 seconds before reconnecting
+2013-02-28T02:50:17+0530 [last.fm] handshake successful
+2013-02-28T02:50:29+0530 mpd error (5): Connection refused
+2013-02-28T02:50:44+0530 mpd error (5): Connection refused
+2013-02-28T02:50:59+0530 mpd error (5): Connection refused
+2013-02-28T02:51:14+0530 mpd error (5): Connection refused
+2013-02-28T02:51:29+0530 mpd error (5): Connection refused
+2013-02-28T02:51:44+0530 mpd error (5): Connection refused
+2013-02-28T02:51:59+0530 mpd error (5): Connection refused
+2013-02-28T02:52:14+0530 mpd error (5): Connection refused
+2013-02-28T02:52:29+0530 mpd error (5): Connection refused
+2013-02-28T02:52:44+0530 mpd error (5): Connection refused
+2013-02-28T02:52:59+0530 mpd error (5): Connection refused
+2013-02-28T02:53:14+0530 mpd error (5): Connection refused
+2013-02-28T02:53:29+0530 mpd error (5): Connection refused
+2013-02-28T02:53:44+0530 mpd error (5): Connection refused
+2013-02-28T02:53:59+0530 mpd error (5): Connection refused
+2013-02-28T02:54:14+0530 mpd error (5): Connection refused
+2013-02-28T02:54:29+0530 mpd error (5): Connection refused
+2013-02-28T02:54:44+0530 mpd error (5): Connection refused
+2013-02-28T02:54:59+0530 mpd error (5): Connection refused
+2013-02-28T02:55:14+0530 mpd error (5): Connection refused
+2013-02-28T02:55:29+0530 mpd error (5): Connection refused
+2013-02-28T02:55:44+0530 mpd error (5): Connection refused
+2013-02-28T02:55:59+0530 mpd error (5): Connection refused
+2013-02-28T02:56:14+0530 mpd error (5): Connection refused
+2013-02-28T02:56:29+0530 mpd error (5): Connection refused
+2013-02-28T02:56:44+0530 mpd error (5): Connection refused
+2013-02-28T02:56:59+0530 mpd error (5): Connection refused
+2013-02-28T02:57:14+0530 mpd error (5): Connection refused
+2013-02-28T02:57:29+0530 mpd error (5): Connection refused
+2013-02-28T02:57:44+0530 mpd error (5): Connection refused
+2013-02-28T02:57:59+0530 mpd error (5): Connection refused
+2013-02-28T02:58:14+0530 mpd error (5): Connection refused
+2013-02-28T02:58:29+0530 mpd error (5): Connection refused
+2013-02-28T02:58:44+0530 mpd error (5): Connection refused
+2013-02-28T02:58:59+0530 mpd error (5): Connection refused
+2013-02-28T02:59:14+0530 mpd error (5): Connection refused
+2013-02-28T02:59:29+0530 mpd error (5): Connection refused
+2013-02-28T02:59:44+0530 mpd error (5): Connection refused
+2013-02-28T02:59:59+0530 mpd error (5): Connection refused
+2013-02-28T03:00:14+0530 mpd error (5): Connection refused
+2013-02-28T03:00:29+0530 mpd error (5): Connection refused
+2013-02-28T03:00:44+0530 mpd error (5): Connection refused
+2013-02-28T03:00:59+0530 mpd error (5): Connection refused
+2013-02-28T03:01:14+0530 mpd error (5): Connection refused
+2013-02-28T03:01:29+0530 mpd error (5): Connection refused
+2013-02-28T03:01:44+0530 mpd error (5): Connection refused
+2013-02-28T03:01:59+0530 mpd error (5): Connection refused
+2013-02-28T03:02:14+0530 mpd error (5): Connection refused
+2013-02-28T03:02:29+0530 mpd error (5): Connection refused
+2013-02-28T03:02:44+0530 mpd error (5): Connection refused
+2013-02-28T03:02:59+0530 mpd error (5): Connection refused
+2013-02-28T03:03:14+0530 mpd error (5): Connection refused
+2013-02-28T03:03:29+0530 mpd error (5): Connection refused
+2013-02-28T03:03:44+0530 mpd error (5): Connection refused
+2013-02-28T03:03:59+0530 mpd error (5): Connection refused
+2013-02-28T03:04:14+0530 mpd error (5): Connection refused
+2013-02-28T03:04:29+0530 mpd error (5): Connection refused
+2013-02-28T03:04:44+0530 mpd error (5): Connection refused
+2013-02-28T03:04:59+0530 mpd error (5): Connection refused
+2013-02-28T03:05:14+0530 mpd error (5): Connection refused
+2013-02-28T03:05:29+0530 mpd error (5): Connection refused
+2013-02-28T03:05:44+0530 mpd error (5): Connection refused
+2013-02-28T03:05:59+0530 mpd error (5): Connection refused
+2013-02-28T03:06:14+0530 mpd error (5): Connection refused
+2013-02-28T03:06:29+0530 mpd error (5): Connection refused
+2013-02-28T03:06:44+0530 mpd error (5): Connection refused
+2013-02-28T03:06:59+0530 mpd error (5): Connection refused
+2013-02-28T03:07:14+0530 mpd error (5): Connection refused
+2013-02-28T03:07:29+0530 mpd error (5): Connection refused
+2013-02-28T03:07:44+0530 mpd error (5): Connection refused
+2013-02-28T03:07:59+0530 mpd error (5): Connection refused
+2013-02-28T03:08:14+0530 mpd error (5): Connection refused
+2013-02-28T03:08:29+0530 mpd error (5): Connection refused
+2013-02-28T03:08:44+0530 mpd error (5): Connection refused
+2013-02-28T03:08:59+0530 mpd error (5): Connection refused
+2013-02-28T03:09:14+0530 mpd error (5): Connection refused
+2013-02-28T03:09:29+0530 mpd error (5): Connection refused
+2013-02-28T03:09:44+0530 mpd error (5): Connection refused
+2013-02-28T03:09:59+0530 mpd error (5): Connection refused
+2013-02-28T03:10:14+0530 mpd error (5): Connection refused
+2013-02-28T03:10:29+0530 mpd error (5): Connection refused
+2013-02-28T03:10:44+0530 mpd error (5): Connection refused
+2013-02-28T03:10:59+0530 mpd error (5): Connection refused
+2013-02-28T03:11:14+0530 mpd error (5): Connection refused
+2013-02-28T03:11:29+0530 mpd error (5): Connection refused
+2013-02-28T03:11:44+0530 mpd error (5): Connection refused
+2013-02-28T03:11:59+0530 mpd error (5): Connection refused
+2013-02-28T03:12:14+0530 mpd error (5): Connection refused
+2013-02-28T03:12:29+0530 mpd error (5): Connection refused
+2013-02-28T03:12:44+0530 mpd error (5): Connection refused
+2013-02-28T03:12:59+0530 mpd error (5): Connection refused
+2013-02-28T03:13:14+0530 mpd error (5): Connection refused
+2013-02-28T03:13:29+0530 mpd error (5): Connection refused
+2013-02-28T03:13:44+0530 mpd error (5): Connection refused
+2013-02-28T03:13:59+0530 mpd error (5): Connection refused
+2013-02-28T03:14:14+0530 mpd error (5): Connection refused
+2013-02-28T03:14:29+0530 mpd error (5): Connection refused
+2013-02-28T03:14:44+0530 mpd error (5): Connection refused
+2013-02-28T03:14:59+0530 mpd error (5): Connection refused
+2013-02-28T03:15:14+0530 mpd error (5): Connection refused
+2013-02-28T03:15:29+0530 mpd error (5): Connection refused
+2013-02-28T03:15:44+0530 mpd error (5): Connection refused
+2013-02-28T03:15:59+0530 mpd error (5): Connection refused
+2013-02-28T03:16:14+0530 mpd error (5): Connection refused
+2013-02-28T03:16:29+0530 mpd error (5): Connection refused
+2013-02-28T03:16:44+0530 mpd error (5): Connection refused
+2013-02-28T03:16:59+0530 mpd error (5): Connection refused
+2013-02-28T03:17:14+0530 mpd error (5): Connection refused
+2013-02-28T03:17:29+0530 mpd error (5): Connection refused
+2013-02-28T03:17:44+0530 mpd error (5): Connection refused
+2013-02-28T03:17:59+0530 mpd error (5): Connection refused
+2013-02-28T03:18:14+0530 mpd error (5): Connection refused
+2013-02-28T03:18:29+0530 mpd error (5): Connection refused
+2013-02-28T03:18:44+0530 mpd error (5): Connection refused
+2013-02-28T03:18:59+0530 mpd error (5): Connection refused
+2013-02-28T03:19:14+0530 mpd error (5): Connection refused
+2013-02-28T03:19:29+0530 mpd error (5): Connection refused
+2013-02-28T03:19:44+0530 mpd error (5): Connection refused
+2013-02-28T03:19:59+0530 mpd error (5): Connection refused
+2013-02-28T03:20:14+0530 mpd error (5): Connection refused
+2013-02-28T03:20:29+0530 mpd error (5): Connection refused
+2013-02-28T03:20:44+0530 mpd error (5): Connection refused
+2013-02-28T03:20:59+0530 mpd error (5): Connection refused
+2013-02-28T03:21:14+0530 mpd error (5): Connection refused
+2013-02-28T03:21:29+0530 mpd error (5): Connection refused
+2013-02-28T03:21:44+0530 mpd error (5): Connection refused
+2013-02-28T03:21:59+0530 mpd error (5): Connection refused
+2013-02-28T03:22:14+0530 mpd error (5): Connection refused
+2013-02-28T03:22:29+0530 mpd error (5): Connection refused
+2013-02-28T03:22:44+0530 mpd error (5): Connection refused
+2013-02-28T03:22:59+0530 mpd error (5): Connection refused
+2013-02-28T03:23:14+0530 mpd error (5): Connection refused
+2013-02-28T03:23:29+0530 mpd error (5): Connection refused
+2013-02-28T03:23:44+0530 mpd error (5): Connection refused
+2013-02-28T03:23:59+0530 mpd error (5): Connection refused
+2013-02-28T03:24:14+0530 mpd error (5): Connection refused
+2013-02-28T03:24:29+0530 mpd error (5): Connection refused
+2013-02-28T03:24:44+0530 mpd error (5): Connection refused
+2013-02-28T03:24:59+0530 mpd error (5): Connection refused
+2013-02-28T03:25:14+0530 mpd error (5): Connection refused
+2013-02-28T03:25:29+0530 mpd error (5): Connection refused
+2013-02-28T03:25:44+0530 mpd error (5): Connection refused
+2013-02-28T03:25:59+0530 mpd error (5): Connection refused
+2013-02-28T03:26:14+0530 mpd error (5): Connection refused
+2013-02-28T03:26:29+0530 mpd error (5): Connection refused
+2013-02-28T03:26:44+0530 mpd error (5): Connection refused
+2013-02-28T03:26:59+0530 mpd error (5): Connection refused
+2013-02-28T03:27:14+0530 mpd error (5): Connection refused
+2013-02-28T03:27:29+0530 mpd error (5): Connection refused
+2013-02-28T03:27:44+0530 mpd error (5): Connection refused
+2013-02-28T03:27:59+0530 mpd error (5): Connection refused
+2013-02-28T03:28:14+0530 mpd error (5): Connection refused
+2013-02-28T03:28:29+0530 mpd error (5): Connection refused
+2013-02-28T03:28:44+0530 mpd error (5): Connection refused
+2013-02-28T03:28:59+0530 mpd error (5): Connection refused
+2013-02-28T03:29:14+0530 mpd error (5): Connection refused
+2013-02-28T03:29:29+0530 mpd error (5): Connection refused
+2013-02-28T03:29:44+0530 mpd error (5): Connection refused
+2013-02-28T03:29:59+0530 mpd error (5): Connection refused
+2013-02-28T03:30:14+0530 mpd error (5): Connection refused
+2013-02-28T03:30:29+0530 mpd error (5): Connection refused
+2013-02-28T03:30:44+0530 mpd error (5): Connection refused
+2013-02-28T03:30:59+0530 mpd error (5): Connection refused
+2013-02-28T03:31:14+0530 mpd error (5): Connection refused
+2013-02-28T03:31:29+0530 mpd error (5): Connection refused
+2013-02-28T03:31:44+0530 mpd error (5): Connection refused
+2013-02-28T03:31:59+0530 mpd error (5): Connection refused
+2013-02-28T03:32:14+0530 mpd error (5): Connection refused
+2013-02-28T03:32:29+0530 mpd error (5): Connection refused
+2013-02-28T03:32:44+0530 mpd error (5): Connection refused
+2013-02-28T03:32:59+0530 mpd error (5): Connection refused
+2013-02-28T03:33:14+0530 mpd error (5): Connection refused
+2013-02-28T03:33:29+0530 mpd error (5): Connection refused
+2013-02-28T03:33:44+0530 mpd error (5): Connection refused
+2013-02-28T03:33:59+0530 mpd error (5): Connection refused
+2013-02-28T03:34:14+0530 mpd error (5): Connection refused
+2013-02-28T03:34:29+0530 mpd error (5): Connection refused
+2013-02-28T03:34:44+0530 mpd error (5): Connection refused
+2013-02-28T03:34:59+0530 mpd error (5): Connection refused
+2013-02-28T03:35:14+0530 mpd error (5): Connection refused
+2013-02-28T03:35:29+0530 mpd error (5): Connection refused
+2013-02-28T03:35:44+0530 mpd error (5): Connection refused
+2013-02-28T03:35:59+0530 mpd error (5): Connection refused
+2013-02-28T03:36:14+0530 mpd error (5): Connection refused
+2013-02-28T03:36:29+0530 mpd error (5): Connection refused
+2013-02-28T03:36:44+0530 mpd error (5): Connection refused
+2013-02-28T03:36:59+0530 mpd error (5): Connection refused
+2013-02-28T03:37:14+0530 mpd error (5): Connection refused
+2013-02-28T03:37:29+0530 mpd error (5): Connection refused
+2013-02-28T03:37:44+0530 mpd error (5): Connection refused
+2013-02-28T03:37:59+0530 mpd error (5): Connection refused
+2013-02-28T03:38:14+0530 mpd error (5): Connection refused
+2013-02-28T03:38:29+0530 mpd error (5): Connection refused
+2013-02-28T03:38:44+0530 mpd error (5): Connection refused
+2013-02-28T03:38:59+0530 mpd error (5): Connection refused
+2013-02-28T03:39:14+0530 mpd error (5): Connection refused
+2013-02-28T03:39:29+0530 mpd error (5): Connection refused
+2013-02-28T03:39:44+0530 mpd error (5): Connection refused
+2013-02-28T03:39:59+0530 mpd error (5): Connection refused
+2013-02-28T03:40:14+0530 mpd error (5): Connection refused
+2013-02-28T03:40:29+0530 mpd error (5): Connection refused
+2013-02-28T03:40:44+0530 mpd error (5): Connection refused
+2013-02-28T03:40:59+0530 mpd error (5): Connection refused
+2013-02-28T03:41:14+0530 mpd error (5): Connection refused
+2013-02-28T03:41:29+0530 mpd error (5): Connection refused
+2013-02-28T03:41:44+0530 mpd error (5): Connection refused
+2013-02-28T03:41:59+0530 mpd error (5): Connection refused
+2013-02-28T03:42:14+0530 mpd error (5): Connection refused
+2013-02-28T03:42:29+0530 mpd error (5): Connection refused
+2013-02-28T03:42:44+0530 mpd error (5): Connection refused
+2013-02-28T03:42:59+0530 mpd error (5): Connection refused
+2013-02-28T03:43:14+0530 mpd error (5): Connection refused
+2013-02-28T03:43:29+0530 mpd error (5): Connection refused
+2013-02-28T03:43:44+0530 mpd error (5): Connection refused
+2013-02-28T03:43:59+0530 mpd error (5): Connection refused
+2013-02-28T03:44:14+0530 mpd error (5): Connection refused
+2013-02-28T03:44:29+0530 mpd error (5): Connection refused
+2013-02-28T03:44:44+0530 mpd error (5): Connection refused
+2013-02-28T03:44:59+0530 mpd error (5): Connection refused
+2013-02-28T03:45:14+0530 mpd error (5): Connection refused
+2013-02-28T03:45:29+0530 mpd error (5): Connection refused
+2013-02-28T03:45:44+0530 mpd error (5): Connection refused
+2013-02-28T03:45:59+0530 mpd error (5): Connection refused
+2013-02-28T03:46:14+0530 mpd error (5): Connection refused
+2013-02-28T03:46:29+0530 mpd error (5): Connection refused
+2013-02-28T03:46:44+0530 mpd error (5): Connection refused
+2013-02-28T03:46:59+0530 mpd error (5): Connection refused
+2013-02-28T03:47:14+0530 mpd error (5): Connection refused
+2013-02-28T03:47:29+0530 mpd error (5): Connection refused
+2013-02-28T03:47:44+0530 mpd error (5): Connection refused
+2013-02-28T03:47:59+0530 mpd error (5): Connection refused
+2013-02-28T03:48:14+0530 mpd error (5): Connection refused
+2013-02-28T03:48:29+0530 mpd error (5): Connection refused
+2013-02-28T03:48:44+0530 mpd error (5): Connection refused
+2013-02-28T03:48:59+0530 mpd error (5): Connection refused
+2013-02-28T03:49:14+0530 mpd error (5): Connection refused
+2013-02-28T03:49:29+0530 mpd error (5): Connection refused
+2013-02-28T03:49:44+0530 mpd error (5): Connection refused
+2013-02-28T03:49:59+0530 mpd error (5): Connection refused
+2013-02-28T03:50:14+0530 mpd error (5): Connection refused
+2013-02-28T03:50:29+0530 mpd error (5): Connection refused
+2013-02-28T03:50:44+0530 mpd error (5): Connection refused
+2013-02-28T03:50:59+0530 mpd error (5): Connection refused
+2013-02-28T03:51:14+0530 mpd error (5): Connection refused
+2013-02-28T03:51:29+0530 mpd error (5): Connection refused
+2013-02-28T03:51:44+0530 mpd error (5): Connection refused
+2013-02-28T03:51:59+0530 mpd error (5): Connection refused
+2013-02-28T03:52:14+0530 mpd error (5): Connection refused
+2013-02-28T03:52:29+0530 mpd error (5): Connection refused
+2013-02-28T03:52:44+0530 mpd error (5): Connection refused
+2013-02-28T03:52:59+0530 mpd error (5): Connection refused
+2013-02-28T03:53:14+0530 mpd error (5): Connection refused
+2013-02-28T03:53:29+0530 mpd error (5): Connection refused
+2013-02-28T03:53:44+0530 mpd error (5): Connection refused
+2013-02-28T03:53:59+0530 mpd error (5): Connection refused
+2013-02-28T03:54:14+0530 mpd error (5): Connection refused
+2013-02-28T03:54:29+0530 mpd error (5): Connection refused
+2013-02-28T03:54:44+0530 mpd error (5): Connection refused
+2013-02-28T03:54:59+0530 mpd error (5): Connection refused
+2013-02-28T03:55:14+0530 mpd error (5): Connection refused
+2013-02-28T03:55:29+0530 mpd error (5): Connection refused
+2013-02-28T03:55:44+0530 mpd error (5): Connection refused
+2013-02-28T03:55:59+0530 mpd error (5): Connection refused
+2013-02-28T03:56:14+0530 mpd error (5): Connection refused
+2013-02-28T03:56:29+0530 mpd error (5): Connection refused
+2013-02-28T03:56:44+0530 mpd error (5): Connection refused
+2013-02-28T03:56:59+0530 mpd error (5): Connection refused
+2013-02-28T03:57:14+0530 mpd error (5): Connection refused
+2013-02-28T03:57:29+0530 mpd error (5): Connection refused
+2013-02-28T03:57:44+0530 mpd error (5): Connection refused
+2013-02-28T03:57:59+0530 mpd error (5): Connection refused
+2013-02-28T03:58:14+0530 mpd error (5): Connection refused
+2013-02-28T03:58:29+0530 mpd error (5): Connection refused
+2013-02-28T03:58:44+0530 mpd error (5): Connection refused
+2013-02-28T03:58:59+0530 mpd error (5): Connection refused
+2013-02-28T03:59:14+0530 mpd error (5): Connection refused
+2013-02-28T03:59:29+0530 mpd error (5): Connection refused
+2013-02-28T03:59:44+0530 mpd error (5): Connection refused
+2013-02-28T03:59:59+0530 mpd error (5): Connection refused
+2013-02-28T04:00:14+0530 mpd error (5): Connection refused
+2013-02-28T04:00:29+0530 mpd error (5): Connection refused
+2013-02-28T04:00:44+0530 mpd error (5): Connection refused
+2013-02-28T04:00:59+0530 mpd error (5): Connection refused
+2013-02-28T04:01:14+0530 mpd error (5): Connection refused
+2013-02-28T04:01:29+0530 mpd error (5): Connection refused
+2013-02-28T04:01:44+0530 mpd error (5): Connection refused
+2013-02-28T04:01:59+0530 mpd error (5): Connection refused
+2013-02-28T04:02:14+0530 mpd error (5): Connection refused
+2013-02-28T04:02:29+0530 mpd error (5): Connection refused
+2013-02-28T04:02:44+0530 mpd error (5): Connection refused
+2013-02-28T04:02:59+0530 mpd error (5): Connection refused
+2013-02-28T04:03:14+0530 mpd error (5): Connection refused
+2013-02-28T04:03:29+0530 mpd error (5): Connection refused
+2013-02-28T04:03:44+0530 mpd error (5): Connection refused
+2013-02-28T04:03:58+0530 shutting down
+2013-02-28T04:06:12+0530 connected to mpd 0.17.0 at localhost
+2013-02-28T04:06:12+0530 starting mpdscribble (mdc 0.22)
+2013-02-28T04:06:12+0530 loaded 0 songs from /home/vicky/.mpdscribble/journal
+2013-02-28T04:06:17+0530 [last.fm] handshake error: got HTTP status 5 (Cannot connect to proxy)
+2013-02-28T04:06:17+0530 [last.fm] waiting 60 seconds before trying again
+2013-02-28T04:07:18+0530 [last.fm] handshake successful

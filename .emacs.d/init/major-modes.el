@@ -2,7 +2,13 @@
 
 ;; set categories of strings to be handled by pretty symbols mode
 (require 'pretty-symbols)
-(setq pretty-symbol-categories '(lambda relational logical))
+(setq pretty-symbol-categories '(lambda))
+
+;; octave-mode for matlab and friends
+(add-to-list 'auto-mode-alist '("\\.m$" . octave-mode))
+
+;; coffee-mode
+(setq coffee-tab-width 2)
 
 ;; nxhtml-mode
 (load "~/.emacs.d/nxhtml-beta/autostart.el")
@@ -42,6 +48,7 @@
             (local-set-key (kbd "C-M-2") 'semantic-analyze-proto-impl-toggle)
             (local-set-key (kbd "<f1>") 'man-page-for-symbol-at-point)
             (local-set-key (kbd "<f2>") 'semantic-ia-show-doc)
+            (local-set-key (kbd "M-/") 'semantic-ia-complete-symbol) ;; replacement for dabbrev-expand
             (pretty-symbols-mode)
             ;; highlight FIXME, TODO, BUG, etc. in comments
             (font-lock-add-keywords

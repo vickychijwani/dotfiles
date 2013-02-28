@@ -4,10 +4,141 @@
   :tables (list 
    (semanticdb-table "underscore.c"
     :major-mode 'c-mode
-    :tags nil
+    :tags 
+        '( ("underscore.h" include nil nil [1 24])
+            ("__foreach" variable (:constant-flag t) nil [90 99])
+            ("__underscore_each" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("collection" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [461 478])
+                    ("nmemb" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [479 492])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [493 505])
+                    ("" variable (:type "void") (reparse-symbol arg-sub-list) [538 554]))                  
+                :type "void")
+                nil [429 657])
+            ("__underscore_map" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("collection" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [690 707])
+                    ("nmemb" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [708 721])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [722 734])
+                    ("result_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [766 785])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [817 835]))                  
+                :type "void")
+                nil [659 915])
+            ("underscore_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [938 943]))                  
+                :type "void")
+                nil [917 1010]))          
     :file "underscore.c"
-    :pointmax 1
+    :pointmax 1011
+    :fsize 1010
+    :lastmodtime '(20764 27555)
     :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__foreach" (spp-arg-list ("item" "nmemb" "size" "array") 99 . 125) . 
+              ((FOR "for" 144 . 147) (semantic-list "(int keep = 1,                                   \\
+            count = 0;                                  \\
+        keep && count != (nmemb * size);                \\
+        keep = !keep, count += size)" 147 . 350) (FOR "for" 380 . 383) (semantic-list "(item = (array) + count; keep; keep = !keep)" 383 . 427)))
+          )
+
+    )
+   (semanticdb-table "test.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("underscore.h" include nil nil [20 43])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [54 59]))                  
+                :type "int")
+                nil [45 1165]))          
+    :file "test.c"
+    :pointmax 1212
+    :fsize 1165
+    :lastmodtime '(20764 30083)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "underscore.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_UNDERSCORE_H_" variable (:constant-flag t) nil [32 46])
+            ("sys/types.h" include (:system-flag t) nil [48 70])
+            ("lambda" variable (:constant-flag t) nil [125 131])
+            ("foreach" variable (:constant-flag t) nil [355 362])
+            ("_" variable (:type ("" type
+                 (:members 
+                    ( ("each" variable
+                         (:functionpointer-flag t
+                          :type "void")
+                          (reparse-symbol classsubparts) [765 876])
+                      ("map" variable
+                         (:functionpointer-flag t
+                          :type "void")
+                          (reparse-symbol classsubparts) [881 1014]))                    
+                  :type "struct")
+                  nil nil)) nil [752 1019])
+            ("_map" variable (:constant-flag t) nil [1640 1644])
+            ("__foreach" variable (:constant-flag t) nil [1225 1234])
+            ("_map" variable (:constant-flag t) nil [1640 1644])
+            ("__foreach" variable (:constant-flag t) nil [1225 1234])
+            ("_map" variable (:constant-flag t) nil [1640 1644])
+            ("__foreach" variable (:constant-flag t) nil [1225 1234])
+            ("_map" variable (:constant-flag t) nil [1640 1644])
+            ("underscore_init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2405 2410]))                  
+                :type "void")
+                nil [2384 2411]))          
+    :file "underscore.h"
+    :pointmax 2441
+    :fsize 2440
+    :lastmodtime '(20764 30008)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__foreach" (spp-arg-list ("item" "nmemb" "size" "array") 1234 . 1260) . 
+              ((FOR "for" 1279 . 1282) (semantic-list "(int keep = 1,                                   \\
+            count = 0;                                  \\
+        keep && count != (nmemb * size);                \\
+        keep = !keep, count += size)" 1282 . 1485) (FOR "for" 1515 . 1518) (semantic-list "(item = (array) + count; keep; keep = !keep)" 1518 . 1562)))
+          ("_UNDERSCORE_H_")
+          ("foreach" (spp-arg-list ("item" "array") 362 . 375) . 
+              ((FOR "for" 409 . 412) (semantic-list "(int keep = 1,                                   \\
+            count = 0,                                  \\
+            size = sizeof (array) / sizeof *(array);    \\
+        keep && count != size;                          \\
+        keep = !keep, count++)" 412 . 667) (FOR "for" 703 . 706) (semantic-list "(item = (array) + count; keep; keep = !keep)" 706 . 750)))
+          ("_map" (spp-arg-list ("arr" "nmemb" "type" "result_type" "results" "body") 1644 . 1690) . ((semantic-list "({           \\
+            size_t result_size = sizeof(result_type);                   \\
+            result_type *result = malloc(result_size);                  \\
+            void (*callback)(const type *, result_type *) =             \\
+                lambda(void, body);                                     \\
+            __foreach (type *item, nmemb, sizeof(type), arr) {          \\
+                callback(item, result);                                 \\
+                memcpy(results, result, result_size);                   \\
+            }                                                           \\
+            free(result);                                               \\
+        })" 1691 . 2382)))
+          ("lambda" (spp-arg-list ("return_type" "function_body") 131 . 159) . ((semantic-list "({           \\
+            return_type __fn__ function_body            \\
+                __fn__;                                 \\
+        })" 160 . 301)))
+          )
+
     )
    )
   :file "!home!vicky!testing!underscore.c!semantic.cache"

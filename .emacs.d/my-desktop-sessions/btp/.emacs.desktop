@@ -1,0 +1,172 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Feb 16 13:48:21 2013
+;; Desktop file format version 206
+;; Emacs version 24.2.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(".begin" ".size" "c-mode-common" "deja" "pDst" "thin" "imdata" "canny" "Canny"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/vicky/Academics/Computer Graphics/Assignments/2/types.h" "/home/vicky/Academics/BTP/c++/stroke.cpp" "/home/vicky/Academics/BTP/c++/stroke.hpp" "/home/vicky/Academics/BTP/matlab/curvature_improved.m" "/home/vicky/Academics/BTP/matlab/curvature.m" "~/Academics/BTP/c++/trash/morph_skel.cpp" "~/Academics/BTP/c++/trash/morph_skel.hpp" "/home/vicky/Academics/BTP/matlab/output.m" "/home/vicky/testing/underscore.c/underscore.h" "/home/vicky/Academics/Computer Graphics/Assignments/2/2.cpp" "/home/vicky/.oh-my-zsh/themes/vicky.zsh-theme" "/home/vicky/Academics/BTP/c++/image.hpp" "~/Academics/BTP/c++/image.cpp" "~/Academics/BTP/c++/zhangsuen/zhangsuen.hpp" "/home/vicky/Academics/BTP/c++/zhangsuen/zhangsuen.cpp" "/home/vicky/Academics/BTP/c++/CMakeFiles/main.dir/cmake_clean.cmake" "/home/vicky/Academics/BTP/c++/CMakeFiles/Makefile2" "/home/vicky/Academics/Computer Graphics/Assignments/2/Makefile" "/home/vicky/Academics/BTP/c++/zhangsuen/Makefile" "~/Academics/BTP/c++/Makefile" "/home/vicky/Academics/BTP/c++/Makefile.bak" "~/Academics/BTP/c++/Makefile.bak" "/home/vicky/Academics/BTP/c++/Makefile" "/home/vicky/Academics/BTP/c++/morph_thin.hpp" "/home/vicky/Academics/BTP/c++/morph_thin.cpp" "/home/vicky/Academics/BTP/c++/CMakeLists.txt" "~/Academics/BTP/c++/morph_skel.cpp" "~/Academics/BTP/c++/morph_skel.hpp" "/home/vicky/Academics/BTP/c++/main.hpp" "/home/vicky/Academics/BTP/c++/morph_thin.hpp"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/c++/stroke.hpp"
+  "stroke.hpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  811
+  '(483 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/c++/stroke.cpp"
+  "stroke.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  203
+  '(94 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/matlab/output.m"
+  "output.m"
+  'octave-mode
+  '(highlight-parentheses-mode undo-tree-mode)
+  972
+  '(917 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/c++/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(highlight-parentheses-mode undo-tree-mode)
+  160
+  '(116 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/matlab/tests/test_fill_output_with_image.m"
+  "test_fill_output_with_image.m"
+  'octave-mode
+  '(highlight-parentheses-mode undo-tree-mode)
+  686
+  '(157 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/c++/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  1015
+  '(300 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/c++/main.hpp"
+  "main.hpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  376
+  '(460 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/c++/image.hpp"
+  "image.hpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode flymake-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  718
+  '(718 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/c++/image.cpp"
+  "image.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode yas/minor-mode highlight-parentheses-mode pretty-symbols-mode undo-tree-mode hs-minor-mode paredit-mode capitalized-words-mode)
+  1099
+  '(964 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "c++"
+  'dired-mode
+  '(highlight-parentheses-mode ruby-block-mode)
+  815
+  '(nil nil)
+  t
+  '("/home/vicky/Academics/BTP/c++/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "matlab"
+  'dired-mode
+  '(highlight-parentheses-mode ruby-block-mode)
+  1568
+  '(nil nil)
+  t
+  '("/home/vicky/Academics/BTP/matlab/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "tests"
+  'dired-mode
+  '(highlight-parentheses-mode ruby-block-mode)
+  305
+  '(nil nil)
+  t
+  '("/home/vicky/Academics/BTP/matlab/tests/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/matlab/curvature_improved.m"
+  "curvature_improved.m"
+  'octave-mode
+  '(highlight-parentheses-mode undo-tree-mode)
+  1022
+  '(1480 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/vicky/Academics/BTP/matlab/curvature.m"
+  "curvature.m"
+  'octave-mode
+  '(highlight-parentheses-mode undo-tree-mode)
+  936
+  '(1482 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+

@@ -1,0 +1,37 @@
+;; Object opencv2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "opencv2/"
+  :tables (list 
+   (semanticdb-table "opencv.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__OPENCV_ALL_HPP__" variable (:constant-flag t) nil [2198 2216])
+            ("opencv2/core/core_c.h" include nil nil [2218 2250])
+            ("opencv2/core/core.hpp" include nil nil [2251 2283])
+            ("opencv2/flann/miniflann.hpp" include nil nil [2284 2322])
+            ("opencv2/imgproc/imgproc_c.h" include nil nil [2323 2361])
+            ("opencv2/imgproc/imgproc.hpp" include nil nil [2362 2400])
+            ("opencv2/photo/photo.hpp" include nil nil [2401 2435])
+            ("opencv2/video/video.hpp" include nil nil [2436 2470])
+            ("opencv2/features2d/features2d.hpp" include nil nil [2471 2515])
+            ("opencv2/objdetect/objdetect.hpp" include nil nil [2516 2558])
+            ("opencv2/calib3d/calib3d.hpp" include nil nil [2559 2597])
+            ("opencv2/ml/ml.hpp" include nil nil [2598 2626])
+            ("opencv2/highgui/highgui_c.h" include nil nil [2627 2665])
+            ("opencv2/highgui/highgui.hpp" include nil nil [2666 2704])
+            ("opencv2/contrib/contrib.hpp" include nil nil [2705 2743]))          
+    :file "opencv.hpp"
+    :pointmax 2752
+    :fsize 2751
+    :lastmodtime '(20496 31074)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__OPENCV_ALL_HPP__")
+          )
+
+    )
+   )
+  :file "!usr!include!opencv2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

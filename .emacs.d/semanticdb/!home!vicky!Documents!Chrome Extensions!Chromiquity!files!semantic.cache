@@ -1,0 +1,18 @@
+;; Object files/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "files/"
+  :tables (list 
+   (semanticdb-table "manifest.json"
+    :major-mode 'js-mode
+    :tags nil
+    :file "manifest.json"
+    :pointmax 201
+    :fsize 200
+    :lastmodtime '(19855 15377)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!Documents!Chrome Extensions!Chromiquity!files!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

@@ -1,0 +1,63 @@
+! anti-aliasing and other font settings
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+! XTERM
+xterm*scrollBar:         false
+xterm*cursorBlink:       false
+xterm*dynamicColors:        on
+xterm*highlightSelection: true
+xterm*termName:    xterm-256color
+xterm*faceName:    xft:DejaVu Sans Mono:pixelsize=16
+xterm*utf8:            2
+! Zenburn
+xterm*cursorColor: #d0d0d0
+xterm*background:  #0f0f0f
+xterm*foreground:  #d0d0d0
+xterm*color0:      #1E2320
+xterm*color1:      #705050
+xterm*color2:      #60b48a
+xterm*color3:      #dfaf8f
+xterm*color4:      #506070
+xterm*color5:      #dc8cc3
+xterm*color6:      #8cd0d3
+xterm*color7:      #dcdccc
+xterm*color8:      #709080
+xterm*color9:      #dca3a3
+xterm*color10:     #c3bf9f
+xterm*color11:     #f0dfaf
+xterm*color12:     #94bff3
+xterm*color13:     #ec93d3
+xterm*color14:     #93e0e3
+xterm*color15:     #ffffff
+
+! config for xterm dropdown terminal
+! XTERM
+xterm-quake*scrollBar:         false
+xterm-quake*cursorBlink:       false
+xterm-quake*dynamicColors:        on
+xterm-quake*highlightSelection: true
+xterm-quake*faceName:    xft:DejaVu Sans Mono:pixelsize=16
+xterm-quake*utf8:            2
+! Zenburn
+xterm-quake*cursorColor: #d0d0d0
+xterm-quake*background:  #0f0f0f
+xterm-quake*foreground:  #d0d0d0
+xterm-quake*color0:      #1E2320
+xterm-quake*color1:      #705050
+xterm-quake*color2:      #60b48a
+xterm-quake*color3:      #dfaf8f
+xterm-quake*color4:      #506070
+xterm-quake*color5:      #dc8cc3
+xterm-quake*color6:      #8cd0d3
+xterm-quake*color7:      #dcdccc
+xterm-quake*color8:      #709080
+xterm-quake*color9:      #dca3a3
+xterm-quake*color10:     #c3bf9f
+xterm-quake*color11:     #f0dfaf
+xterm-quake*color12:     #94bff3
+xterm-quake*color13:     #ec93d3
+xterm-quake*color14:     #93e0e3
+xterm-quake*color15:     #ffffff

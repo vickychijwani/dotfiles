@@ -106,10 +106,6 @@
 (recentf-mode 1)
 (setq recentf-max-menu-items 100)
 
-;; default and initial major mode
-(setq-default initial-major-mode 'fundamental-mode
-              major-mode 'fundamental-mode)
-
 ;; automatically insert newline at the end of every file
 (setq require-final-newline 'ask)
 
@@ -118,5 +114,8 @@
 (defun my-goto-match-beginning ()
   (when (and isearch-forward isearch-other-end (not isearch-mode-end-hook-quit))
     (goto-char isearch-other-end)))
+
+;; always follow symlinks to files under version control without asking
+(setq vc-follow-symlinks t)
 
 (provide 'interface-and-environment)

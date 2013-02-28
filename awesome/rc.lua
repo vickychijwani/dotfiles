@@ -8,6 +8,34 @@ require("beautiful")
 require("naughty")
 require("vicious")
 
+-- Load Debian menu entries (for Debian-based distros only)
+require("debian.menu")
+
+-- {{{ Error handling
+-- Check if awesome encountered an error during startup and fell back to
+-- another config (This code will only ever execute for the fallback config)
+if awesome.startup_errors then
+    naughty.notify({ preset = naughty.config.presets.critical,
+                     title = "Oops, there were errors during startup!",
+                     text = awesome.startup_errors })
+end
+
+-- Handle runtime errors after startup
+do
+    local in_error = false
+    awesome.add_signal("debug::error", function (err)
+        -- Make sure we don't go into an endless error loop
+        if in_error then return end
+        in_error = true
+
+        naughty.notify({ preset = naughty.config.presets.critical,
+                         title = "Oops, an error happened!",
+                         text = err })
+        in_error = false
+    end)
+end
+-- }}}
+
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
 beautiful.init(awful.util.getdir("config") .. "/theme.lua")
@@ -105,6 +133,7 @@ myawesomemenu = {
 }
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
+                                    { "Debian", debian.menu.Debian_menu.Debian },
                                     { "lock screen", "slimlock" },
                                     { "restart", "sudo reboot" },
                                     { "shutdown", "sudo halt" },
@@ -119,47 +148,44 @@ mylauncher = awful.widget.launcher({ image = image(beautiful.awesome_icon),
 -- {{{ Wibox
 -- CPU temperature widget
 temp = widget({ type = "textbox" })
-vicious.register(temp, vicious.widgets.thermal, "$1℃", 19, { "coretemp.0", "core"})
+vicious.register(temp, vicious.widgets.thermal, "$1°C ", 19, { "coretemp.0", "core"})
 
--- separator - dummy text widget
-separator = widget({ type = "textbox" })
-separator.text = " | "
+temp_icon = widget({ type = "imagebox" })
+temp_icon.image = image(beautiful.icon_dir .. "/misc/20x20/temp.png" )
 
--- Pacman Widget
-pacwidget = widget({type = "textbox"})
+-- pacman widget (for arch linux only)
+-- pacwidget = widget({type = "textbox"})
 
-pacwidget_t = awful.tooltip({ objects = { pacwidget }})
+-- pacwidget_t = awful.tooltip({ objects = { pacwidget }})
 
-vicious.register(pacwidget, vicious.widgets.pkg,
-                function(widget,args)
-                    local io = { popen = io.popen }
-                    local s = io.popen("pacman -Qu")
-                    local str = ''
-                    for line in s:lines() do
-                        str = str .. line .. "\n"
-                    end
-                    pacwidget_t:set_text(str)
-                    s:close()
-                    return args[1] .. " updates"
-                end, 300, "Arch")
-                -- 300 means check every 5 minutes
+-- vicious.register(pacwidget, vicious.widgets.pkg,
+--                 function(widget,args)
+--                     local io = { popen = io.popen }
+--                     local s = io.popen("pacman -Qu")
+--                     local str = ''
+--                     for line in s:lines() do
+--                         str = str .. line .. "\n"
+--                     end
+--                     pacwidget_t:set_text(str)
+--                     s:close()
+--                     return args[1] .. " updates "
+--                 end, 300, "Arch")
+--                 -- 300 means check every 5 minutes
 
--- separator - dummy text widget
-separator2 = widget({ type = "textbox" })
-separator2.text = " | "
+-- pacwidget_icon = widget({ type = "imagebox" })
+-- pacwidget_icon.image = image(beautiful.icon_dir .. "/misc/20x20/pacman.png" )
 
--- Volume in percent
+-- volume in percent
 require("utils")
 vol = widget({ type = "textbox" })
-vol.text = "Vol: " .. execute_command("vol_ctrl") .. "%"
+vol.text = execute_command("vol_ctrl") .. "% "
 
 vol_timer = timer({ timeout = 1 })
-vol_timer:add_signal("timeout", function() vol.text = execute_command("vol_ctrl") .. "%" end)
+vol_timer:add_signal("timeout", function() vol.text = execute_command("vol_ctrl") .. "% " end)
 vol_timer:start()
 
--- separator - dummy text widget
-separator3 = widget({ type = "textbox" })
-separator3.text = "| "
+vol_icon = widget({ type = "imagebox" })
+vol_icon.image = image(beautiful.icon_dir .. "/misc/20x20/vol.png" )
 
 
 -- CPU usage widget
@@ -272,11 +298,11 @@ for s = 1, screen.count() do
         },
         mylayoutbox[s],
         temp,
-        separator,
-        pacwidget,
-        separator2,
+        temp_icon,
+        -- pacwidget,
+        -- pacwidget_icon,
         vol,
-        separator3,
+        vol_icon,
     }
     local widgets_middle = {}
     for delightful_container_index, delightful_container_data in pairs(delightful_container.widgets) do
@@ -473,7 +499,7 @@ if screen.count() >= 2 then
         properties = { tag = tags[1][2] } },
       { rule = { class = "Spacefm" },
         properties = { tag = tags[2][3] } },
-      { rule = { class = "Eiskaltdcpp-qt" },
+      { rule = { class = "Eiskaltdcpp-gtk" },
         properties = { tag = tags[2][4] } },
 
       -- media players and ncmpcpp running inside Guake
@@ -492,7 +518,9 @@ if screen.count() >= 2 then
       { rule = { class = "Tabbed" },
         properties = { tag = tags[1][3] } },
       { rule = { class = "Evince" },
-        properties = { tag = tags[1][3] } }
+        properties = { tag = tags[1][3] } },
+      { rule = { class = "Okular" },
+        properties = { tag = tags[1][3] } },
    }
 else
    awful.rules.rules = {
@@ -515,7 +543,7 @@ else
         properties = { tag = tags[1][3] } },
       { rule = { class = "Spacefm" },
         properties = { tag = tags[1][4] } },
-      { rule = { class = "Eiskaltdcpp-qt" },
+      { rule = { class = "Eiskaltdcpp-gtk" },
         properties = { tag = tags[1][8] } },
 
       -- media players and ncmpcpp running inside Guake
@@ -534,7 +562,9 @@ else
       { rule = { class = "Tabbed" },
         properties = { tag = tags[1][5] } },
       { rule = { class = "Evince" },
-        properties = { tag = tags[1][5] } }
+        properties = { tag = tags[1][5] } },
+      { rule = { class = "Okular" },
+        properties = { tag = tags[1][5] } },
    }
 end
 -- }}}
@@ -543,7 +573,7 @@ end
 -- Signal function to execute when a new client appears.
 client.add_signal("manage", function (c, startup)
     -- Add a titlebar
-    -- awful.titlebar.add(c, { modkey = modkey })
+    awful.titlebar.add(c, { modkey = modkey, height = "20" })
 
     if not startup then
         -- Set the windows at the slave,

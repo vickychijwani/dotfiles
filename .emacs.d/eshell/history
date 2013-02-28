@@ -1,2 +1,14 @@
 ls
 pgrep -lf zsh
+ls
+ls
+ls
+tty
+tty
+404.html  Gemfile.lock     _config.yml  _drafts    _layouts  _posts  _trash          archive.html  categories.html  favicon.gif  fonts   index.html  rss.xml
+ls
+./_deploy.sh 
+exit
+./_deploy.sh 
+exit
+exit

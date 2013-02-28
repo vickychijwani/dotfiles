@@ -1,0 +1,463 @@
+;; Object c++/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c++/"
+  :tables (list 
+    (semanticdb-table "display_image.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("opencv2/core/core.hpp" include (:system-flag t) nil [20 52])
+            ("opencv2/imgproc/imgproc.hpp" include (:system-flag t) nil [53 91])
+            ("opencv2/highgui/highgui.hpp" include (:system-flag t) nil [92 130])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [132 152])
+            ("cv" using (:type ("cv" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [153 172])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [184 193])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [194 207]))                  
+                :type "int")
+                nil [174 526]))          
+    :file "display_image.cpp"
+    :pointmax 527
+    :fsize 526
+    :lastmodtime '(20764 46194)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "main.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("main.hpp" include nil nil [1 20])
+            ("init_rendering_params" function
+               (:arguments 
+                  ( ("params" variable
+                       (:reference 1
+                        :type ("rendering_params_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [49 76]))                  
+                :type "void")
+                nil [22 217])
+            ("render_all_strokes" function
+               (:arguments 
+                  ( ("contours" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("contour_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [243 271])
+                    ("params" variable
+                       (:reference 1
+                        :type ("rendering_params_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [272 299])
+                    ("strokes" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("stroke_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [324 350]))                  
+                :type "void")
+                nil [219 725])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [736 745])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [746 759]))                  
+                :type "int")
+                nil [727 1575]))          
+    :file "main.cpp"
+    :pointmax 1576
+    :fsize 1575
+    :lastmodtime '(20767 16251)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "main.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_MAIN_H_" variable (:constant-flag t) nil [26 34])
+            ("iostream" include (:system-flag t) nil [36 55])
+            ("opencv2/opencv.hpp" include (:system-flag t) nil [56 85])
+            ("image.hpp" include nil nil [86 106])
+            ("stroke.hpp" include nil nil [107 128])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [130 150])
+            ("cv" using (:type ("cv" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [151 170])
+            ("ALPHA" variable (:constant-flag t) nil [180 185])
+            ("BETA" variable (:constant-flag t) nil [203 207])
+            ("GAMMA" variable (:constant-flag t) nil [220 225])
+            ("DELTA" variable (:constant-flag t) nil [238 243])
+            ("W_MAX" variable (:constant-flag t) nil [256 261])
+            ("W_MIN" variable (:constant-flag t) nil [273 278])
+            ("TH" variable (:constant-flag t) nil [289 291])
+            ("SAMPLING_INTERVAL" variable (:constant-flag t) nil [303 320])
+            ("RHO" variable (:constant-flag t) nil [332 335])
+            ("CONTOUR_TOO_SMALL_THRESHOLD" variable (:constant-flag t) nil [346 373])
+            ("CONTOUR_TOO_SMALL" variable (:constant-flag t) nil [385 402])
+            ("CONTOUR_TOO_SMALL" variable (:constant-flag t) nil [385 402]))          
+    :file "main.hpp"
+    :pointmax 482
+    :fsize 481
+    :lastmodtime '(20767 16520)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("DELTA" . ((number "1.5" 244 . 247)))
+          ("CONTOUR_TOO_SMALL_THRESHOLD" . ((number "40" 374 . 376)))
+          ("BETA" . ((number "0.1" 208 . 211)))
+          ("GAMMA" . ((number "2.5" 226 . 229)))
+          ("W_MAX" . ((number "10" 262 . 264)))
+          ("RHO" . ((number "5" 336 . 337)))
+          ("W_MIN" . ((number "6" 279 . 280)))
+          ("SAMPLING_INTERVAL" . ((number "10" 321 . 323)))
+          ("_MAIN_H_")
+          ("ALPHA" . ((number "0.000001" 186 . 194)))
+          ("CONTOUR_TOO_SMALL" (spp-arg-list ("contour") 402 . 411) . ((semantic-list "(contour.size() < CONTOUR_TOO_SMALL_THRESHOLD)" 412 . 458)))
+          ("TH" . ((number "80" 292 . 294)))
+          )
+
+    )
+       (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("CC" variable (:default-value ("g++")) nil [1 10])
+            ("CFLAGS" variable (:default-value ("-std=c++11" "-Wall" "$$(pkg-config --cflags opencv)")) nil [10 67])
+            ("LIBS" variable (:default-value ("$$(pkg-config --libs opencv)")) nil [67 103])
+            ("SRC_FILES" variable (:default-value ("zhangsuen/zhangsuen.cpp" "image.cpp" "stroke.cpp" "$(PROG).cpp")) nil [104 173])
+            ("OBJ_FILES" variable (:default-value ("zhangsuen/zhangsuen.o" "image.o" "stroke.o" "$(PROG).o")) nil [173 234])
+            ("PROG" variable (:default-value ("main")) nil [234 246])
+            ("DEBUG" variable (:default-value ("debug")) nil [246 260])
+            (".PHONY" function (:arguments ("build" "clean" "check-syntax" "rebuild")) nil [261 302])
+            ("build" function (:arguments ("$(PROG)")) nil [303 318])
+            ("check-syntax" function nil nil [319 382])
+            ("$(PROG)" function (:arguments ("$(OBJ_FILES)")) nil [383 452])
+            ("$(DEBUG)" function (:arguments ("$(SRC_FILES)")) nil [453 535])
+            ("%.o" function (:arguments ("%.cpp")) nil [536 582])
+            ("clean" function nil nil [583 618]))          
+    :file "Makefile"
+    :pointmax 640
+    :fsize 639
+    :lastmodtime '(20767 15838)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "image.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("image.hpp" include nil nil [1 21])
+            ("image_invert" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [67 78]))                  
+                :type "void")
+                nil [49 118])
+            ("image_binarize" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [180 191]))                  
+                :type "void")
+                nil [160 282])
+            ("image_thin" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [329 340]))                  
+                :type "void")
+                nil [313 686])
+            ("image_find_contours" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [742 753])
+                    ("contours" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("contour_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [754 782]))                  
+                :type "void")
+                nil [717 865])
+            ("image_visualize_contours" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [952 963])
+                    ("contours" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("contour_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [964 992])
+                    ("visualization" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1023 1042]))                  
+                :type "void")
+                nil [922 1393]))          
+    :file "image.cpp"
+    :pointmax 1366
+    :fsize 1393
+    :lastmodtime '(20767 6580)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "image.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_IMAGE_H_" variable (:constant-flag t) nil [27 36])
+            ("vector" include (:system-flag t) nil [38 55])
+            ("opencv2/opencv.hpp" include (:system-flag t) nil [56 85])
+            ("zhangsuen/zhangsuen.hpp" include nil nil [86 120])
+            ("cv" using (:type ("cv" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [122 141])
+            ("GRAY_LEVELS" variable (:constant-flag t) nil [151 162])
+            ("GRAY_LEVEL_MAX" variable (:constant-flag t) nil [175 189])
+            ("GRAY_LEVEL_MID" variable (:constant-flag t) nil [216 230])
+            ("GRAY_LEVEL_MIN" variable (:constant-flag t) nil [257 271])
+            ("foreach" variable (:constant-flag t) nil [283 290])
+            ("contour_t" type
+               (:typedef ("vector" type
+                     (:template-specifier 
+                        ( ("cv::Point" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :superclasses "vector"
+                :type "typedef")
+                nil [680 716])
+            ("image_invert" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [736 747]))                  
+                :type "void")
+                nil [718 748])
+            ("image_binarize" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [769 780]))                  
+                :type "void")
+                nil [749 781])
+            ("image_thin" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [798 809]))                  
+                :type "void")
+                nil [782 810])
+            ("image_find_contours" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [836 847])
+                    ("contours" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("contour_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [848 876]))                  
+                :type "void")
+                nil [811 877])
+            ("image_visualize_contours" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [908 919])
+                    ("contours" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("contour_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [920 948])
+                    ("visualization" variable
+                       (:reference 1
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [979 998]))                  
+                :type "void")
+                nil [878 999]))          
+    :file "image.hpp"
+    :pointmax 1089
+    :fsize 1023
+    :lastmodtime '(20767 15148)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_IMAGE_H_")
+          ("GRAY_LEVEL_MAX" . ((semantic-list "(GRAY_LEVELS - 1)" 172 . 189)))
+          ("GRAY_LEVEL_MIN" . ((number "0" 254 . 255)))
+          ("GRAY_LEVEL_MID" . ((semantic-list "(GRAY_LEVELS / 2)" 213 . 230)))
+          ("right" . ((symbol "second" 775 . 781)))
+          ("GRAY_LEVELS" . ((number "256" 145 . 148)))
+          ("left" . ((symbol "first" 755 . 760)))
+          ("foreach" (spp-arg-list ("item" "vector") 272 . 286) . 
+              ((FOR "for" 319 . 322) (semantic-list "(int keep = 1,                                   \\
+            count = 0,                                  \\
+            size = vector.size();                       \\
+        keep && count != size;                          \\
+        keep = !keep, count++)" 322 . 577) (FOR "for" 613 . 616) (semantic-list "(item = (vector)[count]; keep; keep = !keep)" 616 . 660)))
+          )
+
+    )
+   (semanticdb-table "stroke.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_STROKE_H_" variable (:constant-flag t) nil [28 38])
+            ("image.hpp" include nil nil [40 60])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [62 82])
+            ("stroke_t" type
+               (:typedef ("pair" type
+                     (:template-specifier 
+                        ( ("contour_t" type nil nil nil)
+                          ("contour_t" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :superclasses "pair"
+                :type "typedef")
+                nil [84 127])
+            ("left" variable (:constant-flag t) nil [136 140])
+            ("right" variable (:constant-flag t) nil [155 160])
+            ("rendering_params_t" type
+               (:members 
+                  ( ("alpha" variable (:type "float") (reparse-symbol classsubparts) [201 213])
+                    ("beta" variable (:type "float") (reparse-symbol classsubparts) [218 229])
+                    ("gamma" variable (:type "float") (reparse-symbol classsubparts) [234 246])
+                    ("delta" variable (:type "float") (reparse-symbol classsubparts) [251 263])
+                    ("w_max" variable (:type ("uint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [268 279])
+                    ("w_min" variable (:type ("uint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [284 295])
+                    ("th" variable (:type ("uint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [300 308])
+                    ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("os" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [342 354])
+                            ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("rendering_params_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [355 383]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [314 384]))                  
+                :type "struct")
+                nil [169 387])
+            ("<<" function
+               (:operator-flag t
+                :typemodifiers ("inline")
+                :arguments 
+                  ( ("os" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [417 429])
+                    ("p" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("rendering_params_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [430 458]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [389 835])
+            ("render_stroke" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("contour" variable
+                       (:reference 1
+                        :type ("contour_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [856 875])
+                    ("params" variable
+                       (:reference 1
+                        :type ("rendering_params_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [876 903])
+                    ("stroke" variable
+                       (:reference 1
+                        :type ("stroke_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [927 944]))                  
+                :type "void")
+                nil [837 945]))          
+    :file "stroke.hpp"
+    :pointmax 971
+    :fsize 970
+    :lastmodtime '(20767 16447)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("right" . ((symbol "second" 161 . 167)))
+          ("left" . ((symbol "first" 141 . 146)))
+          ("_STROKE_H_")
+          )
+
+    )
+   (semanticdb-table "stroke.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stroke.hpp" include nil nil [1 22])
+            ("render_stroke" function
+               (:arguments 
+                  ( ("contour" variable
+                       (:reference 1
+                        :type ("contour_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [113 132])
+                    ("params" variable
+                       (:reference 1
+                        :type ("rendering_params_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [133 160])
+                    ("stroke" variable
+                       (:reference 1
+                        :type ("stroke_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [180 197]))                  
+                :type "void")
+                nil [94 202]))          
+    :file "stroke.cpp"
+    :pointmax 133
+    :fsize 202
+    :lastmodtime '(20767 15626)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!vicky!Academics!BTP!c++!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

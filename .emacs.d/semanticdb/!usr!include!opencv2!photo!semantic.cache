@@ -1,0 +1,190 @@
+;; Object photo/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "photo/"
+  :tables (list 
+   (semanticdb-table "photo.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__OPENCV_PHOTO_HPP__" variable (:constant-flag t) nil [2200 2220])
+            ("opencv2/core/core.hpp" include nil nil [2222 2254])
+            ("opencv2/imgproc/imgproc.hpp" include nil nil [2255 2293])
+            ("opencv2/photo/photo_c.h" include nil nil [2295 2329])
+            ("cv" type
+               (:members 
+                  ( ("" type
+                       (:members 
+                          ( ("INPAINT_NS" variable
+                               (:constant-flag t
+                                :default-value (2498 2512)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [2487 2512])
+                            ("INPAINT_TELEA" variable
+                               (:constant-flag t
+                                :default-value (2558 2598)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [2544 2598]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [2476 2599])
+                    ("inpaint" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2715 2730])
+                            ("inpaintMask" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2731 2754])
+                            ("dst" variable (:type ("OutputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2782 2798])
+                            ("inpaintRadius" variable (:type "double") (reparse-symbol arg-sub-list) [2799 2820])
+                            ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [2821 2832]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [2701 2833])
+                    ("fastNlMeansDenoising" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2876 2891])
+                            ("dst" variable (:type ("OutputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2892 2908])
+                            ("h" variable (:type "float") (reparse-symbol arg-sub-list) [2909 2918])
+                            ("templateWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [2962 2986])
+                            ("searchWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [2990 3012]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [2849 3017])
+                    ("fastNlMeansDenoisingColored" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3066 3081])
+                            ("dst" variable (:type ("OutputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3082 3098])
+                            ("h" variable (:type "float") (reparse-symbol arg-sub-list) [3146 3155])
+                            ("hColor" variable (:type "float") (reparse-symbol arg-sub-list) [3159 3173])
+                            ("templateWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3224 3248])
+                            ("searchWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3252 3274]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [3032 3279])
+                    ("fastNlMeansDenoisingMulti" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("srcImgs" variable (:type ("InputArrayOfArrays" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3326 3353])
+                            ("dst" variable (:type ("OutputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3354 3370])
+                            ("imgToDenoiseIndex" variable (:type "int") (reparse-symbol arg-sub-list) [3416 3438])
+                            ("temporalWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3439 3462])
+                            ("h" variable (:type "float") (reparse-symbol arg-sub-list) [3508 3517])
+                            ("templateWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3521 3545])
+                            ("searchWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3549 3571]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [3294 3576])
+                    ("fastNlMeansDenoisingColoredMulti" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("srcImgs" variable (:type ("InputArrayOfArrays" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3630 3657])
+                            ("dst" variable (:type ("OutputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3658 3674])
+                            ("imgToDenoiseIndex" variable (:type "int") (reparse-symbol arg-sub-list) [3727 3749])
+                            ("temporalWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3750 3773])
+                            ("h" variable (:type "float") (reparse-symbol arg-sub-list) [3826 3835])
+                            ("hColor" variable (:type "float") (reparse-symbol arg-sub-list) [3839 3853])
+                            ("templateWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3909 3933])
+                            ("searchWindowSize" variable (:type "int") (reparse-symbol arg-sub-list) [3937 3959]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [3591 3964]))                  
+                :type "namespace")
+                nil [2431 3967]))          
+    :file "photo.hpp"
+    :pointmax 3998
+    :fsize 3997
+    :lastmodtime '(20571 40649)
+    :unmatched-syntax '((number 3960 . 3962) (punctuation 3958 . 3959) (number 3934 . 3935) (punctuation 3932 . 3933) (number 3854 . 3855) (punctuation 3852 . 3853) (number 3836 . 3837) (punctuation 3834 . 3835) (symbol 3578 . 3590) (number 3572 . 3574) (punctuation 3570 . 3571) (number 3546 . 3547) (punctuation 3544 . 3545) (number 3518 . 3519) (punctuation 3516 . 3517) (symbol 3281 . 3293) (number 3275 . 3277) (punctuation 3273 . 3274) (number 3249 . 3250) (punctuation 3247 . 3248) (number 3174 . 3175) (punctuation 3172 . 3173) (number 3156 . 3157) (punctuation 3154 . 3155) (symbol 3019 . 3031) (number 3013 . 3015) (punctuation 3011 . 3012) (number 2987 . 2988) (punctuation 2985 . 2986) (number 2919 . 2920) (punctuation 2917 . 2918) (symbol 2836 . 2848) (symbol 2688 . 2700))
+    :lexical-table 
+        '(("__OPENCV_PHOTO_HPP__")
+          )
+
+    )
+   (semanticdb-table "photo_c.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("__OPENCV_PHOTO_C_H__" variable (:constant-flag t) nil [2200 2220])
+            ("opencv2/core/core_c.h" include nil nil [2222 2254])
+            ("cvInpaint" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("src" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2460 2477])
+                    ("inpaint_mask" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2478 2504])
+                    ("dst" variable
+                       (:pointer 1
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2528 2539])
+                    ("inpaintRange" variable (:type "double") (reparse-symbol arg-sub-list) [2540 2560])
+                    ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [2561 2572]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2449 2573])
+            ("" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("CV_INPAINT_NS" variable
+                       (:constant-flag t
+                        :default-value (2355 2356)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2335 2356])
+                    ("CV_INPAINT_TELEA" variable
+                       (:constant-flag t
+                        :default-value (2382 2383)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2362 2383]))                  )
+                (reparse-symbol extern-c-contents) [2324 2386])
+            ("C" extern (:members 
+              ( ("" type
+                   (:typemodifiers ("extern" "\"C\"")
+                    :type "enum"
+                    :members 
+                      ( ("CV_INPAINT_NS" variable
+                           (:constant-flag t
+                            :default-value (2355 2356)
+                            :type "int")
+                            (reparse-symbol enumsubparts) [2335 2356])
+                        ("CV_INPAINT_TELEA" variable
+                           (:constant-flag t
+                            :default-value (2382 2383)
+                            :type "int")
+                            (reparse-symbol enumsubparts) [2362 2383]))                      )
+                    (reparse-symbol extern-c-contents) [2324 2386])
+                ("cvInpaint" function
+                   (:typemodifiers ("extern" "\"C\"")
+                    :type "int"
+                    :arguments 
+                      ( ("src" variable
+                           (:pointer 1
+                            :constant-flag t
+                            :type ("CvArr" type (:type "class") nil nil))
+                            (reparse-symbol arg-sub-list) [2460 2477])
+                        ("inpaint_mask" variable
+                           (:pointer 1
+                            :constant-flag t
+                            :type ("CvArr" type (:type "class") nil nil))
+                            (reparse-symbol arg-sub-list) [2478 2504])
+                        ("dst" variable
+                           (:pointer 1
+                            :type ("CvArr" type (:type "class") nil nil))
+                            (reparse-symbol arg-sub-list) [2528 2539])
+                        ("inpaintRange" variable (:type "double") (reparse-symbol arg-sub-list) [2540 2560])
+                        ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [2561 2572]))                      
+                    :prototype-flag t)
+                    (reparse-symbol extern-c-contents) [2449 2573]))              ) nil [2275 2596]))          
+    :file "photo_c.h"
+    :pointmax 2648
+    :fsize 2647
+    :lastmodtime '(20607 14186)
+    :unmatched-syntax '((semantic-list 2442 . 2448) (symbol 2437 . 2442))
+    :lexical-table 
+        '(("__OPENCV_PHOTO_C_H__")
+          )
+
+    )
+   )
+  :file "!usr!include!opencv2!photo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

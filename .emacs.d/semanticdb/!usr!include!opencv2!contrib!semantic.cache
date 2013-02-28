@@ -1,0 +1,812 @@
+;; Object contrib/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "contrib/"
+  :tables (list 
+   (semanticdb-table "contrib.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__OPENCV_CONTRIB_HPP__" variable (:constant-flag t) nil [2197 2219])
+            ("opencv2/core/core.hpp" include nil nil [2221 2253])
+            ("opencv2/imgproc/imgproc.hpp" include nil nil [2254 2292])
+            ("opencv2/features2d/features2d.hpp" include nil nil [2293 2337])
+            ("opencv2/objdetect/objdetect.hpp" include nil nil [2338 2380])
+            ("CvAdaptiveSkinDetector" variable (:type ("CV_EXPORTS" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [2676 4212])
+            ("CvFuzzyPoint" variable (:type ("CV_EXPORTS" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [4491 4598])
+            ("CvFuzzyCurve" variable (:type ("CV_EXPORTS" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [4600 5019])
+            ("CvFuzzyFunction" variable (:type ("CV_EXPORTS" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [5021 5288])
+            ("CvFuzzyRule" variable (:type ("CV_EXPORTS" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [5290 5615])
+            ("CvFuzzyController" variable (:type ("CV_EXPORTS" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [5617 5886])
+            ("CvFuzzyMeanShiftTracker" variable (:type ("CV_EXPORTS" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [5888 8258])
+            ("cv" type
+               (:members 
+                  ( ("Octree" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [8281 9168])
+                    ("Mesh3D" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [9175 9881])
+                    ("SpinImageModel" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [9887 12673])
+                    ("TickMeter" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [12679 13083])
+                    ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("out" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [13125 13143])
+                            ("tm" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("TickMeter" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [13144 13164]))                          
+                        :type ("std::ostream" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [13100 13165])
+                    ("SelfSimDescriptor" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [13171 14454])
+                    ("BundleAdjustCallback" variable
+                       (:functionpointer-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [14469 14549])
+                    ("LevMarqSparse" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [14581 14588])
+                            ("LevMarqSparse" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :type ("LevMarqSparse" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [14597 14613])
+                            ("LevMarqSparse" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("npoints" variable (:type "int") (reparse-symbol arg-sub-list) [14636 14648])
+                                    ("ncameras" variable (:type "int") (reparse-symbol arg-sub-list) [14691 14704])
+                                    ("nPointParams" variable (:type "int") (reparse-symbol arg-sub-list) [14748 14765])
+                                    ("nCameraParams" variable (:type "int") (reparse-symbol arg-sub-list) [14848 14866])
+                                    ("nErrParams" variable (:type "int") (reparse-symbol arg-sub-list) [14928 14943])
+                                    ("visibility" variable
+                                       (:reference 1
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15093 15109])
+                                    ("P0" variable
+                                       (:reference 1
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15287 15295])
+                                    ("X" variable
+                                       (:reference 1
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15378 15385])
+                                    ("criteria" variable (:type ("TermCriteria" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15479 15501])
+                                    ("" variable (:type "void") (reparse-symbol arg-sub-list) [15619 15641])
+                                    ("" variable (:type "void") (reparse-symbol arg-sub-list) [15862 15884])
+                                    ("data" variable
+                                       (:pointer 1
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [16027 16038])
+                                    ("cb" variable (:type ("BundleAdjustCallback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16107 16131])
+                                    ("user_data" variable
+                                       (:pointer 1
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [16132 16171]))                                  
+                                :type ("LevMarqSparse" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [14622 16172])
+                            ("LevMarqSparse" function
+                               (:prototype-flag t
+                                :destructor-flag t
+                                :typemodifiers ("virtual")
+                                :type "void")
+                                (reparse-symbol classsubparts) [16182 16207])
+                            ("run" function
+                               (:prototype-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("npoints" variable (:type "int") (reparse-symbol arg-sub-list) [16235 16247])
+                                    ("ncameras" variable (:type "int") (reparse-symbol arg-sub-list) [16293 16306])
+                                    ("nPointParams" variable (:type "int") (reparse-symbol arg-sub-list) [16353 16370])
+                                    ("nCameraParams" variable (:type "int") (reparse-symbol arg-sub-list) [16456 16474])
+                                    ("nErrParams" variable (:type "int") (reparse-symbol arg-sub-list) [16539 16554])
+                                    ("visibility" variable
+                                       (:reference 1
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [16710 16726])
+                                    ("P0" variable
+                                       (:reference 1
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [16910 16918])
+                                    ("X" variable
+                                       (:reference 1
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17004 17011])
+                                    ("criteria" variable (:type ("TermCriteria" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17108 17130])
+                                    ("" variable (:type "void") (reparse-symbol arg-sub-list) [17254 17276])
+                                    ("" variable (:type "void") (reparse-symbol arg-sub-list) [17506 17528])
+                                    ("data" variable
+                                       (:pointer 1
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [17677 17760]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [16217 17761])
+                            ("clear" function
+                               (:prototype-flag t
+                                :typemodifiers ("virtual")
+                                :type "void")
+                                (reparse-symbol classsubparts) [17771 17792])
+                            ("bundleAdjust" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("points" variable
+                                       (:reference 1
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("Point3d" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [17891 17915])
+                                    ("imagePoints" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("vector" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18019 18063])
+                                    ("visibility" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("vector" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18142 18181])
+                                    ("cameraMatrix" variable
+                                       (:reference 1
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("Mat" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18259 18285])
+                                    ("R" variable
+                                       (:reference 1
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("Mat" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18375 18390])
+                                    ("T" variable
+                                       (:reference 1
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("Mat" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18479 18494])
+                                    ("distCoeffs" variable
+                                       (:reference 1
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("Mat" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18584 18608])
+                                    ("criteria" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("TermCriteria" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [18703 18732])
+                                    ("" variable (:type ("TermCriteria" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18766 18834])
+                                    ("cb" variable (:type ("BundleAdjustCallback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18869 18894])
+                                    ("user_data" variable
+                                       (:pointer 1
+                                        :type "void")
+                                        (reparse-symbol arg-sub-list) [18898 18915]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [17866 18919])
+                            ("public" label nil (reparse-symbol classsubparts) [18925 18932])
+                            ("optimize" function
+                               (:prototype-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("_vis" variable
+                                       (:reference 1
+                                        :type ("CvMat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [18963 18975]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [18941 18976])
+                            ("ask_for_proj" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("_vis" variable
+                                       (:reference 1
+                                        :type ("CvMat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [19117 19129])
+                                    ("once" variable (:type "bool") (reparse-symbol arg-sub-list) [19129 19139])
+                                    ("" variable (:type ("false" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19139 19145]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [19099 19146])
+                            ("ask_for_projac" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("_vis" variable
+                                       (:reference 1
+                                        :type ("CvMat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [19244 19256]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [19224 19257])
+                            ("err" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19267 19278])
+                            ("errNorm" variable (:type "double") (reparse-symbol classsubparts) [19300 19328])
+                            ("prevErrNorm" variable (:type "double") (reparse-symbol classsubparts) [19300 19328])
+                            ("lambda" variable (:type "double") (reparse-symbol classsubparts) [19337 19351])
+                            ("criteria" variable (:type ("CvTermCriteria" type (:type "class") nil nil)) (reparse-symbol classsubparts) [19360 19384])
+                            ("iters" variable (:type "int") (reparse-symbol classsubparts) [19393 19403])
+                            ("U" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19413 19423])
+                            ("V" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19478 19488])
+                            ("inv_V_star" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19542 19561])
+                            ("A" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19587 19597])
+                            ("B" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19606 19616])
+                            ("W" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19625 19635])
+                            ("X" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19645 19654])
+                            ("hX" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19677 19687])
+                            ("prevP" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19757 19770])
+                            ("P" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19817 19826])
+                            ("deltaP" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19935 19949])
+                            ("ea" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20029 20040])
+                            ("eb" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20163 20174])
+                            ("Yj" variable
+                               (:pointer 2
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20297 20308])
+                            ("S" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20354 20363])
+                            ("JtJ_diag" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20454 20470])
+                            ("Vis_index" variable
+                               (:pointer 1
+                                :type ("CvMat" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20553 20570])
+                            ("num_cams" variable (:type "int") (reparse-symbol classsubparts) [20653 20666])
+                            ("num_points" variable (:type "int") (reparse-symbol classsubparts) [20675 20690])
+                            ("num_err_param" variable (:type "int") (reparse-symbol classsubparts) [20699 20717])
+                            ("num_cam_param" variable (:type "int") (reparse-symbol classsubparts) [20726 20744])
+                            ("num_point_param" variable (:type "int") (reparse-symbol classsubparts) [20753 20773])
+                            ("fjac" variable
+                               (:functionpointer-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [20862 20953])
+                            ("func" variable
+                               (:functionpointer-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [20962 21049])
+                            ("data" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol classsubparts) [21059 21070])
+                            ("cb" variable (:type ("BundleAdjustCallback" type (:type "class") nil nil)) (reparse-symbol classsubparts) [21080 21104])
+                            ("user_data" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol classsubparts) [21113 21129]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [14555 21136])
+                    ("chamerMatching" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("img" variable
+                               (:reference 1
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [21175 21184])
+                            ("templ" variable
+                               (:reference 1
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [21185 21196])
+                            ("vector" variable (:type ("CV_OUT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21231 21261])
+                            ("" variable (:type ("results" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21262 21270])
+                            ("vector" variable (:type ("CV_OUT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21271 21292])
+                            ("" variable (:type ("cost" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21293 21298])
+                            ("templScale" variable (:type "double") (reparse-symbol arg-sub-list) [21333 21351])
+                            ("maxMatches" variable (:type "int") (reparse-symbol arg-sub-list) [21354 21370])
+                            ("minMatchDistance" variable (:type "double") (reparse-symbol arg-sub-list) [21409 21434])
+                            ("padX" variable (:type "int") (reparse-symbol arg-sub-list) [21440 21450])
+                            ("padY" variable (:type "int") (reparse-symbol arg-sub-list) [21488 21498])
+                            ("scales" variable (:type "int") (reparse-symbol arg-sub-list) [21502 21514])
+                            ("minScale" variable (:type "double") (reparse-symbol arg-sub-list) [21518 21535])
+                            ("maxScale" variable (:type "double") (reparse-symbol arg-sub-list) [21541 21558])
+                            ("orientationWeight" variable (:type "double") (reparse-symbol arg-sub-list) [21598 21624])
+                            ("truncate" variable (:type "double") (reparse-symbol arg-sub-list) [21630 21647]))                          
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [21155 21652])
+                    ("StereoVar" variable (:type ("CV_EXPORTS_W" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [21659 23302])
+                    ("polyfit" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("srcx" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [23332 23348])
+                            ("srcy" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [23349 23365])
+                            ("dst" variable
+                               (:reference 1
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [23366 23375])
+                            ("order" variable (:type "int") (reparse-symbol arg-sub-list) [23376 23386]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [23319 23387])
+                    ("Directory" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [23393 23871])
+                    ("generateColors" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("colors" variable
+                               (:reference 1
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("Scalar" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [24242 24270])
+                            ("count" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24271 24284])
+                            ("factor" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24285 24299]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [24221 24305])
+                    ("" type
+                       (:members 
+                          ( ("ROTATION" variable
+                               (:constant-flag t
+                                :default-value (24560 24561)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [24540 24561])
+                            ("TRANSLATION" variable
+                               (:constant-flag t
+                                :default-value (24594 24595)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [24574 24595])
+                            ("RIGID_BODY_MOTION" variable
+                               (:constant-flag t
+                                :default-value (24628 24629)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [24608 24629]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [24533 24641])
+                    ("RGBDOdometry" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Rt" variable
+                               (:reference 1
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24676 24684])
+                            ("initRt" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24685 24703])
+                            ("image0" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24738 24756])
+                            ("depth0" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24757 24775])
+                            ("mask0" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24776 24793])
+                            ("image1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24828 24846])
+                            ("depth1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24847 24865])
+                            ("mask1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24866 24883])
+                            ("cameraMatrix" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [24918 24942])
+                            ("minDepth" variable (:type "float") (reparse-symbol arg-sub-list) [24943 24958])
+                            ("maxDepth" variable (:type "float") (reparse-symbol arg-sub-list) [24963 24978])
+                            ("maxDepthDiff" variable (:type "float") (reparse-symbol arg-sub-list) [24983 25002])
+                            ("iterCounts" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [25043 25078])
+                            ("" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("int" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [25078 25096])
+                            ("minGradientMagnitudes" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("float" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [25132 25180])
+                            ("" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("float" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [25180 25200])
+                            ("transformType" variable (:type "int") (reparse-symbol arg-sub-list) [25236 25254])
+                            ("" variable (:type ("RIGID_BODY_MOTION" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25254 25273]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [24657 25274])
+                    ("LogPolar_Interp" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [25674 27755])
+                    ("LogPolar_Overlapping" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [28182 30490])
+                    ("LogPolar_Adjacent" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [31122 33550])
+                    ("subspaceProject" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("W" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33587 33600])
+                            ("mean" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33601 33617])
+                            ("src" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33618 33633]))                          
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [33567 33634])
+                    ("subspaceReconstruct" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("W" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33674 33687])
+                            ("mean" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33688 33704])
+                            ("src" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33705 33720]))                          
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [33650 33721])
+                    ("LDA" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [33727 36280])
+                    ("Algorithm" variable (:type "int") (reparse-symbol namespacesubparts) [36329 37424])
+                    ("createEigenFaceRecognizer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("num_components" variable (:type "int") (reparse-symbol arg-sub-list) [37489 37509])
+                            ("threshold" variable (:type "double") (reparse-symbol arg-sub-list) [37513 37531])
+                            ("" variable (:type ("DBL_MAX" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37532 37540]))                          
+                        :type ("Ptr" type
+                             (:template-specifier 
+                                ( ("FaceRecognizer" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [37443 37541])
+                    ("createFisherFaceRecognizer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("num_components" variable (:type "int") (reparse-symbol arg-sub-list) [37606 37626])
+                            ("threshold" variable (:type "double") (reparse-symbol arg-sub-list) [37630 37648])
+                            ("" variable (:type ("DBL_MAX" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37649 37657]))                          
+                        :type ("Ptr" type
+                             (:template-specifier 
+                                ( ("FaceRecognizer" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [37559 37658])
+                    ("createLBPHFaceRecognizer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("radius" variable (:type "int") (reparse-symbol arg-sub-list) [37721 37732])
+                            ("neighbors" variable (:type "int") (reparse-symbol arg-sub-list) [37735 37749])
+                            ("grid_x" variable (:type "int") (reparse-symbol arg-sub-list) [37812 37823])
+                            ("grid_y" variable (:type "int") (reparse-symbol arg-sub-list) [37826 37837])
+                            ("threshold" variable (:type "double") (reparse-symbol arg-sub-list) [37840 37858])
+                            ("" variable (:type ("DBL_MAX" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37859 37867]))                          
+                        :type ("Ptr" type
+                             (:template-specifier 
+                                ( ("FaceRecognizer" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [37676 37868])
+                    ("" type
+                       (:members 
+                          ( ("COLORMAP_AUTUMN" variable
+                               (:constant-flag t
+                                :default-value (37911 37912)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [37893 37912])
+                            ("COLORMAP_BONE" variable
+                               (:constant-flag t
+                                :default-value (37938 37939)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [37922 37939])
+                            ("COLORMAP_JET" variable
+                               (:constant-flag t
+                                :default-value (37964 37965)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [37949 37965])
+                            ("COLORMAP_WINTER" variable
+                               (:constant-flag t
+                                :default-value (37993 37994)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [37975 37994])
+                            ("COLORMAP_RAINBOW" variable
+                               (:constant-flag t
+                                :default-value (38023 38024)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38004 38024])
+                            ("COLORMAP_OCEAN" variable
+                               (:constant-flag t
+                                :default-value (38051 38052)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38034 38052])
+                            ("COLORMAP_SUMMER" variable
+                               (:constant-flag t
+                                :default-value (38080 38081)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38062 38081])
+                            ("COLORMAP_SPRING" variable
+                               (:constant-flag t
+                                :default-value (38109 38110)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38091 38110])
+                            ("COLORMAP_COOL" variable
+                               (:constant-flag t
+                                :default-value (38136 38137)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38120 38137])
+                            ("COLORMAP_HSV" variable
+                               (:constant-flag t
+                                :default-value (38162 38163)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38147 38163])
+                            ("COLORMAP_PINK" variable
+                               (:constant-flag t
+                                :default-value (38189 38191)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38173 38191])
+                            ("COLORMAP_HOT" variable
+                               (:constant-flag t
+                                :default-value (38216 38218)
+                                :type "int")
+                                (reparse-symbol enumsubparts) [38201 38218]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [37874 38225])
+                    ("applyColorMap" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("src" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38263 38278])
+                            ("dst" variable (:type ("OutputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38279 38295])
+                            ("colormap" variable (:type "int") (reparse-symbol arg-sub-list) [38296 38309]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [38244 38310])
+                    ("initModule_contrib" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [38327 38353]))                  
+                :type "namespace")
+                nil [8261 38355])
+            ("opencv2/contrib/retina.hpp" include nil nil [38357 38394])
+            ("opencv2/contrib/openfabmap.hpp" include nil nil [38396 38437]))          
+    :file "contrib.hpp"
+    :pointmax 38455
+    :fsize 38454
+    :lastmodtime '(20609 55887)
+    :unmatched-syntax '((symbol 38316 . 38326) (symbol 38231 . 38243) (punctuation 37857 . 37858) (number 37837 . 37838) (punctuation 37836 . 37837) (number 37823 . 37824) (punctuation 37822 . 37823) (number 37749 . 37750) (punctuation 37748 . 37749) (number 37732 . 37733) (punctuation 37731 . 37732) (symbol 37663 . 37675) (punctuation 37647 . 37648) (number 37627 . 37628) (punctuation 37625 . 37626) (symbol 37546 . 37558) (punctuation 37530 . 37531) (number 37510 . 37511) (punctuation 37508 . 37509) (symbol 37430 . 37442) (PUBLIC 36322 . 36328) (punctuation 36320 . 36321) (symbol 36305 . 36319) (symbol 36292 . 36304) (CLASS 36286 . 36291) (symbol 33639 . 33649) (symbol 33556 . 33566) (punctuation 25253 . 25254) (semantic-list 25198 . 25200) (punctuation 25179 . 25180) (semantic-list 25094 . 25096) (punctuation 25077 . 25078) (number 25002 . 25007) (punctuation 25001 . 25002) (number 24978 . 24981) (punctuation 24977 . 24978) (number 24958 . 24961) (punctuation 24957 . 24958) (symbol 24646 . 24656) (number 24299 . 24302) (punctuation 24298 . 24299) (symbol 24210 . 24220) (symbol 23308 . 23318) (number 21648 . 21650) (punctuation 21646 . 21647) (number 21625 . 21628) (punctuation 21623 . 21624) (number 21559 . 21562) (punctuation 21557 . 21558) (number 21536 . 21539) (punctuation 21534 . 21535) (number 21515 . 21516) (punctuation 21513 . 21514) (number 21499 . 21500) (punctuation 21497 . 21498) (number 21451 . 21452) (punctuation 21449 . 21450) (number 21435 . 21438) (punctuation 21433 . 21434) (number 21371 . 21373) (punctuation 21369 . 21370) (number 21351 . 21352) (punctuation 21350 . 21351) (punctuation 21291 . 21292) (punctuation 21260 . 21261) (symbol 21142 . 21154) (punctuation 19138 . 19139) (number 18916 . 18917) (punctuation 18914 . 18915) (number 18895 . 18896) (punctuation 18893 . 18894) (semantic-list 18778 . 18834) (punctuation 18731 . 18732) (semantic-list 17528 . 17650) (semantic-list 17511 . 17528) (semantic-list 17276 . 17402) (semantic-list 17259 . 17276) (semantic-list 15884 . 16003) (semantic-list 15867 . 15884) (semantic-list 15641 . 15764) (semantic-list 15624 . 15641) (TYPEDEF 14461 . 14468) (symbol 13089 . 13099))
+    :lexical-table 
+        '(("__OPENCV_CONTRIB_HPP__")
+          )
+
+    )
+   (semanticdb-table "retina.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__OPENCV_CONTRIB_RETINA_HPP__" variable (:constant-flag t) nil [4965 4994])
+            ("opencv2/core/core.hpp" include nil nil [5083 5115])
+            ("valarray" include (:system-flag t) nil [5195 5214])
+            ("cv" type
+               (:members 
+                  ( ("RETINA_COLORSAMPLINGMETHOD" type
+                       (:members 
+                          ( ("RETINA_COLOR_RANDOM" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [5270 5290])
+                            ("RETINA_COLOR_DIAGONAL" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [5359 5381])
+                            ("RETINA_COLOR_BAYER" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [5464 5512]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [5232 5513])
+                    ("RetinaFilter" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [5515 5534])
+                    ("Retina" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [7748 24011]))                  
+                :type "namespace")
+                nil [5216 24014]))          
+    :file "retina.hpp"
+    :pointmax 24059
+    :fsize 24058
+    :lastmodtime '(20607 14186)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__OPENCV_CONTRIB_RETINA_HPP__")
+          )
+
+    )
+   (semanticdb-table "openfabmap.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__OPENCV_OPENFABMAP_H_" variable (:constant-flag t) nil [2564 2586])
+            ("opencv2/core/core.hpp" include nil nil [2588 2620])
+            ("opencv2/features2d/features2d.hpp" include nil nil [2621 2665])
+            ("vector" include (:system-flag t) nil [2667 2684])
+            ("list" include (:system-flag t) nil [2685 2700])
+            ("map" include (:system-flag t) nil [2701 2715])
+            ("set" include (:system-flag t) nil [2716 2730])
+            ("valarray" include (:system-flag t) nil [2731 2750])
+            ("cv" type
+               (:members 
+                  ( ("of2" type
+                       (:members 
+                          ( ("std::list" using (:type ("std::list" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2785 2801])
+                            ("std::map" using (:type ("std::map" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2802 2817])
+                            ("std::multiset" using (:type ("std::multiset" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2818 2838])
+                            ("IMatch" variable (:type ("CV_EXPORTS" type
+                                 (:prototype t
+                                  :type "struct")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2894 3452])
+                            ("FabMap" variable (:type ("CV_EXPORTS" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [3528 6505])
+                            ("FabMap" variable (:type "int") (reparse-symbol namespacesubparts) [6652 6996])
+                            ("FabMap" variable (:type "int") (reparse-symbol namespacesubparts) [7190 7660])
+                            ("FabMap" variable (:type "int") (reparse-symbol namespacesubparts) [7833 9200])
+                            ("FabMap" variable (:type "int") (reparse-symbol namespacesubparts) [9345 10822])
+                            ("ChowLiuTree" variable (:type ("CV_EXPORTS" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [11037 12335])
+                            ("BOWTrainer" variable (:type "int") (reparse-symbol namespacesubparts) [12490 12773]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2768 12776]))                  
+                :type "namespace")
+                nil [2752 12779]))          
+    :file "openfabmap.hpp"
+    :pointmax 12808
+    :fsize 12807
+    :lastmodtime '(20563 46540)
+    :unmatched-syntax '((PUBLIC 12483 . 12489) (punctuation 12481 . 12482) (symbol 12468 . 12481) (symbol 12457 . 12467) (CLASS 12451 . 12456) (PUBLIC 9338 . 9344) (punctuation 9336 . 9337) (symbol 9329 . 9336) (symbol 9318 . 9328) (CLASS 9312 . 9317) (PUBLIC 7826 . 7832) (punctuation 7824 . 7825) (symbol 7815 . 7824) (symbol 7804 . 7814) (CLASS 7798 . 7803) (PUBLIC 7183 . 7189) (punctuation 7181 . 7182) (symbol 7172 . 7181) (symbol 7161 . 7171) (CLASS 7155 . 7160) (PUBLIC 6645 . 6651) (punctuation 6643 . 6644) (symbol 6636 . 6643) (symbol 6625 . 6635) (CLASS 6619 . 6624))
+    :lexical-table 
+        '(("__OPENCV_OPENFABMAP_H_")
+          )
+
+    )
+   )
+  :file "!usr!include!opencv2!contrib!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

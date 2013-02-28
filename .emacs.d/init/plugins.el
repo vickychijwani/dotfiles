@@ -10,20 +10,21 @@
 
 ;;;; compact / hidden minor mode names in the modeline
 (when (require 'diminish nil 'noerror)
-  (eval-after-load "paredit" '(diminish 'paredit-mode " (Par)"))
-  (eval-after-load "yasnippet" '(diminish 'yas/minor-mode " YAS"))
+  (eval-after-load "paredit"               '(diminish 'paredit-mode               " (Par)"))
+  (eval-after-load "yasnippet"             '(diminish 'yas/minor-mode             " YAS"))
   (eval-after-load "highlight-parentheses" '(diminish 'highlight-parentheses-mode ""))
-  (eval-after-load "eldoc" '(diminish 'eldoc-mode ""))
-  (eval-after-load "autopair" '(diminish 'autopair-mode " (AP)"))
-  (eval-after-load "auto-complete" '(diminish 'auto-complete-mode " AC"))
-  (eval-after-load "abbrev" '(diminish 'abbrev-mode ""))
-  (eval-after-load "ruby-block" '(diminish 'ruby-block-mode ""))
-  (eval-after-load "cap-words" '(diminish 'capitalized-words-mode ""))
-  (eval-after-load "undo-tree" '(diminish 'undo-tree-mode ""))
-  (eval-after-load "whitespace" '(diminish 'whitespace-mode ""))
-  (eval-after-load "hideshow" '(diminish 'hs-minor-mode ""))
-  (eval-after-load "ruby-tools" '(diminish 'ruby-tools-mode ""))
-  (eval-after-load "pretty-symbols" '(diminish 'pretty-symbols-mode ""))
+  (eval-after-load "eldoc"                 '(diminish 'eldoc-mode                 ""))
+  (eval-after-load "autopair"              '(diminish 'autopair-mode              " (AP)"))
+  (eval-after-load "auto-complete"         '(diminish 'auto-complete-mode         " AC"))
+  (eval-after-load "abbrev"                '(diminish 'abbrev-mode                ""))
+  (eval-after-load "ruby-block"            '(diminish 'ruby-block-mode            ""))
+  (eval-after-load "cap-words"             '(diminish 'capitalized-words-mode     ""))
+  (eval-after-load "undo-tree"             '(diminish 'undo-tree-mode             ""))
+  (eval-after-load "whitespace"            '(diminish 'whitespace-mode            ""))
+  (eval-after-load "hideshow"              '(diminish 'hs-minor-mode              ""))
+  (eval-after-load "ruby-tools"            '(diminish 'ruby-tools-mode            ""))
+  (eval-after-load "pretty-symbols"        '(diminish 'pretty-symbols-mode        ""))
+  (eval-after-load "ruby-electric"         '(diminish 'ruby-electric-mode         ""))
   )
 
 ;;;; ido-enabled jump-to-definition (better than imenu, works in many modes)
@@ -31,6 +32,10 @@
 
 ;;;; ido everywhere, seriously
 (ido-ubiquitous-mode t)
+
+;;;; grant fuzzy-searching superpowers to isearch
+(require 'fuzzy)
+(turn-on-fuzzy-isearch)
 
 ;;;; tramp mode
 (require 'tramp)
@@ -62,10 +67,25 @@
 (setq ac-auto-show-menu t
       ac-expand-on-auto-complete nil
       ac-quick-help-delay 0.2)
-(add-to-list 'ac-sources 'ac-source-semantic)
 (add-to-list 'ac-modes 'haml-mode)
 (ac-config-default)
 (ac-linum-workaround) ;; fix for annoying bug with AC + linum mode
+
+(require 'auto-complete-clang)
+(setq ac-clang-flags
+      (mapcar (lambda (item)(concat "-I" item))
+              (split-string
+               "
+ /usr/lib/gcc/i686-pc-linux-gnu/4.7.2/../../../../include/c++/4.7.2
+ /usr/lib/gcc/i686-pc-linux-gnu/4.7.2/../../../../include/c++/4.7.2/i686-pc-linux-gnu
+ /usr/lib/gcc/i686-pc-linux-gnu/4.7.2/../../../../include/c++/4.7.2/backward
+ /usr/lib/gcc/i686-pc-linux-gnu/4.7.2/include
+ /usr/local/include
+ /usr/lib/gcc/i686-pc-linux-gnu/4.7.2/include-fixed
+ /usr/include
+"))
+      ac-clang-executable "/usr/bin/clang")
+
 (global-auto-complete-mode t)
 
 ;;;; my desktop: save editing sessions by name

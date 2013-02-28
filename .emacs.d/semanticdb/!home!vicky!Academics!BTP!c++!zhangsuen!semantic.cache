@@ -1,0 +1,420 @@
+;; Object zhangsuen/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "zhangsuen/"
+  :tables (list 
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("CC" variable (:default-value ("g++")) nil [1 8])
+            ("CFLAGS" variable (:default-value ("-std=c++11" "-Wall" "-c" "$$(pkg-config --cflags opencv)")) nil [8 66])
+            ("CFLAGSDEBUG" variable (:default-value ("$(CFLAGS)" "-ggdb" "-O0")) nil [66 98])
+            ("LIBNAME" variable (:default-value ("libzhangsuen.a")) nil [98 121])
+            ("LIBDEBUG" variable (:default-value ("libzhangsuendebug.a")) nil [121 150])
+            ("LIBSHARED" variable (:default-value ("libzhangsuen.o")) nil [150 175])
+            ("PY_OUTPUT_DIR" variable (:default-value ("python")) nil [175 196])
+            ("PY_OUTPUT_BASE" variable (:default-value ("zhangsuen")) nil [196 221])
+            ("LIBPYTHON" variable (:default-value ("$(PY_OUTPUT_DIR)/$(PY_OUTPUT_BASE).so")) nil [221 269])
+            ("PYTHON_VERSION" variable (:default-value ("2.7")) nil [271 292])
+            ("PYTHON_INCLUDE" variable (:default-value ("/usr/include/python$(PYTHON_VERSION)")) nil [292 346])
+            ("BOOST_INC" variable (:default-value ("/usr/local/include")) nil [347 378])
+            ("BOOST_LIB" variable (:default-value ("/usr/local/lib")) nil [378 405])
+            ("OPENCV_LIB" variable (:default-value ("$$(pkg-config --libs opencv)")) nil [405 447])
+            ("OPENCV_INC" variable (:default-value ("$$(pkg-config --cflags opencv)")) nil [447 491])
+            ("all" function (:arguments ("$(LIBNAME)")) nil [492 508])
+            ("debug" function (:arguments ("$(LIBDEBUG)")) nil [509 528])
+            ("python" function (:arguments ("$(LIBPYTHON)")) nil [529 550])
+            ("clean" function nil nil [551 640])
+            ("$(LIBNAME)" function (:arguments ("zhangsuen.cpp" "zhangsuen.h")) nil [642 725])
+            ("$(LIBDEBUG)" function (:arguments ("zhangsuen.cpp" "zhangsuen.h")) nil [726 815])
+            ("$(LIBPYTHON)" function (:arguments ("$(PY_OUTPUT_DIR)/$(PY_OUTPUT_BASE).o" "$(LIBSHARED)")) nil [817 1119])
+            ("$(LIBSHARED)" function (:arguments ("zhangsuen.cpp" "zhangsuen.h")) nil [1121 1269])
+            ("$(PY_OUTPUT_DIR)" function (:arguments ("python/wrap_zhangsuen.cpp")) nil [1270 1480]))          
+    :file "Makefile"
+    :pointmax 1480
+    :fsize 1479
+    :lastmodtime '(20763 52646)
+    :unmatched-syntax '((shell-command 1335 . 1479) (bol 1334 . 1334))
+    )
+   (semanticdb-table "zhangsuen.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("zhangsuen.hpp" include nil nil [1 25])
+            ("num_one_pixel_neighbours" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [132 153])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [154 176]))                  
+                :type "int")
+                nil [103 425])
+            ("num_zero_pixel_neighbours" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [532 553])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [554 576]))                  
+                :type "int")
+                nil [502 825])
+            ("connectivity" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [919 940])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [941 963]))                  
+                :type "int")
+                nil [902 1763])
+            ("yokoi_connectivity" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1863 1884])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1885 1907]))                  
+                :type "int")
+                nil [1840 2628])
+            ("delete_pixels" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2724 2739])
+                    ("points" variable
+                       (:reference 1
+                        :type ("std::set" type
+                             (:template-specifier 
+                                ( ("StdPoint" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2740 2767]))                  
+                :type "void")
+                nil [2705 2892])
+            ("remove_staircases" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2992 3007]))                  
+                :type "void")
+                nil [2969 4554])
+            ("thin_zhangsuen" function
+               (:arguments 
+                  ( ("img" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4651 4664])
+                    ("need_boundary_smoothing" variable (:type "bool") (reparse-symbol arg-sub-list) [4665 4694])
+                    ("" variable (:type ("false" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4694 4700])
+                    ("need_acute_angle_emphasis" variable (:type "bool") (reparse-symbol arg-sub-list) [4721 4752])
+                    ("" variable (:type ("false" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4752 4758])
+                    ("destair" variable (:type "bool") (reparse-symbol arg-sub-list) [4759 4772])
+                    ("" variable (:type ("false" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4772 4778]))                  
+                :type "void")
+                nil [4631 6897])
+            ("zhangsuen_thin" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6994 7009]))                  
+                :type "void")
+                nil [6974 9034])
+            ("boundary_smooth" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9274 9289]))                  
+                :type "void")
+                nil [9253 10038])
+            ("acute_angle_emphasis" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10141 10156]))                  
+                :type "void")
+                nil [10115 10910])
+            ("match" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10998 11019])
+                    ("points" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("uchar_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [11020 11055])
+                    ("values" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("uchar_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [11067 11102]))                  
+                :type "bool")
+                nil [10987 11532])
+            ("match_templates" function
+               (:arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11630 11651])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11652 11674])
+                    ("k" variable (:type "int") (reparse-symbol arg-sub-list) [11675 11681]))                  
+                :type "bool")
+                nil [11609 14547]))          
+    :file "zhangsuen.cpp"
+    :pointmax 14548
+    :fsize 14547
+    :lastmodtime '(20766 63546)
+    :unmatched-syntax 'nil
+    )
+    (semanticdb-table "zhangsuen.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__ZHANGSUEN_H__" variable (:constant-flag t) nil [33 48])
+            ("set" include (:system-flag t) nil [50 64])
+            ("string" include (:system-flag t) nil [65 82])
+            ("vector" include (:system-flag t) nil [83 100])
+            ("utility" include (:system-flag t) nil [101 119])
+            ("iostream" include (:system-flag t) nil [120 139])
+            ("iomanip" include (:system-flag t) nil [140 158])
+            ("opencv2/highgui/highgui.hpp" include (:system-flag t) nil [159 197])
+            ("opencv2/imgproc/imgproc.hpp" include (:system-flag t) nil [198 236])
+            ("StdPoint" type
+               (:typedef ("std::pair" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil)
+                          ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :superclasses "std::pair"
+                :type "typedef")
+                nil [238 275])
+            ("uchar_t" type
+               (:typedef ("unsigned char")
+                :superclasses "unsigned char"
+                :type "typedef")
+                nil [276 306])
+            ("num_one_pixel_neighbours" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [337 358])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [359 381]))                  
+                :type "int")
+                nil [308 382])
+            ("num_zero_pixel_neighbours" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [414 435])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [436 458]))                  
+                :type "int")
+                nil [384 459])
+            ("connectivity" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [478 499])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [500 522]))                  
+                :type "int")
+                nil [461 523])
+            ("yokoi_connectivity" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [548 569])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [570 592]))                  
+                :type "int")
+                nil [525 593])
+            ("delete_pixels" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [614 635])
+                    ("points" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::set" type
+                             (:template-specifier 
+                                ( ("StdPoint" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [636 669]))                  
+                :type "void")
+                nil [595 670])
+            ("remove_staircases" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [695 710]))                  
+                :type "void")
+                nil [672 711])
+            ("zhangsuen_thin" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("img" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [733 746]))                  
+                :type "void")
+                nil [713 747])
+            ("thin_zhangsuen" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("img" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [769 782])
+                    ("need_boundary_smoothing" variable (:type "bool") (reparse-symbol arg-sub-list) [783 812])
+                    ("need_acute_angle_emphasis" variable (:type "bool") (reparse-symbol arg-sub-list) [833 864])
+                    ("destair" variable (:type "bool") (reparse-symbol arg-sub-list) [865 878]))                  
+                :type "void")
+                nil [749 879])
+            ("boundary_smooth" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [902 917]))                  
+                :type "void")
+                nil [881 918])
+            ("acute_angle_emphasis" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [946 961]))                  
+                :type "void")
+                nil [920 962])
+            ("match" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [975 996])
+                    ("points" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("StdPoint" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [997 1033])
+                    ("values" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("uchar_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1045 1080]))                  
+                :type "bool")
+                nil [964 1081])
+            ("match_templates" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("image" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("cv::Mat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1104 1125])
+                    ("point" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("StdPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1126 1148])
+                    ("k" variable (:type "int") (reparse-symbol arg-sub-list) [1149 1155]))                  
+                :type "bool")
+                nil [1083 1156]))          
+    :file "zhangsuen.hpp"
+    :pointmax 1165
+    :fsize 1164
+    :lastmodtime '(20766 63533)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__ZHANGSUEN_H__")
+          )
+
+    )
+   )
+  :file "!home!vicky!Academics!BTP!c++!zhangsuen!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

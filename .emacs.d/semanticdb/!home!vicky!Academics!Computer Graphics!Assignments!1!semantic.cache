@@ -1,0 +1,53 @@
+;; Object 1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "1/"
+  :tables (list 
+   (semanticdb-table "bresenham.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("cmath" include (:system-flag t) nil [1 17])
+            ("iostream" include (:system-flag t) nil [18 37])
+            ("GL/glut.h" include (:system-flag t) nil [38 58])
+            ("bresenham.h" include nil nil [59 81])
+            ("types.h" include nil nil [82 100])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [102 122])
+            ("bresenham" function
+               (:arguments 
+                  ( ("x0" variable (:type "int") (reparse-symbol arg-sub-list) [170 177])
+                    ("y0" variable (:type "int") (reparse-symbol arg-sub-list) [178 185])
+                    ("x1" variable (:type "int") (reparse-symbol arg-sub-list) [186 193])
+                    ("y1" variable (:type "int") (reparse-symbol arg-sub-list) [194 201])
+                    ("line" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("point_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [202 224]))                  
+                :type "void")
+                nil [154 685]))          
+    :file "bresenham.cpp"
+    :pointmax 686
+    :fsize 685
+    :lastmodtime '(20742 40964)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "bresenham.h"
+    :file "bresenham.h"
+    :fsize 185
+    :lastmodtime '(20742 41085)
+    )
+   (semanticdb-table "types.h"
+    :file "types.h"
+    :fsize 1255
+    :lastmodtime '(20742 41168)
+    )
+   )
+  :file "!home!vicky!Academics!Computer Graphics!Assignments!1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

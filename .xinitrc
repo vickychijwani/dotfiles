@@ -39,23 +39,32 @@ redshiftgui &
 emacs --daemon &
 terminator &
 pidgin &
-dropboxd &
-mpdscribble &
+dropboxd || dropbox start &
 #conky &
-synapse &
+#synapse
 keepassx ~/Dropbox/Private/keepassx.kdb &
+
 # synchronize primary and secondary clipboards
-autocutsel -fork &
-autocutsel -selection PRIMARY -fork &
+# autocutsel -fork &
+# autocutsel -selection PRIMARY -fork &
+
+# scrobble songs played via MPD to Last.fm
+#pidof mpdscribble >& /dev/null
+#if [  $? -ne 0 ]; then
+#    mpdscribble --conf ~/.mpdscribble/mpdscribble.conf &
+#fi
 
 # initialize session depending on what was chosen at the login screen
-DEFAULT_SESSION=lxde
+DEFAULT_SESSION=awesome
 
 case $1 in
 lxde)
         tile --daemonize &
         batti &
         exec ck-launch-session startlxde
+	;;
+xfce)
+        exec ck-launch-session startxfce4
 	;;
 awesome)
         exec ck-launch-session dbus-launch $HOME/.xinitrc-real

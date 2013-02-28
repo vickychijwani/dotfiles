@@ -11,7 +11,7 @@ ZSH_THEME="vicky"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow task-warrior extract gem pip rvm archlinux lein npm dircycle pass)
+plugins=(debian git git-flow task-warrior extract gem pip rvm archlinux lein npm dircycle pass)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -34,10 +34,8 @@ export EDITOR="emacsclient -a '' -c"
 export TERM=xterm-256color
 export NODE_PATH=/usr/local/lib/node_modules
 
-# export http_proxy=http://144.16.192.218:8080/
-# export https_proxy=https://144.16.192.218:8080/
-# export HTTP_PROXY=http://144.16.192.218:8080/
-# export HTTPS_PROXY=https://144.16.192.218:8080/
+# proxy settings
+source ~/.proxy_settings
 
 # list all tasks
 export TODOTXT_DEFAULT_ACTION=ls

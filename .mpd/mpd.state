@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:My ALSA Device
 audio_device_state:1:Vicky's MPD
 state: pause
-current: 42
+current: 59
 time: 0
 random: 1
 repeat: 0
@@ -21,99 +21,100 @@ playlist_begin
 6:temp/Coldplay/Mylo Xyloto/01-coldplay-mylo_xyloto.mp3
 7:temp/Coldplay/Mylo Xyloto/02-coldplay-hurts_like_heaven.mp3
 8:temp/Coldplay/Mylo Xyloto/03-coldplay-paradise.mp3
-9:temp/Coldplay/Mylo Xyloto/04-coldplay-charlie_brown.mp3
-10:temp/Coldplay/Mylo Xyloto/05-coldplay-us_against_the_world.mp3
-11:temp/Coldplay/Mylo Xyloto/06-coldplay-m.m.i.x..mp3
-12:temp/Coldplay/Mylo Xyloto/08-coldplay-major_minus.mp3
-13:temp/Coldplay/Mylo Xyloto/09-coldplay-u.f.o..mp3
-14:temp/Coldplay/Mylo Xyloto/10-coldplay-princess_of_china.mp3
-15:temp/Coldplay/Mylo Xyloto/11-coldplay-up_in_flames.mp3
-16:temp/Coldplay/Mylo Xyloto/12-coldplay-a_hopeful_transmission.mp3
-17:temp/Coldplay/Mylo Xyloto/13-coldplay-dont_let_it_break_your_heart.mp3
-18:temp/Coldplay/Mylo Xyloto/14-coldplay-up_with_the_birds.mp3
-19:temp/Coldplay/Parachutes/Coldplay-Don't Panic.mp3
-20:temp/Coldplay/Parachutes/Cold Play - spies.mp3
-21:temp/Coldplay/Parachutes/Coldplay - Sparks.mp3
-22:temp/Coldplay/Parachutes/Colplay - Yellow.mp3
-23:temp/Coldplay/Parachutes/Coldplay - Trouble.mp3
-24:temp/Coldplay/Parachutes/Cold play- Parachute.mp3
-25:temp/Coldplay/Parachutes/07-HIGH SPEED.mp3
-26:temp/Coldplay/Parachutes/Coldplay - We Never Change.mp3
-27:temp/Coldplay/Parachutes/Shiver.mp3
-28:Lost!.mp3
-29:temp/Coldplay/Viva La Vida/01 Life In Technicolor.mp3
-30:temp/Coldplay/Viva La Vida/02 Cemeteries Of London.mp3
-31:temp/Coldplay/Viva La Vida/04 42.mp3
-32:temp/Coldplay/Viva La Vida/05 Lovers In Japan  Reign Of Love.mp3
-33:temp/Coldplay/Viva La Vida/06 Yes.mp3
-34:temp/Coldplay/Viva La Vida/07 Viva La Vida.mp3
-35:temp/Coldplay/Viva La Vida/08 Violet Hill.mp3
-36:temp/Coldplay/Viva La Vida/09 Strawberry Swing.mp3
-37:temp/Coldplay/Viva La Vida/10 Death And All His Friends.mp3
-38:temp/Coldplay/X&Y/01 - Coldplay - X&Y - Square One.mp3
-39:temp/Coldplay/X&Y/What If.mp3
-40:temp/Coldplay/X&Y/03 - Coldplay - X&Y - White Shadows.mp3
-41:temp/Coldplay/X&Y/Fix You.mp3
-42:temp/Coldplay/X&Y/05 - Coldplay - X&Y - Talk.mp3
-43:temp/Coldplay/X&Y/06 - Coldplay - X&Y - X&Y.mp3
-44:temp/Coldplay/X&Y/Speed of Sound.mp3
-45:temp/Coldplay/X&Y/08 - Coldplay - X&Y - Message.mp3
-46:temp/Coldplay/X&Y/09 - Coldplay - X&Y - Low.mp3
-47:temp/Coldplay/X&Y/10 - Coldplay - X&Y - Hardest Part.mp3
-48:temp/Coldplay/X&Y/11 - Coldplay - X&Y - Swallowed in the Sea.mp3
-49:temp/Coldplay/X&Y/12 - Coldplay - X&Y - Twisted Logic.mp3
-50:temp/Coldplay/X&Y/13 - Coldplay - X&Y - Til Kingdom Come [Hidden Track].mp3
-51:Umbrella.mp3
-52:Love The Way You Lie [Part II - Rihanna feat. Eminem].mp3
-53:Vanilla Twilight.mp3
-54:Emptiness.mp3
-55:Crystallize Dubstep Violin.mp3
-56:I Do I Do.mp3
-57:Explosive.mp3
-58:Die This Way.mp3
-59:This Night.mp3
-60:Hey, Soul Sister.mp3
-61:How To Save A Life.mp3
-62:Over My Head (Cable Car).mp3
-63:Californication.mp3
-64:Behind Blue Eyes.mp3
-65:Waiting for the End.mp3
-66:I'm Yours.mp3
-67:Tujhko Jo Paaya.mp3
-68:Bleeding Love.mp3
-69:No Air.mp3
-70:Here Without You.mp3
-71:I Do I Do.mp3
-72:Call Your Name.mp3
-73:Carnival of Rust.mp3
-74:Epilogue - cut.mp3
-75:Blackberry Light.mp3
-76:Game of Thrones.mp3
-77:Khoya Khoya Chand.mp3
-78:No Surprises.mp3
-79:Fake Plastic Trees.mp3
-80:When You Look Me In The Eyes.mp3
-81:Wake Me Up When September Ends.mp3
-82:What Goes Around Comes Around.mp3
-83:What Hurts the Most [Male].mp3
-84:Whatever It Takes.mp3
-85:We Are Young.mp3
-86:Trouble.mp3
-87:To Build A Home.mp3
-88:Paradise.mp3
-89:Aadat [Jal].mp3
-90:A Rush of Blood to the Head.mp3
-91:Airplanes.mp3
-92:Dil Ibadat.mp3
-93:Iridescent.mp3
-94:Tadap Tadap.mp3
-95:Every Teardrop is a Waterfall.mp3
-96:The Real Slim Shady.mp3
-97:Space Bound.mp3
-98:Love the Way You Lie.mp3
-99:Stan.mp3
-100:Lose Yourself.mp3
-101:Mockingbird.mp3
-102:Sing for the Moment.mp3
-103:Not Afraid.mp3
+9:Every Teardrop is a Waterfall.mp3
+10:temp/Coldplay/Mylo Xyloto/04-coldplay-charlie_brown.mp3
+11:temp/Coldplay/Mylo Xyloto/05-coldplay-us_against_the_world.mp3
+12:temp/Coldplay/Mylo Xyloto/06-coldplay-m.m.i.x..mp3
+13:temp/Coldplay/Mylo Xyloto/08-coldplay-major_minus.mp3
+14:temp/Coldplay/Mylo Xyloto/09-coldplay-u.f.o..mp3
+15:temp/Coldplay/Mylo Xyloto/10-coldplay-princess_of_china.mp3
+16:temp/Coldplay/Mylo Xyloto/11-coldplay-up_in_flames.mp3
+17:temp/Coldplay/Mylo Xyloto/12-coldplay-a_hopeful_transmission.mp3
+18:temp/Coldplay/Mylo Xyloto/13-coldplay-dont_let_it_break_your_heart.mp3
+19:temp/Coldplay/Mylo Xyloto/14-coldplay-up_with_the_birds.mp3
+20:temp/Coldplay/Parachutes/Coldplay-Don't Panic.mp3
+21:temp/Coldplay/Parachutes/Cold Play - spies.mp3
+22:temp/Coldplay/Parachutes/Coldplay - Sparks.mp3
+23:temp/Coldplay/Parachutes/Colplay - Yellow.mp3
+24:temp/Coldplay/Parachutes/Coldplay - Trouble.mp3
+25:temp/Coldplay/Parachutes/Cold play- Parachute.mp3
+26:temp/Coldplay/Parachutes/07-HIGH SPEED.mp3
+27:temp/Coldplay/Parachutes/Coldplay - We Never Change.mp3
+28:temp/Coldplay/Parachutes/Shiver.mp3
+29:Lost!.mp3
+30:Lost! [Piano].mp3
+31:temp/Coldplay/Viva La Vida/01 Life In Technicolor.mp3
+32:temp/Coldplay/Viva La Vida/02 Cemeteries Of London.mp3
+33:temp/Coldplay/Viva La Vida/04 42.mp3
+34:temp/Coldplay/Viva La Vida/05 Lovers In Japan  Reign Of Love.mp3
+35:temp/Coldplay/Viva La Vida/06 Yes.mp3
+36:temp/Coldplay/Viva La Vida/07 Viva La Vida.mp3
+37:temp/Coldplay/Viva La Vida/08 Violet Hill.mp3
+38:temp/Coldplay/Viva La Vida/09 Strawberry Swing.mp3
+39:temp/Coldplay/Viva La Vida/10 Death And All His Friends.mp3
+40:Swallowed in the Sea.mp3
+41:temp/Coldplay/X&Y/01 - Coldplay - X&Y - Square One.mp3
+42:temp/Coldplay/X&Y/What If.mp3
+43:temp/Coldplay/X&Y/03 - Coldplay - X&Y - White Shadows.mp3
+44:temp/Coldplay/X&Y/Fix You.mp3
+45:temp/Coldplay/X&Y/05 - Coldplay - X&Y - Talk.mp3
+46:temp/Coldplay/X&Y/06 - Coldplay - X&Y - X&Y.mp3
+47:temp/Coldplay/X&Y/Speed of Sound.mp3
+48:temp/Coldplay/X&Y/08 - Coldplay - X&Y - Message.mp3
+49:temp/Coldplay/X&Y/09 - Coldplay - X&Y - Low.mp3
+50:temp/Coldplay/X&Y/10 - Coldplay - X&Y - Hardest Part.mp3
+51:temp/Coldplay/X&Y/12 - Coldplay - X&Y - Twisted Logic.mp3
+52:temp/Coldplay/X&Y/13 - Coldplay - X&Y - Til Kingdom Come [Hidden Track].mp3
+53:Umbrella.mp3
+54:Love The Way You Lie [Part II - Rihanna feat. Eminem].mp3
+55:Vanilla Twilight.mp3
+56:Emptiness.mp3
+57:Crystallize Dubstep Violin.mp3
+58:I Do I Do.mp3
+59:Explosive.mp3
+60:Die This Way.mp3
+61:This Night.mp3
+62:Hey, Soul Sister.mp3
+63:How To Save A Life.mp3
+64:Waiting for the End.mp3
+65:Over My Head (Cable Car).mp3
+66:Californication.mp3
+67:Behind Blue Eyes.mp3
+68:I'm Yours.mp3
+69:Tujhko Jo Paaya.mp3
+70:Main Kya Karoon.mp3
+71:Bleeding Love.mp3
+72:No Air.mp3
+73:Here Without You.mp3
+74:Call Your Name.mp3
+75:Carnival of Rust.mp3
+76:Epilogue - cut.mp3
+77:Blackberry Light.mp3
+78:Game of Thrones.mp3
+79:Khoya Khoya Chand.mp3
+80:No Surprises.mp3
+81:Fake Plastic Trees.mp3
+82:When You Look Me In The Eyes.mp3
+83:Wake Me Up When September Ends.mp3
+84:What Goes Around Comes Around.mp3
+85:What Hurts the Most [Male].mp3
+86:Whatever It Takes.mp3
+87:We Are Young.mp3
+88:To Build A Home.mp3
+89:Iridescent.mp3
+90:Airplanes.mp3
+91:Tadap Tadap.mp3
+92:The Real Slim Shady.mp3
+93:Space Bound.mp3
+94:Love the Way You Lie.mp3
+95:Stan.mp3
+96:Lose Yourself.mp3
+97:Mockingbird.mp3
+98:Sing for the Moment.mp3
+99:Not Afraid.mp3
+100:Jaane Tu [Male].mp3
+101:Raabta.mp3
+102:Numb.mp3
+103:Stop and Stare.mp3
+104:Rolling In The Deep.mp3
 playlist_end
